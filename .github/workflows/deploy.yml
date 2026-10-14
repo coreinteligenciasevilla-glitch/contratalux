@@ -1,0 +1,32 @@
+name: Deploy contratalux.com
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+env:
+  DEPLOY_PATH: /home/inteligenciasevilla/web/contratalux.com/public_html/
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Preparar SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Subir archivos al hosting
+        run: |
+          rsync -avz --delete \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude 'README.md' \
+            --exclude '.gitignore' \
+            ./ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ env.DEPLOY_PATH }}"
