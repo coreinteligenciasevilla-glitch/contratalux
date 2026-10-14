@@ -1,28 +1,57 @@
-# ContrataLux — web
+# contratalux.com
 
-Web de ContrataLux, el programa de gestión para asesorías energéticas. Es un sitio estático e independiente: no necesita servidor de aplicaciones, base de datos ni ningún otro proyecto.
+Web de ContrataLux, el programa de gestión para asesorías energéticas. Es un sitio estático: cada una de las 293 rutas se genera como una página HTML completa (contenido, `<title>`, descripción, canonical, Open Graph y datos estructurados) que se lee sin ejecutar JavaScript. El JavaScript (`/assets/app.js`) solo añade la interactividad: menú, modales, formulario, cookies, calculadoras.
 
-## Qué contiene
+## Estructura
 
-- `index.html`: toda la web. Incluye la portada y las 293 páginas del mapa SEO, que se muestran según la URL (`/modulos/...`, `/plataforma-propia/...`, `/zonas/...`, etc.).
-- `404.html`: copia de `index.html`. En alojamientos como GitHub Pages hace que cualquier URL interna abra la página correcta.
-- `assets/`: logos, capturas del programa y vídeos.
-- `robots.txt`, `sitemap.xml` y `sitemap-*.xml`, `llms.txt`: SEO técnico.
-- `seo/`: mapa de keywords (`mapa-keywords.csv`) y plantillas de datos estructurados (JSON-LD).
-
-## Cómo verla en local
-
-```bash
-python3 -m http.server 8000
+```
+src/
+  template.html        plantilla de todas las páginas (sc-if, sc-for y {{huecos}})
+  pages.json           datos de las 293 rutas: título (ti), descripción (md), contenido…
+  component.js         lógica de la página (estado, router, formularios)
+  runtime.js           mini runtime que pinta la plantilla (lo usan el build y el navegador)
+  base.css             estilos base
+  site.json            datos de la empresa para el JSON-LD (NIF, email, perfiles…)
+  estado-paginas.json  hash y fecha de último cambio de cada ruta (lastmod y dateModified)
+static/                se copia tal cual: assets, fuentes, .htaccess
+scripts/build.mjs      genera public/
+docs/                  propuestas pendientes de aprobar
+public/                salida del build (no se sube al repositorio)
 ```
 
-Abre http://localhost:8000. Las rutas internas funcionan al navegar desde la portada. Para abrir directamente una URL interna hace falta un servidor que devuelva `index.html` en las rutas que no existen; GitHub Pages lo hace con `404.html`.
+## Generar el sitio
+
+```bash
+npm install
+npm run build
+```
+
+El build:
+
+1. Calcula un hash del contenido de cada ruta. Si cambia, actualiza su fecha en `src/estado-paginas.json`; esa fecha es el `lastmod` del sitemap, el `dateModified` del JSON-LD y la fecha visible «Actualizado el…». **Sube siempre `src/estado-paginas.json` con tus cambios** para que las fechas no se reinicien.
+2. Pinta cada ruta con el mismo runtime que usa el navegador y escribe `public/ruta.html` (la portada es `public/index.html`).
+3. Genera el `<head>` de cada página, el JSON-LD (Organization, WebSite, SoftwareApplication, WebPage o CollectionPage, BreadcrumbList, Article en las guías y WebApplication en el comparador gratis), `sitemap*.xml`, `robots.txt`, `llms.txt` y `404.html`.
+4. Falla si queda un marcador sin rellenar (`[…]`, `{campo}`, `TODO`, `AAAA-MM-DD`) en algún JSON-LD, y avisa si queda `[NIF]` en las páginas.
 
 ## Publicación
 
-Las rutas de los recursos son absolutas (`/assets/...`), así que la web debe servirse en la raíz de un dominio, por ejemplo `contratalux.com`, o en GitHub Pages con dominio propio.
+Cada push a `main` lanza `.github/workflows/deploy.yml`: instala dependencias, ejecuta el build y sube `public/` por rsync a `public_html` de contratalux.com.
 
-## Pendiente antes de publicar
+El servidor debe ser Apache o LiteSpeed (lee `static/.htaccess`):
 
-- Formulario: FormSubmit envía a info@contratalux.com. Hay que activarlo con el correo de confirmación del primer envío y, después, cambiar el email del código por la dirección aleatoria que da FormSubmit.
-- Completar el NIF de Inteligenthia Sevilla SL en el pie (`[NIF]`).
+- `/ruta` se sirve desde `ruta.html` con 200 y sin redirección.
+- `/ruta.html`, `/ruta/` e `/index.html` redirigen con 301 a la URL canónica.
+- Las URLs que no existen devuelven un 404 real con `404.html`.
+- HTTP y www redirigen a `https://contratalux.com` en un solo salto.
+- Compresión gzip/brotli y caché larga para CSS, JS y fuentes versionados.
+
+## Datos pendientes
+
+Se rellenan en `src/site.json` (JSON-LD) y en el contenido (`src/pages.json`, pie de `src/template.html`):
+
+- NIF de Inteligenthia Sevilla SL (pie, aviso legal, privacidad, cookies).
+- Datos de inscripción en el Registro Mercantil (aviso legal).
+- Email público único.
+- URLs de los perfiles oficiales (`sameAs`).
+- Fecha de publicación del vídeo de demostración (`video.uploadDate`) para activar su VideoObject.
+- Host definitivo del botón «Entrar».

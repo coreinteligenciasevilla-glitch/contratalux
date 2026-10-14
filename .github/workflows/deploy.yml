@@ -15,6 +15,16 @@ jobs:
       - name: Descargar el código
         uses: actions/checkout@v4
 
+      - name: Instalar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generar el sitio (public/)
+        run: |
+          npm ci
+          npm run build
+
       - name: Preparar SSH
         run: |
           mkdir -p ~/.ssh
@@ -25,8 +35,4 @@ jobs:
       - name: Subir archivos al hosting
         run: |
           rsync -avz --delete \
-            --exclude '.git' \
-            --exclude '.github' \
-            --exclude 'README.md' \
-            --exclude '.gitignore' \
-            ./ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ env.DEPLOY_PATH }}"
+            ./public/ "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ env.DEPLOY_PATH }}"

@@ -1,0 +1,4 @@
+body{margin:0;background:#FFFFFF}
+a{color:#1557D6}a:hover{color:#0E3F9E}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}

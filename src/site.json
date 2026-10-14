@@ -1,0 +1,29 @@
+{
+  "domain": "https://contratalux.com",
+  "name": "ContrataLux",
+  "legalName": "Inteligenthia Sevilla SL",
+  "description": "Programa de gestión (CRM) para asesorías energéticas: contratos de luz, gas, fibra, alarmas y CAEs, comisiones, comerciales y liquidaciones.",
+  "address": {
+    "streetAddress": "Calle Betis 3",
+    "postalCode": "41449",
+    "addressLocality": "Alcolea del Río",
+    "addressRegion": "Sevilla",
+    "addressCountry": "ES"
+  },
+  "telephone": "+34601869668",
+  "email": null,
+  "taxID": null,
+  "sameAs": [],
+  "video": {
+    "url": "/assets/video.mp4",
+    "thumbnail": "/assets/video-poster.jpg",
+    "name": "ContrataLux en 30 segundos",
+    "description": "Recorrido rápido por el panel, los contratos, el Kanban, la calculadora de ahorro y los informes de ContrataLux.",
+    "uploadDate": null
+  },
+  "ogImage": "/assets/og-contratalux.png",
+  "plans": [
+    { "name": "Básico", "description": "1 o 2 usuarios", "price": "90" },
+    { "name": "Equipo", "description": "Hasta 10 usuarios", "price": "195" }
+  ]
+}
