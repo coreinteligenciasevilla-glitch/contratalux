@@ -603,6 +603,7 @@
 <h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 30px; line-height: 1.2; color: #13202E">{{s.h}}</h2>
 <sc-for list="{{s.p}}" as="x" hint-placeholder-count="2"><p style="margin: 0; font-size: 17px; line-height: 1.65; color: #3D4E5F">{{x.t}}</p></sc-for>
 <sc-if value="{{s.hasLi}}" hint-placeholder-val="{{false}}"><ul style="margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; font-size: 17px; color: #22313F"><sc-for list="{{s.li}}" as="x" hint-placeholder-count="3"><li>{{x.t}}</li></sc-for></ul></sc-if>
+<sc-if value="{{s.hasTb}}" hint-placeholder-val="{{false}}"><div style="overflow-x: auto; border: 1px solid #E1E7EE; border-radius: 14px"><table style="width: 100%; border-collapse: collapse; font-size: 16px; color: #22313F; min-width: 480px"><caption style="caption-side: bottom; text-align: left; padding: 10px 14px; font-size: 13px; color: #5A6B7C">{{s.cap}}</caption><thead style="background: #F6F8FB"><tr><th data-for="{{s.th}}" data-as="c" scope="col" style="text-align: left; padding: 12px 14px; font-weight: 700; color: #13202E; border-bottom: 1px solid #E1E7EE">{{c.t}}</th></tr></thead><tbody><tr data-for="{{s.tr}}" data-as="row"><td data-for="{{row.c}}" data-as="c" style="padding: 11px 14px; border-bottom: 1px solid #EEF2F6; vertical-align: top">{{c.t}}</td></tr></tbody></table></div></sc-if>
 </section>
 </sc-for>
 </div>

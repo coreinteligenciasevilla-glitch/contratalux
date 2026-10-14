@@ -5,47 +5,47 @@
   "pub": "2026-10-14"
  },
  "/precios": {
-  "hash": "b3f5792348fbf1d9",
+  "hash": "0880d4340f9704b8",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/demo": {
-  "hash": "8f23728569df5b54",
+  "hash": "166726d2410f4020",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/prueba-gratis": {
-  "hash": "b9feee04b1676db7",
+  "hash": "2f674802cc8b9d5a",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/contacto": {
-  "hash": "eb722c3f7be2d080",
+  "hash": "3a82dc264154aea8",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/sobre-nosotros": {
-  "hash": "fbe9312a50214098",
-  "upd": "2026-10-14",
+  "hash": "0ac6a85fe17a604b",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/integraciones": {
-  "hash": "dbeb3ca85dbbc0e2",
-  "upd": "2026-10-14",
+  "hash": "446d41765498b3a0",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/seguridad-y-rgpd": {
-  "hash": "be99994a6fd97fde",
-  "upd": "2026-10-14",
+  "hash": "5e2a64a3bcc6404d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/hazte-partner": {
-  "hash": "2db640c03f9ec810",
-  "upd": "2026-10-14",
+  "hash": "a30f1f1495d37648",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/comparador-de-tarifas": {
-  "hash": "b97bb141a855b37d",
+  "hash": "076682dc8e87687c",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
@@ -70,8 +70,8 @@
   "pub": "2026-10-14"
  },
  "/modulos/comparador-tarifas": {
-  "hash": "7423e1631d01b1a7",
-  "upd": "2026-10-14",
+  "hash": "0e2718ef8d091982",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/modulos/calculadora-ahorro": {
@@ -135,1023 +135,1023 @@
   "pub": "2026-10-14"
  },
  "/modulos/portal-cliente": {
-  "hash": "79af1e349b249e5c",
-  "upd": "2026-10-14",
+  "hash": "b8730bc470eca515",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/comerciales-autonomos-energia": {
-  "hash": "22767eead4c8d491",
-  "upd": "2026-10-14",
+  "hash": "9f084cd2e069f47c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/agentes-energeticos": {
-  "hash": "5dcceb2ffe64cbc5",
-  "upd": "2026-10-14",
+  "hash": "6f3d0771b5a2ac0e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/canales-comercializadoras": {
-  "hash": "8f21342f78fb796d",
-  "upd": "2026-10-14",
+  "hash": "52779d1d7d74e3ed",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/franquicias-energia": {
-  "hash": "1ac43e41cbaf9f20",
-  "upd": "2026-10-14",
+  "hash": "62982d3c059a7b8b",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/corredurias-seguros": {
-  "hash": "e7adccdd1f0cbebb",
-  "upd": "2026-10-14",
+  "hash": "f6177ae751189ff6",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/administradores-fincas": {
-  "hash": "59229ce95ce6b8f9",
-  "upd": "2026-10-14",
+  "hash": "827c9f603bfe979f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/instaladores-fotovoltaica": {
-  "hash": "d4f3e32b9d41c9f2",
-  "upd": "2026-10-14",
+  "hash": "71dce3fc5beb5ad4",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/inmobiliarias": {
-  "hash": "f2e35cf081e2b34a",
-  "upd": "2026-10-14",
+  "hash": "c0fac1737b3e2c86",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/distribuidores-telecomunicaciones": {
-  "hash": "631fbd459aad19bf",
-  "upd": "2026-10-14",
+  "hash": "297929fa054e1b6f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones/consultorias-energeticas-empresas": {
-  "hash": "58b8fe0f680a8b69",
-  "upd": "2026-10-14",
+  "hash": "e8db511facacf0cc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/iberdrola": {
-  "hash": "be5c61fd25af3f0b",
-  "upd": "2026-10-14",
+  "hash": "cb2e0043b8246156",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/endesa": {
-  "hash": "d946eabb749209be",
-  "upd": "2026-10-14",
+  "hash": "30b44ce18b7fae4e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/naturgy": {
-  "hash": "282048157dbf823e",
-  "upd": "2026-10-14",
+  "hash": "0e3e2d70b73a0e99",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/repsol": {
-  "hash": "257f94151fb61647",
-  "upd": "2026-10-14",
+  "hash": "a75816289793f685",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/totalenergies": {
-  "hash": "e64406f07e4f68ff",
-  "upd": "2026-10-14",
+  "hash": "755e6b46b8788300",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/holaluz": {
-  "hash": "d9e81a0f5e4ad360",
-  "upd": "2026-10-14",
+  "hash": "465187d65564b1cc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/octopus-energy": {
-  "hash": "027d596ae33f8758",
-  "upd": "2026-10-14",
+  "hash": "e29cdd39261863ee",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/audax-renovables": {
-  "hash": "e749627440d83134",
-  "upd": "2026-10-14",
+  "hash": "be65909be97d04f5",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/factor-energia": {
-  "hash": "696fff72a3a2cdc9",
-  "upd": "2026-10-14",
+  "hash": "81c27b8260913ad9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/nexus-energia": {
-  "hash": "28f43fe01061ae35",
-  "upd": "2026-10-14",
+  "hash": "af3f9665df4e355e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/gana-energia": {
-  "hash": "840b16703ef8be5d",
-  "upd": "2026-10-14",
+  "hash": "900d51b7051e36bc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/lucera": {
-  "hash": "e687dd6a2ea56ca0",
-  "upd": "2026-10-14",
+  "hash": "89c64a1362157cdf",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/som-energia": {
-  "hash": "36931a090a0ce88b",
-  "upd": "2026-10-14",
+  "hash": "f21f9d6bf765fb38",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/podo": {
-  "hash": "c4e4b65f8eb21703",
-  "upd": "2026-10-14",
+  "hash": "4bee322a5fcda0fe",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/imagina-energia": {
-  "hash": "1a97982de03b68c2",
-  "upd": "2026-10-14",
+  "hash": "013fdc9e7a0a9d2a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/aldro-energia": {
-  "hash": "581d1667d505c019",
-  "upd": "2026-10-14",
+  "hash": "ba8f688a147ab125",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/plenitude": {
-  "hash": "86babae7ba5b9f06",
-  "upd": "2026-10-14",
+  "hash": "49bd66929dbfdc9d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/axpo": {
-  "hash": "3a1ab6bb49274c20",
-  "upd": "2026-10-14",
+  "hash": "06ab0465be688f75",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/energya-vm": {
-  "hash": "d4bd1db15d8f8689",
-  "upd": "2026-10-14",
+  "hash": "d3147cbbeb940393",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/fenie-energia": {
-  "hash": "c36c1aff5a1d9853",
-  "upd": "2026-10-14",
+  "hash": "4edf7f75fd9d2bc8",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/eleia": {
-  "hash": "5b0aecb09a739ae9",
-  "upd": "2026-10-14",
+  "hash": "b02c51a8542caed0",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/acciona-energia": {
-  "hash": "41c8eada13c1ca13",
-  "upd": "2026-10-14",
+  "hash": "a33908dc6d941c45",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/visalia": {
-  "hash": "2df24b495deff850",
-  "upd": "2026-10-14",
+  "hash": "57bc1eb7bb559a59",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/chc-energia": {
-  "hash": "251bd3d2078daa7f",
-  "upd": "2026-10-14",
+  "hash": "f71f5b1bc7037fef",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/bassols-energia": {
-  "hash": "7f02725eab2fb591",
-  "upd": "2026-10-14",
+  "hash": "929cce7617e68706",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/unielectrica": {
-  "hash": "3498eefd63ab7da5",
-  "upd": "2026-10-14",
+  "hash": "12aa1b9fa1da8671",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/adx-energia": {
-  "hash": "f944c4dc4a332e1d",
-  "upd": "2026-10-14",
+  "hash": "f5a883fccbc97a9f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/contigo-energia": {
-  "hash": "2d88b48bdcda8d3e",
-  "upd": "2026-10-14",
+  "hash": "e2af3e737e7d9080",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/ignis-energia": {
-  "hash": "daeb8ef8d4037fd0",
-  "upd": "2026-10-14",
+  "hash": "b0c2d139a97fc2e3",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/pepeenergy": {
-  "hash": "eaad9f6653dc008b",
-  "upd": "2026-10-14",
+  "hash": "c0e8d97a80b6414a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/calculadora-factura-2-0td": {
-  "hash": "8472a5d45cd6c40a",
+  "hash": "118f876696b571f4",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/calculadora-3-0td": {
-  "hash": "3a0ced79d2df575e",
+  "hash": "8e24ae6da295bf20",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/calculadora-6-1td": {
-  "hash": "eabc167d29d904da",
+  "hash": "35fcec1da68c014f",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/calculadora-gas": {
-  "hash": "2f45c586a71ec3cf",
+  "hash": "f9bf49080fc7fb76",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/indexada-o-fija": {
-  "hash": "a94311ecc21fd349",
+  "hash": "b28c49224d413b1b",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/optimizar-potencia": {
-  "hash": "7023c853e2b889a6",
+  "hash": "cbea584e25ed878c",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/calculadora-excedentes": {
-  "hash": "84f5b277fd26038a",
+  "hash": "b9ad7075f682c9ff",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/calculadora-comisiones": {
-  "hash": "2f8eea115ae0934e",
+  "hash": "fe3674abda65c69a",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas/estudio-ahorro": {
-  "hash": "24461394597e1e70",
+  "hash": "0139c397d5b8d57b",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-2-0td": {
-  "hash": "2bb975dea069564a",
-  "upd": "2026-10-14",
+  "hash": "1b5c7bfc6482e913",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-3-0td": {
-  "hash": "a314ce4a504060d1",
-  "upd": "2026-10-14",
+  "hash": "e357f36d2a341621",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-6-1td": {
-  "hash": "1e012641883cda6f",
-  "upd": "2026-10-14",
+  "hash": "de70d1096b41b431",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/peajes-y-cargos": {
-  "hash": "cbb9ee0ba9b28e39",
-  "upd": "2026-10-14",
+  "hash": "76095614109c1f4e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/periodos-p1-p6": {
-  "hash": "7398bdab73e480cf",
-  "upd": "2026-10-14",
+  "hash": "8bc5f17d0d95381c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifas-gas-rl": {
-  "hash": "96d1957593b6821d",
-  "upd": "2026-10-14",
+  "hash": "07d6bfd4fd1e4ffd",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/precio-gas-empresas": {
-  "hash": "1f339e9a87f0d300",
-  "upd": "2026-10-14",
+  "hash": "14bcb77ad9a25bb4",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/vender-luz-y-fibra-juntas": {
-  "hash": "49e7337a4ac7a361",
-  "upd": "2026-10-14",
+  "hash": "91451fa3b9525722",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/precio-luz-empresas": {
-  "hash": "058240272afb968a",
-  "upd": "2026-10-14",
+  "hash": "56ffd441bc129b71",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/autoconsumo-empresas": {
-  "hash": "81b26abd477caaf4",
-  "upd": "2026-10-14",
+  "hash": "2540e398e3128bc3",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-fibra-empresas": {
-  "hash": "1e46b26a9ee760af",
-  "upd": "2026-10-14",
+  "hash": "53000273d5c37483",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/como-montar-una-asesoria-energetica": {
-  "hash": "603e33f79e42f3f9",
-  "upd": "2026-10-14",
+  "hash": "bcebc4d33e0500c9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/cuanto-gana-un-asesor-energetico": {
-  "hash": "b436a0fe42426507",
-  "upd": "2026-10-14",
+  "hash": "f93c35c55bf1e2c8",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/como-ser-agente-de-una-comercializadora": {
-  "hash": "0d3aabd2f20ae8ff",
-  "upd": "2026-10-14",
+  "hash": "53c4af85bb0cc660",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comisiones/como-funcionan-las-comisiones": {
-  "hash": "9994967d62994ced",
-  "upd": "2026-10-14",
+  "hash": "dd7225ac1b97be93",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/contrato-agencia-o-colaboracion": {
-  "hash": "700a51eae48dd0ee",
-  "upd": "2026-10-14",
+  "hash": "9162a9e512aa9ce5",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comisiones/retrocesion-comisiones-bajas": {
-  "hash": "58d662a8abbc287f",
-  "upd": "2026-10-14",
+  "hash": "f4aa6f6de1a58a60",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/captar-clientes-empresas-luz": {
-  "hash": "aacffb68a590c1e7",
-  "upd": "2026-10-14",
+  "hash": "2417a5164928ab32",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/estudio-energetico-paso-a-paso": {
-  "hash": "bf7efbb33a47aede",
-  "upd": "2026-10-14",
+  "hash": "aec74a99702a5ade",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/leer-factura-luz-empresa": {
-  "hash": "c90ec6938fac14aa",
-  "upd": "2026-10-14",
+  "hash": "14cce7e5bbca301a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/dejar-el-excel": {
-  "hash": "9c05ec3a5e23f112",
-  "upd": "2026-10-14",
+  "hash": "4c465157870c7874",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/organizar-red-colaboradores": {
-  "hash": "c651e404e31e2d70",
-  "upd": "2026-10-14",
+  "hash": "7dff2d61bc94b4ed",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/kpis-asesoria-energetica": {
-  "hash": "46f4a5bc84ffaaff",
-  "upd": "2026-10-14",
+  "hash": "1adefb1f05cd2336",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/fidelizar-cartera-renovaciones": {
-  "hash": "9f8d6194d4fe8161",
-  "upd": "2026-10-14",
+  "hash": "6e1e95d5171dca30",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/vender-fibra-ademas-de-luz": {
-  "hash": "9d470cad70b32c86",
-  "upd": "2026-10-14",
+  "hash": "465e26b3454af7c2",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/vender-autoconsumo": {
-  "hash": "f82fa14502441093",
-  "upd": "2026-10-14",
+  "hash": "0783caeddeec405a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comisiones/autofacturas-colaboradores-guia": {
-  "hash": "a39c336dfdec20fd",
-  "upd": "2026-10-14",
+  "hash": "a408df39187d5a4a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/rgpd-asesoria-energetica": {
-  "hash": "6052600eb7bcd182",
-  "upd": "2026-10-14",
+  "hash": "e4a226979d7b3afa",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/consentimiento-datadis": {
-  "hash": "1a1b848a1a89367f",
-  "upd": "2026-10-14",
+  "hash": "cab435f01b9666bd",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/consultar-sips-asesor": {
-  "hash": "ca33fb3fd0d7870e",
-  "upd": "2026-10-14",
+  "hash": "79c6dec61cef9435",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/proceso-cambio-comercializadora": {
-  "hash": "77c30328c487015e",
-  "upd": "2026-10-14",
+  "hash": "c9c64508d08b2d3d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/contrato-rechazado-que-hacer": {
-  "hash": "15e631119f766d25",
-  "upd": "2026-10-14",
+  "hash": "8b7c49d6911dd68e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/causas-rechazo-contratos": {
-  "hash": "6cf43f8e0ce1d013",
-  "upd": "2026-10-14",
+  "hash": "7e4db1d67696b6e3",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/cambio-de-titular-luz": {
-  "hash": "aeb19a3c9de64361",
-  "upd": "2026-10-14",
+  "hash": "7bf89226e3271439",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/alta-nueva-suministro": {
-  "hash": "a6a708d82ade07b3",
-  "upd": "2026-10-14",
+  "hash": "062552d247fe86dc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/permanencia-penalizacion": {
-  "hash": "df24e5277803dd73",
-  "upd": "2026-10-14",
+  "hash": "5f33e8e3b7b11bfd",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/multipunto-empresas": {
-  "hash": "7d2741799dac86b5",
-  "upd": "2026-10-14",
+  "hash": "96e0123550b98286",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/captar-comunidades-vecinos": {
-  "hash": "6e417b5306adddab",
-  "upd": "2026-10-14",
+  "hash": "7218dc6bbd2a9578",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/captar-pymes-hosteleria": {
-  "hash": "22a196c2107b955f",
-  "upd": "2026-10-14",
+  "hash": "0e408af33b408c35",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/prospeccion-whatsapp-energia": {
-  "hash": "3dedd80b2d6b8c08",
-  "upd": "2026-10-14",
+  "hash": "50df1d16f3df0d01",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/formar-comerciales-energia": {
-  "hash": "bd69753847146762",
-  "upd": "2026-10-14",
+  "hash": "2226b87ae245314a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comisiones/precios-negociados-margen": {
-  "hash": "b8c22afb0b183a06",
-  "upd": "2026-10-14",
+  "hash": "56bc550bf508489c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/subdistribuidor-energia": {
-  "hash": "eaa8ca916e79fc37",
-  "upd": "2026-10-14",
+  "hash": "34c03590d633f045",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/corredurias-energeticas": {
-  "hash": "aab677d3f7e1ec85",
-  "upd": "2026-10-14",
+  "hash": "e2f529d0b661752c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/ia-asesoria-energetica": {
-  "hash": "3c100a83ecab2839",
-  "upd": "2026-10-14",
+  "hash": "d3ba9039ba38fc7e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/errores-asesoria-energetica": {
-  "hash": "45ba0c4dde70c159",
-  "upd": "2026-10-14",
+  "hash": "1d255d4cf70fbf9c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/cups": {
-  "hash": "1e20988153a1c7a1",
-  "upd": "2026-10-14",
+  "hash": "f21c757593936f99",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/atr": {
-  "hash": "471506e804957399",
-  "upd": "2026-10-14",
+  "hash": "e30dbbb7b30b58dd",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/sips": {
-  "hash": "8d2bb8826abd3285",
-  "upd": "2026-10-14",
+  "hash": "579443d9378406b7",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/datadis": {
-  "hash": "2c338d73949b0f5f",
-  "upd": "2026-10-14",
+  "hash": "02db0a366c970c19",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/potencia-contratada": {
-  "hash": "9c7984a20d19a7b5",
-  "upd": "2026-10-14",
+  "hash": "8b6a2a10611ec857",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/maximetro": {
-  "hash": "56e1065f15db5343",
-  "upd": "2026-10-14",
+  "hash": "80adc35d315c1035",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/energia-reactiva": {
-  "hash": "85b8132d56a1ce01",
-  "upd": "2026-10-14",
+  "hash": "76c4b4f7db8e1768",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/peajes-electricos": {
-  "hash": "254405e92e70d917",
-  "upd": "2026-10-14",
+  "hash": "1d71ea318c364550",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/cargos-del-sistema": {
-  "hash": "4e9812ba8b7bd4a3",
-  "upd": "2026-10-14",
+  "hash": "eef5a8d8271ac230",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/termino-de-potencia": {
-  "hash": "acca8bdc90b44bfe",
-  "upd": "2026-10-14",
+  "hash": "5abe4ca26d24655d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/termino-de-energia": {
-  "hash": "fdda97ff3a19b79c",
-  "upd": "2026-10-14",
+  "hash": "74e5c51e1294bd92",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/tarifa-indexada": {
-  "hash": "901f7d2aede3572a",
-  "upd": "2026-10-14",
+  "hash": "b38382062b4767b1",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/omie": {
-  "hash": "6a250c09592e1374",
-  "upd": "2026-10-14",
+  "hash": "da936834cb7c118e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/pvpc": {
-  "hash": "e5991d00ccb1d490",
-  "upd": "2026-10-14",
+  "hash": "f195ed4e8fb611c9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/diferencia-entre-comercializadora-y-distribuidora": {
-  "hash": "0009a8295db0e503",
-  "upd": "2026-10-14",
+  "hash": "a9e14095a8c51712",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/comercializadora-de-referencia": {
-  "hash": "5f7d1590ea948148",
-  "upd": "2026-10-14",
+  "hash": "c1d65a548dde6113",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/comisiones-vender-fibra": {
-  "hash": "48f8eb10d7d2020f",
-  "upd": "2026-10-14",
+  "hash": "613947de1b40fdf4",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/excedentes-de-autoconsumo": {
-  "hash": "ee0c4daded72284e",
-  "upd": "2026-10-14",
+  "hash": "2c87737c3c178f2c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/compensacion-simplificada": {
-  "hash": "caca898d7af3eef1",
-  "upd": "2026-10-14",
+  "hash": "9ddf9a934d4e3f34",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/autoconsumo-colectivo": {
-  "hash": "63efed93420d80b0",
-  "upd": "2026-10-14",
+  "hash": "5fdfb960788845d3",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/ser-distribuidor-telecomunicaciones": {
-  "hash": "880e996241e20cc4",
-  "upd": "2026-10-14",
+  "hash": "ccad447cb27d50b8",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/boletin-electrico": {
-  "hash": "70bc68712f74cccc",
-  "upd": "2026-10-14",
+  "hash": "4ef64e884e56e6f9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/certificado-de-instalacion-de-gas": {
-  "hash": "8f85315dd50df69e",
-  "upd": "2026-10-14",
+  "hash": "33cfc960ec2f2cdc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/lectura-real-y-estimada": {
-  "hash": "b3b6e85a2f3c1ec5",
-  "upd": "2026-10-14",
+  "hash": "a77702c930ffaec9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/switching": {
-  "hash": "30b587c17457859a",
-  "upd": "2026-10-14",
+  "hash": "c5d5ab52011242b4",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/impuesto-electrico": {
-  "hash": "8d26ae00e9730f26",
-  "upd": "2026-10-14",
+  "hash": "0b52062c9bfb7a69",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/fibra-y-movil-para-empresas": {
-  "hash": "e693342c36cdee55",
-  "upd": "2026-10-14",
+  "hash": "f3d10d503aac4e81",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/portabilidad-lineas-empresa": {
-  "hash": "ba8ad1d7e22f1c9b",
-  "upd": "2026-10-14",
+  "hash": "d5197809c3b7f51f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/centralita-virtual-empresas": {
-  "hash": "d03f030ab1aa47fa",
-  "upd": "2026-10-14",
+  "hash": "6511c92bb2565f56",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/curva-de-carga": {
-  "hash": "80e2ee7bd881bef7",
-  "upd": "2026-10-14",
+  "hash": "eb4d7a11acabe5e6",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/reglamento-suministro-electrico": {
-  "hash": "4ca2f32e302bfe12",
-  "upd": "2026-10-14",
+  "hash": "262d1114ec155577",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/venta-telefonica-luz": {
-  "hash": "3326d73a519d77b6",
-  "upd": "2026-10-14",
+  "hash": "89ff8058ed5577ad",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/venta-a-domicilio-energia": {
-  "hash": "f61ddd1309dd30bb",
-  "upd": "2026-10-14",
+  "hash": "5286ab683fe19d50",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/rgpd-comerciales-energia": {
-  "hash": "de9eb4f0e4c06a0f",
-  "upd": "2026-10-14",
+  "hash": "0a59319f7591cf3e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/factura-electronica-comisiones": {
-  "hash": "8b341890b17b3d8e",
-  "upd": "2026-10-14",
+  "hash": "7a21ed2ec009078c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/verifactu-asesorias": {
-  "hash": "1a33c59c35cffc36",
-  "upd": "2026-10-14",
+  "hash": "7c98d6cc0d48dd2e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/lssi-comunicaciones-comerciales": {
-  "hash": "61652decfa659e7f",
-  "upd": "2026-10-14",
+  "hash": "900a4e8e762a9f2e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/derecho-desistimiento-luz": {
-  "hash": "c640ca19f0cd47a9",
-  "upd": "2026-10-14",
+  "hash": "95bdea38ed60b5b7",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/reclamaciones-cnmc": {
-  "hash": "3d989af97c780594",
-  "upd": "2026-10-14",
+  "hash": "d9caa04916f8575b",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/autoconsumo-normativa": {
-  "hash": "9ad7dcde1a73be31",
-  "upd": "2026-10-14",
+  "hash": "9653504e8a579f1d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/mejores-programas-asesorias-energeticas": {
-  "hash": "2f6cbcc830413850",
-  "upd": "2026-10-14",
+  "hash": "cffac9065c49804e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/como-elegir-programa": {
-  "hash": "b61b76e1c6fe4cc7",
-  "upd": "2026-10-14",
+  "hash": "0e65687e0eaa0d34",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/saas-o-a-medida": {
-  "hash": "d9825b3af9e6624a",
-  "upd": "2026-10-14",
+  "hash": "66d22861a347710d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/nube-o-servidor-propio": {
-  "hash": "450d3e6588a16bae",
-  "upd": "2026-10-14",
+  "hash": "ac6b35a2b6ae5d57",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/comparador-o-programa-completo": {
-  "hash": "1ba179e303333cf5",
-  "upd": "2026-10-14",
+  "hash": "e931e1c99001b23b",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/excel-o-programa": {
-  "hash": "64c80c8fa424b865",
-  "upd": "2026-10-14",
+  "hash": "031d49f8cf31f8ef",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/crm-generico-o-especifico": {
-  "hash": "74d8db6a6034f27c",
-  "upd": "2026-10-14",
+  "hash": "7f18918b0471fe18",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/cambiar-de-programa": {
-  "hash": "6578670b00b94e99",
-  "upd": "2026-10-14",
+  "hash": "b8906631fcbefca7",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/crm-o-erp": {
-  "hash": "b7d473face59e9f9",
-  "upd": "2026-10-14",
+  "hash": "c5fc9a8d8dd8cdc9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/programa-o-hojas-compartidas": {
-  "hash": "0d895192c771b8e4",
-  "upd": "2026-10-14",
+  "hash": "6798c1206a53787e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/crm-gratis-asesoria-energetica": {
-  "hash": "49f84a9c565952e5",
-  "upd": "2026-10-14",
+  "hash": "d33c4677e085b32c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas/programa-o-correduria": {
-  "hash": "57f604e8880addfe",
-  "upd": "2026-10-14",
+  "hash": "703561db6037c677",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/andalucia": {
-  "hash": "fad4b579d9812f4b",
-  "upd": "2026-10-14",
+  "hash": "5395f09b29717015",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/andalucia/sevilla": {
-  "hash": "69976aab468fefd0",
-  "upd": "2026-10-14",
+  "hash": "1aa82fbe6a394677",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/comunidad-valenciana": {
-  "hash": "b124afc892abae16",
-  "upd": "2026-10-14",
+  "hash": "1971639f2c5f35c5",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/region-de-murcia": {
-  "hash": "ca4bc9699c58e61d",
-  "upd": "2026-10-14",
+  "hash": "024290ea5135781c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/comunidad-de-madrid": {
-  "hash": "a7ad35e1b14fcd6c",
-  "upd": "2026-10-14",
+  "hash": "af95dd1124a93cbd",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/cataluna": {
-  "hash": "422f2d11fae3c9b3",
-  "upd": "2026-10-14",
+  "hash": "d18ee6572ffd3a1d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/castilla-la-mancha": {
-  "hash": "768aeb0dd044d16b",
-  "upd": "2026-10-14",
+  "hash": "df8c032b29b048ef",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/extremadura": {
-  "hash": "7e40f278be3b670d",
-  "upd": "2026-10-14",
+  "hash": "96a756ca1857c4ff",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/castilla-y-leon": {
-  "hash": "64602b25c1a7d05e",
-  "upd": "2026-10-14",
+  "hash": "b5816b92e4c050e4",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/galicia": {
-  "hash": "b1e711d4ff4fc3ad",
-  "upd": "2026-10-14",
+  "hash": "354b082700be339e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/aragon": {
-  "hash": "b3d069a5b55449d5",
-  "upd": "2026-10-14",
+  "hash": "ecdbf45895bd18a9",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/pais-vasco": {
-  "hash": "e7d1325602a9d9de",
-  "upd": "2026-10-14",
+  "hash": "4b84e6ad85888585",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/canarias": {
-  "hash": "45cb59b976661a0a",
-  "upd": "2026-10-14",
+  "hash": "5d2b601022d20c0a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/islas-baleares": {
-  "hash": "1c41494764de3943",
-  "upd": "2026-10-14",
+  "hash": "dab78b10136c1c58",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/asturias": {
-  "hash": "99b82011e195efda",
-  "upd": "2026-10-14",
+  "hash": "37908ce63851f5fc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/navarra": {
-  "hash": "ab359b7a55250d9d",
-  "upd": "2026-10-14",
+  "hash": "513cbcd3cb20d2bd",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/cantabria": {
-  "hash": "3a6ed2e07fe0c016",
-  "upd": "2026-10-14",
+  "hash": "c84571c0a90f2554",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/la-rioja": {
-  "hash": "9a299519f4d35ffa",
-  "upd": "2026-10-14",
+  "hash": "0657a6b6ae0e062f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/integraciones/naturgy": {
-  "hash": "f03ba82d7092817c",
-  "upd": "2026-10-14",
+  "hash": "33cafd1630534389",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/integraciones/iberdrola": {
-  "hash": "7f19bd1a97db05f7",
-  "upd": "2026-10-14",
+  "hash": "9bff229f43a07882",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/integraciones/endesa": {
-  "hash": "344c0e00a8759f13",
-  "upd": "2026-10-14",
+  "hash": "689920b8e65e9198",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/integraciones/repsol": {
-  "hash": "16f15d7f8f17f344",
-  "upd": "2026-10-14",
+  "hash": "20458b6b67f5045d",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/integraciones/totalenergies": {
-  "hash": "c225688ca4fabe28",
-  "upd": "2026-10-14",
+  "hash": "c18dff4f216bbf6a",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/implantacion": {
-  "hash": "1891c5073eee3a96",
-  "upd": "2026-10-14",
+  "hash": "bf90f523901c142c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/opiniones": {
-  "hash": "9590b9a0921fa9f1",
-  "upd": "2026-10-14",
+  "hash": "e6ab9482c429ff88",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/montar-equipo-comercial-energia": {
-  "hash": "15bf0827280a699e",
-  "upd": "2026-10-14",
+  "hash": "7ac28401a1c2a54c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/formacion-comerciales-energia": {
-  "hash": "27d275fac1e023f1",
-  "upd": "2026-10-14",
+  "hash": "7eef31586d4eca22",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/rotacion-comerciales-energia": {
-  "hash": "59944268b2363053",
-  "upd": "2026-10-14",
+  "hash": "d1abc86918e1894f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/ingresos-recurrentes-asesoria": {
-  "hash": "0c2b2de161a2cccb",
-  "upd": "2026-10-14",
+  "hash": "a9dffa219b35e79e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/asesor-o-broker-energetico": {
-  "hash": "2c1089eae10166df",
-  "upd": "2026-10-14",
+  "hash": "9a164cc97e616ebe",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/asesoria-o-comercializadora": {
-  "hash": "b09917f1499ecb3a",
-  "upd": "2026-10-14",
+  "hash": "6be33e2710210220",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/certificados-eficiencia-energetica": {
-  "hash": "12fd6cb5e1442daa",
-  "upd": "2026-10-14",
+  "hash": "04f30e04d5d5d557",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/ppa-para-pymes": {
-  "hash": "d6831b394e742a25",
-  "upd": "2026-10-14",
+  "hash": "8df7e7e1a3e97b93",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/linkedin-asesores-energeticos": {
-  "hash": "0fdd38e2d96e615a",
-  "upd": "2026-10-14",
+  "hash": "b32f108d85c85937",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/vender-cargadores-baterias": {
-  "hash": "07580234071c5175",
-  "upd": "2026-10-14",
+  "hash": "767eaba72bfe5744",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/detectar-errores-facturacion": {
-  "hash": "b48b54327407a4ff",
-  "upd": "2026-10-14",
+  "hash": "7b4abce88ad61d34",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/ceuta": {
-  "hash": "3ff7e2d656f8b910",
-  "upd": "2026-10-14",
+  "hash": "71c632b6299eaa84",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas/melilla": {
-  "hash": "4fa842d1657efb5e",
-  "upd": "2026-10-14",
+  "hash": "a5e76f30f541d5d0",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/aviso-legal": {
-  "hash": "e9c939dac9cebc6b",
-  "upd": "2026-10-14",
+  "hash": "9b7d5b2b1a79e8fb",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/politica-de-privacidad": {
-  "hash": "defc774b3b31f976",
-  "upd": "2026-10-14",
+  "hash": "255b3b84141f9636",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/politica-de-cookies": {
-  "hash": "882a053a0b9093a5",
-  "upd": "2026-10-14",
+  "hash": "0c72f44e4e6520c1",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/modulos": {
-  "hash": "bda3cfd820f5aa64",
-  "upd": "2026-10-14",
+  "hash": "dee7be33892b3209",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/soluciones": {
-  "hash": "d84e719e88f6c927",
-  "upd": "2026-10-14",
+  "hash": "e52ed5b8b3393e6f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/herramientas": {
-  "hash": "1a95099df94273ef",
-  "upd": "2026-10-14",
+  "hash": "ac45ed368b664ea0",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/comparativas": {
-  "hash": "c5fe95fca9551145",
-  "upd": "2026-10-14",
+  "hash": "82c58482a68d3be3",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/zonas": {
-  "hash": "3843371efa842dc1",
-  "upd": "2026-10-14",
+  "hash": "35906fbbea8e4785",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos": {
-  "hash": "c74b3a03df41bc57",
-  "upd": "2026-10-14",
+  "hash": "9a972c19dc72dcef",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras": {
-  "hash": "a26d7fcc335c84a4",
-  "upd": "2026-10-14",
+  "hash": "4e1794713d617330",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario": {
-  "hash": "0adfd8fd18b4732a",
-  "upd": "2026-10-14",
+  "hash": "f10cd96ba1a60256",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio": {
-  "hash": "144f95a287542f10",
-  "upd": "2026-10-14",
+  "hash": "131811efa5c3ab12",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/comisiones": {
-  "hash": "99a8c574b1db4fea",
-  "upd": "2026-10-14",
+  "hash": "4c6e12491401a972",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/captacion": {
-  "hash": "0a251e41e27201d6",
-  "upd": "2026-10-14",
+  "hash": "451ab1502aa9a133",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tramites": {
-  "hash": "99bb09b5339edf67",
-  "upd": "2026-10-14",
+  "hash": "eb454b67afb51ae8",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas": {
-  "hash": "f0577d48b119c7bb",
-  "upd": "2026-10-14",
+  "hash": "bf36c9ed1830c6c8",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/normativa": {
-  "hash": "0f0838c3fb6d730d",
-  "upd": "2026-10-14",
+  "hash": "1382bc899d2cce13",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia": {
-  "hash": "86c13db112d74cf4",
-  "upd": "2026-10-14",
+  "hash": "00a2128e1929ac2e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/modulos/equipo-y-permisos": {
@@ -1170,88 +1170,88 @@
   "pub": "2026-10-14"
  },
  "/recursos/glosario/cae": {
-  "hash": "edac7e89f0691ed2",
-  "upd": "2026-10-14",
+  "hash": "4635f1e8590ebcce",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/retrocomision": {
-  "hash": "291070f981582007",
-  "upd": "2026-10-14",
+  "hash": "aa1de86c48c67577",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros": {
-  "hash": "7bdda0d439a10d65",
-  "upd": "2026-10-14",
+  "hash": "b3f06c8688376c1c",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros/luz": {
-  "hash": "3934f95d1263f460",
+  "hash": "8a4d17591b40eefe",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros/gas": {
-  "hash": "0dc924aaa8658116",
+  "hash": "e596665d1841afa6",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros/dual": {
-  "hash": "0c8e8519ba427c75",
+  "hash": "dd6c4d5da9c0a482",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros/fibra": {
-  "hash": "0eaaefa5e767ea3f",
-  "upd": "2026-10-14",
+  "hash": "80f71b1589fa98c6",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros/alarmas": {
-  "hash": "a1e642a85c074c51",
-  "upd": "2026-10-14",
+  "hash": "8779d695ca2bd341",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/suministros/caes": {
-  "hash": "f167b069622bb92f",
+  "hash": "205dd563b65be2c6",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia": {
-  "hash": "a842d7cbbcde6d42",
-  "upd": "2026-10-14",
+  "hash": "b0c66d4625b9d822",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/servidor-propio": {
-  "hash": "5749fe8a381e437a",
-  "upd": "2026-10-14",
+  "hash": "71c95cbd65a1290b",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/licencia-sin-cuota-mensual": {
-  "hash": "9987fa58ebdac148",
-  "upd": "2026-10-14",
+  "hash": "314227722352f862",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/programa-a-medida": {
-  "hash": "e38ba90078e60f56",
-  "upd": "2026-10-14",
+  "hash": "e8ad31d4e6f9851f",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/app-para-clientes": {
-  "hash": "85e1d60c96a879cb",
-  "upd": "2026-10-14",
+  "hash": "480159c20db58573",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/migrar-crm-erp": {
-  "hash": "ab54f9f2e5e9f29f",
-  "upd": "2026-10-14",
+  "hash": "a9d4a23008f365dc",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/mantenimiento-seguridad-copias": {
-  "hash": "d1855401f29c45c7",
-  "upd": "2026-10-14",
+  "hash": "33fe475b0bfb17c4",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/cloud-o-servidor-propio": {
-  "hash": "6468568e383dafa2",
-  "upd": "2026-10-14",
+  "hash": "2a5e62558d64467e",
+  "upd": "2026-10-15",
   "pub": "2026-10-14"
  }
 }

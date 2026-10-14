@@ -28,6 +28,15 @@ function proc(node, scopes, out) {
   if (node.nodeType === 3) { out.appendChild(document.createTextNode(node.nodeValue.indexOf('{{') > -1 ? interp(node.nodeValue, scopes) : node.nodeValue)); return; }
   if (node.nodeType !== 1) { if (node.nodeType !== 8) out.appendChild(node.cloneNode(true)); return; }
   const tag = node.tagName.toLowerCase();
+  // data-for="{{lista}}" data-as="x": repite el propio elemento (filas y celdas de tabla, donde sc-for no es HTML válido)
+  if (node.hasAttribute('data-for')) {
+    const m = ONE.exec(node.getAttribute('data-for'));
+    const as = node.getAttribute('data-as') || 'item';
+    const list = m ? look(m[1], scopes) || [] : [];
+    const tpl = node.cloneNode(true); tpl.removeAttribute('data-for'); tpl.removeAttribute('data-as');
+    list.forEach(function (it, idx) { const sc = {}; sc[as] = it; sc[as + 'Index'] = idx; proc(tpl, scopes.concat([sc]), out); });
+    return;
+  }
   if (tag === 'sc-if') {
     const m = ONE.exec(node.getAttribute('value') || '');
     if (m && look(m[1], scopes)) node.childNodes.forEach(function (c) { proc(c, scopes, out); });
