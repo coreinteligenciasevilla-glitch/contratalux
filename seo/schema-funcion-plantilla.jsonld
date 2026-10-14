@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://contratalux.com/modulos/{slug}#webpage",
+      "url": "https://contratalux.com/modulos/{slug}",
+      "name": "{title}",
+      "isPartOf": {
+        "@id": "https://contratalux.com/#web"
+      },
+      "about": {
+        "@id": "https://contratalux.com/#app"
+      },
+      "breadcrumb": {
+        "@id": "https://contratalux.com/modulos/{slug}#breadcrumb"
+      },
+      "primaryImageOfPage": "{captura}",
+      "dateModified": "[AAAA-MM-DD]"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://contratalux.com/modulos/{slug}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://contratalux.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Funciones",
+          "item": "https://contratalux.com/modulos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{H1}"
+        }
+      ]
+    }
+  ]
+}

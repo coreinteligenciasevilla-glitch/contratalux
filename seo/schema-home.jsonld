@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://contratalux.com/#org",
+      "name": "ContrataLux",
+      "url": "https://contratalux.com/",
+      "logo": "https://contratalux.com/logo.png",
+      "legalName": "Inteligenthia Sevilla SL",
+      "taxID": "[NIF]",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Betis 3",
+        "postalCode": "41449",
+        "addressLocality": "Alcolea del Río",
+        "addressRegion": "Sevilla",
+        "addressCountry": "ES"
+      },
+      "sameAs": [
+        "[perfiles oficiales confirmados]"
+      ],
+      "telephone": "+34601869668",
+      "email": "proyectos@inteligenciasevilla.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://contratalux.com/#web",
+      "url": "https://contratalux.com/",
+      "name": "ContrataLux",
+      "publisher": {
+        "@id": "https://contratalux.com/#org"
+      },
+      "inLanguage": "es-ES"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://contratalux.com/#app",
+      "name": "ContrataLux CRM",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "CRM para asesorías energéticas que gestiona contratos de luz, gas, dual, fibra, alarmas y CAEs, comisiones, retrocomisiones y liquidaciones.",
+      "publisher": {
+        "@id": "https://contratalux.com/#org"
+      },
+      "offers": {
+        "@type": "OfferCatalog",
+        "name": "Planes de ContrataLux",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Básico (1–2 usuarios)",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 90,
+              "priceCurrency": "EUR",
+              "unitText": "MONTH",
+              "valueAddedTaxIncluded": false
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Equipo (hasta 10 usuarios)",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 195,
+              "priceCurrency": "EUR",
+              "unitText": "MONTH",
+              "valueAddedTaxIncluded": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://contratalux.com/#webpage",
+      "url": "https://contratalux.com/",
+      "name": "Programa para asesorías energéticas | ContrataLux",
+      "isPartOf": {
+        "@id": "https://contratalux.com/#web"
+      },
+      "about": {
+        "@id": "https://contratalux.com/#app"
+      },
+      "dateModified": "[AAAA-MM-DD]",
+      "inLanguage": "es-ES"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# ContrataLux
+
+> CRM y ERP online para asesorías energéticas, agencias y redes comerciales que venden contratos de luz, gas, dual, fibra, alarmas y CAEs en España. Cubre el ciclo completo: lead, comparativa y calculadora de ahorro, alta, tramitación con bot ATR, seguimiento, comisiones, retrocomisiones y liquidaciones.
+
+- Precios (vigentes desde octubre de 2026, sin IVA): Básico 90 €/mes (1–2 usuarios), Equipo 195 €/mes (hasta 10), Ilimitado y Plataforma propia a consultar. Plataforma propia: el programa instalado en el servidor del cliente (o en uno que prepara ContrataLux), con su marca, licencia de uso sin cuota mensual y sin límite de usuarios (no permite revender el programa), personalización a medida, app para clientes, migración de CRM/ERP y servicios aparte de mantenimiento, seguridad, copias y soporte. PIX, agente de IA conectado al CRM: desde 90 €/mes. Bot ATR para Naturgy: servicio adicional. Migración de datos: la hace el equipo, el cliente a mano o PIX. Prueba gratis de 7 días.
+- Suministros: el cliente elige cuáles gestiona (luz, gas, dual, fibra, telefonía, alarmas, CAEs u otros).
+- Envío a la comercializadora: ContrataLux recoge los datos pero no sube el contrato; el alta la hace la asesoría o PIX. Robot de Naturgy (bot ATR) como servicio aparte, solo si se pide.
+- Datos: las principales comercializadoras precargadas, todas tus tarifas, 6 tipos de suministro, 9 grupos de permisos, más de 30 tipos de evento auditados, 2FA.
+- Titular: Inteligenthia Sevilla SL · NIF [NIF] · Calle Betis 3, 41449 Alcolea del Río (Sevilla) · proyectos@inteligenciasevilla.com · 601 869 668
+
+## Páginas principales
+- [Inicio](https://contratalux.com/)
+- [Precios](https://contratalux.com/precios)
+- [Plataforma propia](https://contratalux.com/plataforma-propia)
+- [Funciones](https://contratalux.com/modulos)
+- [Para quién](https://contratalux.com/soluciones)
+- [Seguridad y RGPD](https://contratalux.com/seguridad-y-rgpd)
+- [Guía del asesor energético](https://contratalux.com/recursos)
+- [Glosario](https://contratalux.com/recursos/glosario)
