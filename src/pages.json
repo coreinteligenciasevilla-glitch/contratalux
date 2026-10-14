@@ -37,15 +37,15 @@
 {
 "u": "/precios",
 "k": "precio programa asesoría energética",
-"h1": "Precio programa asesoría energética",
+"h1": "¿Cuánto cuesta ContrataLux?",
 "l": "Precio programa asesoría energética",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿Precio programa asesoría energética?",
 "f": [],
-"ti": "Precio programa asesoría energética | ContrataLux",
-"md": "Precio programa asesoría energética: contratos, comisiones y comerciales en un solo CRM. Desde 90 €/mes + IVA. Prueba 7 días gratis.",
+"ti": "Precios del programa para asesorías energéticas | ContrataLux",
+"md": "Precios de ContrataLux: Básico 90 €/mes + IVA (1 o 2 usuarios) y Equipo 195 €/mes + IVA (hasta 10). Ilimitado y plataforma propia, a consultar.",
 "sk": [
 {
 "s": "asesoría energética para empresas"
@@ -62,13 +62,107 @@
 "s": "",
 "img": "",
 "b": [],
-"fq": [],
+"fq": [
+{
+"q": "¿Hay prueba gratis?",
+"a": "Sí, 7 días con todas las funciones."
+},
+{
+"q": "¿Los precios llevan IVA?",
+"a": "No. Los precios publicados son sin IVA."
+}
+],
 "mods": [],
 "ni": false,
-"intro": [],
-"sec": [],
-"close": "",
-"lk": [],
+"intro": [
+{
+"t": "ContrataLux se paga al mes y tiene 7 días de prueba gratis. El precio depende de cuántas personas de tu asesoría van a usar el programa."
+},
+{
+"t": "Todos los precios son sin IVA y están vigentes desde octubre de 2026."
+}
+],
+"sec": [
+{
+"h": "Planes de ContrataLux",
+"p": [],
+"li": [
+{
+"t": "Básico: 90 € al mes + IVA, para 1 o 2 usuarios."
+},
+{
+"t": "Equipo: 195 € al mes + IVA, hasta 10 usuarios."
+},
+{
+"t": "Ilimitado: usuarios sin límite, precio a consultar con un asesor."
+},
+{
+"t": "Plataforma propia: el programa en tu servidor, con tu marca y licencia de uso sin cuota mensual, precio a consultar."
+}
+],
+"hasLi": true
+},
+{
+"h": "¿Qué incluyen todos los planes?",
+"p": [
+{
+"t": "Todos los planes incluyen luz, gas, fibra y telefonía. Tú eliges qué suministros gestionas y activas las funciones que usa tu asesoría: contratos, Kanban, comisiones y retrocomisiones, liquidaciones de comerciales, calculadora de ahorro y comparador de tarifas."
+}
+],
+"li": [],
+"hasLi": false
+},
+{
+"h": "¿Qué incluye la plataforma propia?",
+"p": [],
+"li": [
+{
+"t": "Instalación en tu servidor o en uno que te preparamos"
+},
+{
+"t": "Licencia de uso sin cuota mensual y usuarios sin límite"
+},
+{
+"t": "Tus datos son tuyos: no accedemos sin tu permiso"
+},
+{
+"t": "Funciones a medida y área de cliente web con tu marca (app opcional)"
+},
+{
+"t": "Migración de tu CRM, ERP o programa actual"
+},
+{
+"t": "Mantenimiento, seguridad, copias y soporte, aparte y opcionales"
+}
+],
+"hasLi": true
+},
+{
+"h": "¿Qué servicios se pagan aparte?",
+"p": [
+{
+"t": "El bot ATR de Naturgy, que envía los contratos a su plataforma ATR, es un servicio adicional. En la plataforma propia, el mantenimiento, la seguridad, las copias y el soporte también se contratan aparte y solo si los quieres."
+}
+],
+"li": [],
+"hasLi": false
+}
+],
+"close": "Pruébalo 7 días gratis o habla con un asesor para ver qué plan encaja con tu asesoría.",
+"lk": [
+{
+"u": "/plataforma-propia",
+"l": "Plataforma propia con tu marca"
+},
+{
+"u": "/modulos",
+"l": "Todas las funciones del programa"
+},
+{
+"u": "/plataforma-propia/cloud-o-servidor-propio",
+"l": "¿Cloud o servidor propio?"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -82,28 +176,103 @@
 {
 "u": "/demo",
 "k": "demo software asesoría energética",
-"h1": "Demo software asesoría energética",
+"h1": "Demo de ContrataLux para tu asesoría energética",
 "l": "Demo software asesoría energética",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿Demo software asesoría energética?",
 "f": [],
-"ti": "Demo software asesoría energética | ContrataLux",
-"md": "Demo software asesoría energética: contratos, comisiones y comerciales en un solo CRM. Desde 90 €/mes + IVA. Prueba 7 días gratis.",
+"ti": "Demo del software para asesorías energéticas | ContrataLux",
+"md": "Pide una demo de ContrataLux: en 30 minutos te enseñamos contratos, Kanban, comisiones, liquidaciones y calculadora con casos de tu asesoría energética.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
 "s": "",
 "img": "",
 "b": [],
-"fq": [],
+"fq": [
+{
+"q": "¿Cuánto dura la demo?",
+"a": "Unos 30 minutos."
+},
+{
+"q": "¿Tiene coste?",
+"a": "No. La demo es gratuita."
+}
+],
 "mods": [],
 "ni": false,
-"intro": [],
-"sec": [],
-"close": "",
-"lk": [],
+"intro": [
+{
+"t": "En la demo te enseñamos ContrataLux en 30 minutos con casos de tu asesoría: cómo registras un contrato, cómo sigues su estado y cómo controlas lo que te paga cada comercializadora."
+},
+{
+"t": "Rellena el formulario de «Pide tu demo» y te llamamos para fijar el día."
+}
+],
+"sec": [
+{
+"h": "¿Qué verás en la demo?",
+"p": [],
+"li": [
+{
+"t": "Alta de clientes, suministros con su CUPS y contratos de luz, gas, fibra, alarmas y CAEs"
+},
+{
+"t": "El Kanban de contratos, con su estado de principio a fin"
+},
+{
+"t": "Comisiones, retrocomisiones y liquidaciones de comerciales"
+},
+{
+"t": "La calculadora de ahorro y el comparador de tarifas"
+},
+{
+"t": "Avisos de vencimiento y renovaciones"
+},
+{
+"t": "El área de cliente y PIX, el asistente de IA"
+}
+],
+"hasLi": true
+},
+{
+"h": "¿Qué necesitamos de ti?",
+"p": [
+{
+"t": "Que nos cuentes cómo trabajáis hoy: cuántos comerciales tenéis, con qué comercializadoras trabajáis y qué controláis en Excel. Con eso preparamos la demo con ejemplos parecidos a los tuyos."
+}
+],
+"li": [],
+"hasLi": false
+},
+{
+"h": "¿Prefieres probarlo por tu cuenta?",
+"p": [
+{
+"t": "También puedes empezar la prueba gratis de 7 días con todas las funciones y pedir la demo después."
+}
+],
+"li": [],
+"hasLi": false
+}
+],
+"close": "Pide tu demo y te enseñamos ContrataLux con casos de tu asesoría.",
+"lk": [
+{
+"u": "/modulos",
+"l": "Todas las funciones del programa"
+},
+{
+"u": "/precios",
+"l": "Precios de ContrataLux"
+},
+{
+"u": "/implantacion",
+"l": "Cómo empezar con ContrataLux"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -117,15 +286,15 @@
 {
 "u": "/prueba-gratis",
 "k": "CRM asesoría energética gratis prueba",
-"h1": "CRM asesoría energética gratis prueba",
+"h1": "Prueba ContrataLux 7 días gratis",
 "l": "CRM asesoría energética gratis prueba",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿CRM asesoría energética gratis prueba?",
 "f": [],
-"ti": "CRM asesoría energética gratis prueba | ContrataLux",
-"md": "CRM asesoría energética gratis prueba: contratos, comisiones y comerciales en un solo CRM. Desde 90 €/mes + IVA. Prueba 7 días gratis.",
+"ti": "Prueba gratis el CRM para asesorías energéticas | ContrataLux",
+"md": "Prueba ContrataLux 7 días gratis con todas las funciones: registra contratos de luz, gas, fibra, alarmas y CAEs y controla tus comisiones sin compromiso.",
 "sk": [
 {
 "s": "CRM prueba gratis"
@@ -136,13 +305,72 @@
 "s": "",
 "img": "",
 "b": [],
-"fq": [],
+"fq": [
+{
+"q": "¿La prueba tiene todas las funciones?",
+"a": "Sí, todas."
+},
+{
+"q": "¿Cuánto dura?",
+"a": "7 días."
+}
+],
 "mods": [],
 "ni": false,
-"intro": [],
-"sec": [],
-"close": "",
-"lk": [],
+"intro": [
+{
+"t": "Puedes probar ContrataLux 7 días gratis con todas las funciones. Creas tu cuenta y empiezas a registrar contratos el mismo día, sin compromiso."
+}
+],
+"sec": [
+{
+"h": "¿Qué puedes hacer durante la prueba?",
+"p": [],
+"li": [
+{
+"t": "Dar de alta clientes, suministros y contratos"
+},
+{
+"t": "Mover los contratos por el Kanban según su estado"
+},
+{
+"t": "Configurar comisiones por comercializadora y por comercial"
+},
+{
+"t": "Probar la calculadora de ahorro y el comparador de tarifas"
+},
+{
+"t": "Invitar a tu equipo y darle permisos"
+}
+],
+"hasLi": true
+},
+{
+"h": "¿Qué pasa cuando terminan los 7 días?",
+"p": [
+{
+"t": "Si quieres seguir, eliges plan: Básico desde 90 € al mes + IVA para 1 o 2 usuarios o Equipo por 195 € al mes + IVA hasta 10 usuarios."
+}
+],
+"li": [],
+"hasLi": false
+}
+],
+"close": "Crea tu cuenta y empieza a registrar contratos hoy.",
+"lk": [
+{
+"u": "/precios",
+"l": "Precios de ContrataLux"
+},
+{
+"u": "/demo",
+"l": "Pide una demo guiada"
+},
+{
+"u": "/modulos",
+"l": "Todas las funciones del programa"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -156,15 +384,15 @@
 {
 "u": "/contacto",
 "k": "contacto ContrataLux",
-"h1": "Contacto ContrataLux",
+"h1": "Contacta con ContrataLux",
 "l": "Contacto ContrataLux",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿Contacto ContrataLux?",
 "f": [],
-"ti": "Contacto ContrataLux | ContrataLux",
-"md": "Contacto ContrataLux: contratos, comisiones y comerciales en un solo CRM. Desde 90 €/mes + IVA. Prueba 7 días gratis.",
+"ti": "Contacto | ContrataLux",
+"md": "Contacta con ContrataLux: info@contratalux.com o +34 601 869 668. Calle Betis 3, 41449 Alcolea del Río (Sevilla). Te resolvemos dudas y te enseñamos el programa.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -174,10 +402,64 @@
 "fq": [],
 "mods": [],
 "ni": false,
-"intro": [],
-"sec": [],
-"close": "",
-"lk": [],
+"intro": [
+{
+"t": "Si tienes dudas sobre ContrataLux, quieres una demo o te interesa la plataforma propia, escríbenos o llámanos. ContrataLux lo desarrolla Inteligenthia Sevilla SL."
+}
+],
+"sec": [
+{
+"h": "Datos de contacto",
+"p": [],
+"li": [
+{
+"t": "Correo: info@contratalux.com"
+},
+{
+"t": "Teléfono: +34 601 869 668"
+},
+{
+"t": "Dirección: Calle Betis 3, 41449 Alcolea del Río (Sevilla)"
+}
+],
+"hasLi": true
+},
+{
+"h": "¿Trabajáis con asesorías de toda España?",
+"p": [
+{
+"t": "Sí. Trabajamos en remoto con asesorías energéticas de toda España."
+}
+],
+"li": [],
+"hasLi": false
+},
+{
+"h": "¿Prefieres que te llamemos?",
+"p": [
+{
+"t": "Usa el botón «Habla con un asesor» o «Pide tu demo», déjanos tus datos y te llamamos."
+}
+],
+"li": [],
+"hasLi": false
+}
+],
+"close": "Cuéntanos tu caso y te decimos qué plan o qué plataforma te encaja.",
+"lk": [
+{
+"u": "/sobre-nosotros",
+"l": "Quién hay detrás de ContrataLux"
+},
+{
+"u": "/precios",
+"l": "Precios de ContrataLux"
+},
+{
+"u": "/demo",
+"l": "Pide una demo"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -722,7 +1004,7 @@
 "q": "¿Cómo se usa la comparador de tarifas de luz gratis?",
 "f": [],
 "ti": "Comparador de tarifas de luz gratis | ContrataLux",
-"md": "Comparador de tarifas de luz gratis gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Comparador de tarifas de luz gratis: pon hasta tres ofertas con sus precios de potencia y energía y mira el coste anual de cada una y cuál sale más barata.",
 "sk": [
 {
 "s": "comparador tarifas luz y gas"
@@ -848,7 +1130,12 @@
 "l": "comparador de tarifas de luz para asesores"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+"l": "Circular 3/2020 de la CNMC, metodología de peajes de transporte y distribución de electricidad (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -7882,7 +8169,7 @@
 "q": "¿Cómo se usa la calculadora factura luz 2.0TD?",
 "f": [],
 "ti": "Calculadora factura luz 2.0TD | ContrataLux",
-"md": "Calculadora factura luz 2.0TD gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora de factura de luz 2.0TD gratis: con potencias, consumos por periodo y precios obtienes potencia, energía, impuesto eléctrico, IVA y total.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -7992,7 +8279,16 @@
 "l": "calculadora de ahorro energético para comerciales"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+"l": "Circular 3/2020 de la CNMC, metodología de peajes de transporte y distribución de electricidad (BOE)"
+},
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+"l": "Ley 38/1992, de Impuestos Especiales (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -8013,7 +8309,7 @@
 "q": "¿Cómo se usa la calculadora tarifa 3.0TD?",
 "f": [],
 "ti": "Calculadora tarifa 3.0TD | ContrataLux",
-"md": "Calculadora tarifa 3.0TD gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora de la tarifa 3.0TD gratis para negocios de más de 15 kW: seis periodos de potencia y energía, impuesto eléctrico e IVA en una estimación.",
 "sk": [
 {
 "s": "tarifa 2.0TD y 3.0TD"
@@ -8133,7 +8429,16 @@
 "l": "aviso de vencimiento de contratos de luz"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+"l": "Circular 3/2020 de la CNMC, metodología de peajes de transporte y distribución de electricidad (BOE)"
+},
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+"l": "Ley 38/1992, de Impuestos Especiales (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -8154,7 +8459,7 @@
 "q": "¿Cómo se usa la calculadora tarifa 6.1TD?",
 "f": [],
 "ti": "Calculadora tarifa 6.1TD | ContrataLux",
-"md": "Calculadora tarifa 6.1TD gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora de la tarifa 6.1TD gratis para alta tensión (1 a 30 kV): seis periodos de potencia y energía, impuesto eléctrico e IVA en una estimación.",
 "sk": [],
 "qs": [
 "¿Qué es la tarifa 6.1TD?"
@@ -8263,7 +8568,16 @@
 "l": "precio de la luz en tiempo real para comerciales de energía"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+"l": "Circular 3/2020 de la CNMC, metodología de peajes de transporte y distribución de electricidad (BOE)"
+},
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+"l": "Ley 38/1992, de Impuestos Especiales (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -8284,7 +8598,7 @@
 "q": "¿Cómo se usa la calculadora factura de gas?",
 "f": [],
 "ti": "Calculadora factura de gas | ContrataLux",
-"md": "Calculadora factura de gas gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora de factura de gas gratis: término fijo, consumo en kWh, alquiler del contador, impuesto de hidrocarburos e IVA, con el tramo de peaje RL.",
 "sk": [
 {
 "s": "factura de gas natural"
@@ -8387,7 +8701,16 @@
 "l": "gestión de contratos de luz y gas"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/eli/es/cir/2020/07/22/6",
+"l": "Circular 6/2020 de la CNMC, metodología de peajes de transporte, redes locales y regasificación de gas natural (BOE)"
+},
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+"l": "Ley 38/1992, de Impuestos Especiales (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -8408,7 +8731,7 @@
 "q": "¿Cómo se usa la tarifa indexada o fija para empresas?",
 "f": [],
 "ti": "Tarifa indexada o fija para empresas | ContrataLux",
-"md": "Tarifa indexada o fija para empresas gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Tarifa indexada o fija para empresas: compara el coste anual de un precio fijo con dos escenarios de precio indexado y mide el riesgo antes de firmar.",
 "sk": [
 {
 "s": "tarifa indexada vs PVPC"
@@ -8550,7 +8873,7 @@
 "q": "¿Cómo se usa la calculadora optimizar potencia contratada?",
 "f": [],
 "ti": "Calculadora optimizar potencia contratada | ContrataLux",
-"md": "Calculadora optimizar potencia contratada gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora para optimizar la potencia contratada: con la potencia actual, el maxímetro y el precio del kW estimas cuánta potencia sobra y cuánto se ahorra.",
 "sk": [
 {
 "s": "potencia contratada para coche eléctrico"
@@ -8694,7 +9017,7 @@
 "q": "¿Cómo se usa la calculadora compensación de excedentes?",
 "f": [],
 "ti": "Calculadora compensación de excedentes | ContrataLux",
-"md": "Calculadora compensación de excedentes gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora de compensación de excedentes: con los kWh vertidos, el precio de compensación y el término de energía ves cuánto descuenta la factura.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -8801,7 +9124,12 @@
 "l": "aviso de vencimiento de contratos de luz"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-5089",
+"l": "Real Decreto 244/2019, de autoconsumo (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -8822,7 +9150,7 @@
 "q": "¿Cómo se usa la calculadora de comisiones asesor energético?",
 "f": [],
 "ti": "Calculadora de comisiones asesor energético | ContrataLux",
-"md": "Calculadora de comisiones asesor energético gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Calculadora de comisiones del asesor energético: comisión bruta, reparto al comercial y retrocomisiones previstas para saber cuánto te queda neto.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -8953,7 +9281,7 @@
 "q": "¿Cómo se usa la plantilla estudio de ahorro energético?",
 "f": [],
 "ti": "Plantilla estudio de ahorro energético | ContrataLux",
-"md": "Plantilla estudio de ahorro energético gratis: calcula en segundos y descarga el resultado para tu cliente. Herramienta de ContrataLux.",
+"md": "Plantilla de estudio de ahorro energético: coste actual frente a la propuesta, ahorro anual en euros y en porcentaje, lista para enseñar al cliente.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -29917,7 +30245,16 @@
 "l": "gestión de contratos duales de luz y gas"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+"l": "Circular 3/2020 de la CNMC, metodología de peajes de transporte y distribución de electricidad (BOE)"
+},
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+"l": "Ley 38/1992, de Impuestos Especiales (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -30049,7 +30386,16 @@
 "l": "software para vender contratos de luz"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/eli/es/cir/2020/07/22/6",
+"l": "Circular 6/2020 de la CNMC, metodología de peajes de transporte, redes locales y regasificación de gas natural (BOE)"
+},
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28741",
+"l": "Ley 38/1992, de Impuestos Especiales (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -30114,6 +30460,26 @@
 ],
 "li": [],
 "hasLi": false
+},
+{
+"h": "¿Qué peaje lleva cada suministro del dual?",
+"p": [
+{
+"t": "La luz y el gas del mismo cliente van con peajes distintos. En luz, un hogar o pequeño negocio de hasta 15 kW va en la tarifa de acceso 2.0TD, con tres periodos de energía y dos de potencia; por encima de 15 kW en baja tensión pasa a la 3.0TD, con seis periodos."
+},
+{
+"t": "En gas, el peaje de redes locales depende del consumo anual: RL.1 hasta 5.000 kWh al año, RL.2 de 5.000 a 15.000 kWh, RL.3 de 15.000 a 50.000 kWh y RL.4 de 50.000 a 300.000 kWh. Con el consumo de las facturas sabes en qué tramo está el cliente antes de comparar."
+}
+],
+"li": [
+{
+"t": "Luz: 2.0TD hasta 15 kW; 3.0TD por encima de 15 kW en baja tensión"
+},
+{
+"t": "Gas: RL.1 ≤ 5.000 kWh/año; RL.2 hasta 15.000; RL.3 hasta 50.000; RL.4 hasta 300.000"
+}
+],
+"hasLi": true
 },
 {
 "h": "¿Conviene siempre el dual?",
@@ -30181,7 +30547,16 @@
 "l": "software para vender contratos de luz"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-1066",
+"l": "Circular 3/2020 de la CNMC, metodología de peajes de transporte y distribución de electricidad (BOE)"
+},
+{
+"u": "https://www.boe.es/eli/es/cir/2020/07/22/6",
+"l": "Circular 6/2020 de la CNMC, metodología de peajes de transporte, redes locales y regasificación de gas natural (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -30524,6 +30899,29 @@
 "hasLi": true
 },
 {
+"h": "¿Cuánto vale un CAE y cuánto tarda en emitirse?",
+"p": [
+{
+"t": "Según el Real Decreto 36/2023, los CAE se emiten por valor de 1 kWh de ahorro de energía final, sin decimales, y son indivisibles. Solo pueden ser titulares los sujetos obligados o los sujetos delegados."
+},
+{
+"t": "El ahorro lo verifica un verificador acreditado por ENAC. Después, el Gestor Autonómico tiene 15 días para emitir el CAE en las actuaciones estandarizadas y 30 días en las singulares; si falta algo, pide la subsanación en un plazo máximo de 10 días."
+}
+],
+"li": [
+{
+"t": "1 CAE = 1 kWh de ahorro de energía final"
+},
+{
+"t": "Verificación por entidad acreditada por ENAC"
+},
+{
+"t": "Emisión: 15 días (estandarizadas) o 30 días (singulares)"
+}
+],
+"hasLi": true
+},
+{
 "h": "¿Por qué tiene sentido para una asesoría energética?",
 "p": [
 {
@@ -30562,7 +30960,12 @@
 "l": "software para vender contratos de luz"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.boe.es/eli/es/rd/2023/01/24/36/con",
+"l": "Real Decreto 36/2023, de 24 de enero, por el que se establece el sistema de Certificados de Ahorro Energético (BOE)"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",

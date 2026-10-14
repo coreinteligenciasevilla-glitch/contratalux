@@ -24,16 +24,22 @@ const TODAY = process.env.BUILD_DATE || new Intl.DateTimeFormat('en-CA', { timeZ
 const STATE_F = join(SRC, 'estado-paginas.json');
 const state = existsSync(STATE_F) ? JSON.parse(readFileSync(STATE_F, 'utf8')) : {};
 for (const p of PAGES) {
-  const { upd, ...rest } = p;
+  const { upd, pub, ...rest } = p;
   const h = createHash('sha256').update(JSON.stringify(rest)).digest('hex').slice(0, 16);
-  if (!state[p.u] || state[p.u].hash !== h) state[p.u] = { hash: h, upd: TODAY };
+  const prev = state[p.u];
+  if (!prev || prev.hash !== h) state[p.u] = { hash: h, upd: TODAY, pub: (prev && (prev.pub || prev.upd)) || TODAY };
+  else if (!prev.pub) prev.pub = prev.upd;
   p.upd = state[p.u].upd;
+  p.pub = state[p.u].pub;
 }
 for (const u of Object.keys(state)) if (!PAGES.some((p) => p.u === u)) delete state[u];
 writeFileSync(STATE_F, JSON.stringify(state, null, 1) + '\n');
 
 const BY_URL = Object.fromEntries(PAGES.map((p) => [p.u, p]));
 const pagesJs = JSON.stringify(PAGES).replace(/</g, '\\u003c');
+// En el navegador solo viaja la ruta actual completa; del resto, lo justo para menús, migas y enlaces.
+const STUBS = PAGES.map((p) => ({ u: p.u, l: p.l, p: p.p, t: p.t }));
+const pageData = (p) => JSON.stringify(STUBS.map((s) => (s.u === p.u ? p : s))).replace(/</g, '\\u003c');
 
 // ---------- pre-render con el mismo runtime que usa el navegador ----------
 const dom = new JSDOM(`<!doctype html><html><body><div id="app"></div><template id="tpl">${TEMPLATE}</template></body></html>`, { runScripts: 'outside-only' });
@@ -56,7 +62,7 @@ const CSS_V = ver(css);
 writeFileSync(join(OUT, 'assets/site.css'), css);
 
 const CLIENT = `${RUNTIME}
-const PAGES = ${pagesJs};
+const PAGES = JSON.parse(document.getElementById('clx-data').textContent);
 const TPL_HTML = ${JSON.stringify(TEMPLATE).replace(/</g, '\\u003c')};
 ${COMPONENT}
 (function () {
@@ -97,6 +103,9 @@ if (SITE.email) ORG.email = SITE.email;
 if (SITE.taxID) ORG.taxID = SITE.taxID;
 if (SITE.sameAs && SITE.sameAs.length) ORG.sameAs = SITE.sameAs;
 const WEB = { '@type': 'WebSite', '@id': D + '/#web', url: D + '/', name: SITE.name, inLanguage: 'es-ES', publisher: { '@id': D + '/#org' } };
+// Versiones resumidas de #org y #web para las páginas interiores (mismos @id y mismos datos)
+const ORG_REF = { '@type': 'Organization', '@id': D + '/#org', name: SITE.name, legalName: SITE.legalName, url: D + '/', logo: ORG.logo };
+const WEB_REF = { '@type': 'WebSite', '@id': D + '/#web', url: D + '/', name: SITE.name, inLanguage: 'es-ES', publisher: { '@id': D + '/#org' } };
 const APP = { '@type': 'SoftwareApplication', '@id': D + '/#app', name: SITE.name, url: D + '/', applicationCategory: 'BusinessApplication', operatingSystem: 'Web',
   description: SITE.description, publisher: { '@id': D + '/#org' },
   offers: SITE.plans.map((pl) => ({ '@type': 'Offer', name: pl.name, description: pl.description, price: pl.price, priceCurrency: 'EUR', url: D + '/precios',
@@ -105,19 +114,21 @@ const APP = { '@type': 'SoftwareApplication', '@id': D + '/#app', name: SITE.nam
 function jsonld(p) {
   const g = [];
   const page = { '@type': p.t === 'hub' ? 'CollectionPage' : 'WebPage', '@id': url(p.u) + '#page', url: url(p.u), name: p.ti, description: p.md, inLanguage: 'es-ES',
-    isPartOf: { '@id': D + '/#web' }, about: { '@id': D + '/#app' }, publisher: { '@id': D + '/#org' }, dateModified: p.upd };
+    isPartOf: { '@id': D + '/#web' }, about: { '@id': D + '/#app' }, publisher: { '@id': D + '/#org' }, datePublished: p.pub, dateModified: p.upd };
   if (p.u === '/') {
     g.push(ORG, WEB, APP, page);
     const v = SITE.video;
     if (v && v.uploadDate) g.push({ '@type': 'VideoObject', name: v.name, description: v.description, contentUrl: abs(v.url), thumbnailUrl: abs(v.thumbnail), uploadDate: v.uploadDate });
   } else {
     page.breadcrumb = { '@id': url(p.u) + '#breadcrumb' };
-    g.push(page, { '@type': 'BreadcrumbList', '@id': url(p.u) + '#breadcrumb',
+    g.push(ORG_REF, WEB_REF, APP, page, { '@type': 'BreadcrumbList', '@id': url(p.u) + '#breadcrumb',
       itemListElement: crumbs(p).map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.l, item: url(c.u) })) });
     if (isGuide(p)) g.push({ '@type': 'Article', '@id': url(p.u) + '#article', headline: p.h1, description: p.md, mainEntityOfPage: { '@id': url(p.u) + '#page' },
-      author: { '@id': D + '/#org' }, publisher: { '@id': D + '/#org' }, dateModified: p.upd, image: abs(p.img || SITE.ogImage), inLanguage: 'es-ES' });
-    if (p.u === '/herramientas/comparador-de-tarifas') g.push({ '@type': 'WebApplication', name: p.h1, url: url(p.u), applicationCategory: 'UtilitiesApplication',
-      operatingSystem: 'Web', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' }, publisher: { '@id': D + '/#org' } });
+      author: { '@id': D + '/#org' }, publisher: { '@id': D + '/#org' }, datePublished: p.pub, dateModified: p.upd, image: abs(p.img || SITE.ogImage), inLanguage: 'es-ES' });
+    // Calculadoras gratis: funcionan en la propia página (src/component.js, TOOLS)
+    if (p.t === 'herramienta' && COMPONENT.includes(`'${p.u}'`)) g.push({ '@type': 'WebApplication', '@id': url(p.u) + '#tool', name: p.h1, url: url(p.u) + '#calculadora', description: p.md,
+      applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', browserRequirements: 'Requiere JavaScript', isAccessibleForFree: true,
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' }, publisher: { '@id': D + '/#org' } });
   }
   const out = JSON.stringify({ '@context': 'https://schema.org', '@graph': g });
   const bad = out.match(/\[[^\]"{}]*\]|\{[a-z_]+\}|TODO|AAAA-MM-DD/);
@@ -158,7 +169,7 @@ ${p.u === '/' ? '<link rel="preload" as="image" href="/assets/dashboard.webp" fe
 // ---------- páginas ----------
 const warn = new Set();
 for (const p of PAGES) {
-  const html = `<!doctype html>\n<html lang="es">\n<head>\n${head(p)}\n</head>\n<body>\n<div id="app">${w.prerender(p.u)}</div>\n</body>\n</html>\n`;
+  const html = `<!doctype html>\n<html lang="es">\n<head>\n${head(p)}\n</head>\n<body>\n<div id="app">${w.prerender(p.u)}</div>\n<script type="application/json" id="clx-data">${pageData(p)}</script>\n</body>\n</html>\n`;
   if (html.includes('[NIF]')) warn.add(p.u);
   const f = p.u === '/' ? 'index.html' : p.u.slice(1) + '.html';
   mkdirSync(dirname(join(OUT, f)), { recursive: true });
