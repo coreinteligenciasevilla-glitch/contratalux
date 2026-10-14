@@ -1,6 +1,6 @@
 # Propuesta: consolidar las páginas de provincia
 
-**Estado: propuesta, no aplicada.** No se ha borrado ni redirigido nada.
+**Estado: aplicada el 14 de octubre de 2026.** Las provincias se han quitado del sitio y redirigen con 301 a su comunidad (ver `static/.htaccess`).
 
 Hay 43 páginas de provincia con la misma oferta y una o dos frases de geografía. Google puede tratarlas como páginas puerta. La propuesta es quedarse con las 19 páginas de comunidad autónoma (incluidas Ceuta y Melilla) y redirigir las provincias a su comunidad con un 301, salvo Sevilla, que es la sede.
 

@@ -11,7 +11,7 @@
     "addressCountry": "ES"
   },
   "telephone": "+34601869668",
-  "email": null,
+  "email": "info@contratalux.com",
   "taxID": null,
   "sameAs": [],
   "video": {
@@ -23,7 +23,15 @@
   },
   "ogImage": "/assets/og-contratalux.png",
   "plans": [
-    { "name": "Básico", "description": "1 o 2 usuarios", "price": "90" },
-    { "name": "Equipo", "description": "Hasta 10 usuarios", "price": "195" }
+    {
+      "name": "Básico",
+      "description": "1 o 2 usuarios",
+      "price": "90"
+    },
+    {
+      "name": "Equipo",
+      "description": "Hasta 10 usuarios",
+      "price": "195"
+    }
   ]
 }
