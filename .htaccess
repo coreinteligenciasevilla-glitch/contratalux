@@ -1,0 +1,27 @@
+# ContrataLux — configuración para servidores Apache / LiteSpeed
+Options -Indexes
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# No exponer la carpeta .git ni archivos internos
+RewriteRule (^|/)\.git(/|$) - [F,L]
+RewriteRule ^(README\.md|seo/mapa-keywords\.csv)$ - [F,L]
+
+# Forzar HTTPS y dominio sin www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://contratalux.com%{REQUEST_URI} [R=301,L]
+
+# Todas las páginas internas (/modulos/..., /zonas/...) las sirve index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(webp|png|jpg|mp4|svg)$">
+Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+</IfModule>
