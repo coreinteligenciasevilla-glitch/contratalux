@@ -12,15 +12,10 @@
   },
   "telephone": "+34601869668",
   "email": "info@contratalux.com",
-  "taxID": null,
-  "sameAs": [],
-  "video": {
-    "url": "/assets/video.mp4",
-    "thumbnail": "/assets/video-poster.jpg",
-    "name": "ContrataLux en 30 segundos",
-    "description": "Recorrido rápido por el panel, los contratos, el Kanban, la calculadora de ahorro y los informes de ContrataLux.",
-    "uploadDate": null
-  },
+  "taxID": "B88763818",
+  "sameAs": [
+    "https://www.linkedin.com/company/contratalux/"
+  ],
   "ogImage": "/assets/og-contratalux.png",
   "plans": [
     {
@@ -32,6 +27,39 @@
       "name": "Equipo",
       "description": "Hasta 10 usuarios",
       "price": "195"
+    }
+  ],
+  "people": [
+    {
+      "name": "Sandra Delgado Mañas",
+      "jobTitle": "Administradora única"
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-demo",
+      "url": "/assets/video.mp4",
+      "thumbnail": "/assets/video-poster.jpg",
+      "name": "ContrataLux en 30 segundos",
+      "description": "Recorrido rápido por el panel, los contratos, el Kanban, la calculadora de ahorro y los informes de ContrataLux.",
+      "uploadDate": "2026-10-15T19:30:00+02:00",
+      "duration": "PT32S",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "id": "video-calculadora",
+      "url": "/assets/calc-video.mp4",
+      "thumbnail": "/assets/calc-poster.jpg",
+      "name": "Calculadora de ahorro de ContrataLux en cuatro pasos",
+      "description": "La calculadora de ahorro en cuatro pasos: tipo de cliente, datos, consumos y factura, hasta el cálculo de la mejor tarifa.",
+      "uploadDate": "2026-10-15T19:30:00+02:00",
+      "duration": "PT16S",
+      "pages": [
+        "/",
+        "/modulos/calculadora-ahorro"
+      ]
     }
   ]
 }

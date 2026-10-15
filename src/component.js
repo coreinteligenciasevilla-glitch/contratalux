@@ -15,10 +15,22 @@ const SECTIONS = {
   pagina: ['[Sección 1 de la página]', '[Sección 2 de la página]']
 };
 const FAQS = [
-  { q: '¿Se puede probar gratis?', a: 'Sí, 7 días gratis con todas las funciones.' },
-  { q: '¿Cuánto cuesta?', a: 'Desde 90 € al mes + IVA para 1 o 2 usuarios y 195 € al mes + IVA hasta 10. Precios vigentes desde octubre de 2026.' },
-  { q: '¿Qué tipos de contrato gestiona?', a: 'Luz, gas, dual, fibra, alarmas y CAEs, con más de 30 comercializadoras precargadas.' }
+  { q: '¿Se puede probar ContrataLux gratis?', a: 'Sí. ContrataLux se puede probar 7 días gratis con todas las funciones.' },
+  { q: '¿Cuánto cuesta ContrataLux?', a: 'ContrataLux cuesta desde 90 € al mes + IVA para 1 o 2 usuarios (plan Básico) y 195 € al mes + IVA hasta 10 usuarios (plan Equipo). Precios vigentes desde octubre de 2026.' },
+  { q: '¿Qué tipos de contrato gestiona ContrataLux?', a: 'ContrataLux gestiona contratos de luz, gas, dual, fibra, alarmas y CAEs, con más de 30 comercializadoras precargadas.' }
 ];
+const IMG_D = {'bot-atr': [1600, 900], 'caes': [1600, 900], 'calc-resultado': [1568, 560], 'calculadora-ahorro': [1600, 900], 'comercializadoras': [1600, 900], 'comisionadores-qr': [1600, 900], 'comparador': [1680, 620], 'configuracion': [1600, 900], 'consultas': [1600, 900], 'contratos-tabla': [1600, 900], 'dashboard-2': [1600, 900], 'dashboard': [1600, 900], 'documentos': [1600, 900], 'exportar-datos': [1600, 900], 'ficha-contrato': [1600, 900], 'grupos-permisos': [1600, 900], 'kanban': [1600, 900], 'lead-ficha': [1600, 900], 'liquidaciones': [1600, 900], 'mercado-energetico': [1600, 900], 'pix': [1241, 1333], 'portal-ficha': [1640, 560], 'portal-login': [1000, 620], 'registro-sucesos': [1600, 900], 'usuarios': [1600, 900]};
+function dimsOf(path) {
+  const m = /^\/assets\/([a-z0-9-]+)\.webp$/.exec(path || '');
+  return (m && IMG_D[m[1]]) || [1600, 900];
+}
+function srcsetFor(path) {
+  const m = /^\/assets\/([a-z0-9-]+)\.webp$/.exec(path || '');
+  const d = m && IMG_D[m[1]];
+  if (!d) return '';
+  const w = d[0];
+  return w > 1100 ? '/assets/' + m[1] + '-640.webp 640w, /assets/' + m[1] + '-1024.webp 1024w, ' + path + ' ' + w + 'w' : path + ' ' + w + 'w';
+}
 const CHILD_TITLE = { suministros: 'Suministros que gestionas con ContrataLux', zonas: 'Elige tu zona', recursos: 'Artículos', modulos: 'Todas las funciones', soluciones: 'Elige tu perfil', herramientas: 'Herramientas gratis', comparativas: 'Comparativas', integraciones: 'Comercializadoras', 'plataforma-propia': 'Todo sobre la plataforma propia' };
 
 
@@ -185,16 +197,23 @@ class Component extends DCLogic {
     const crumbs = [];
     let cur = BY_URL[page.p];
     while (cur && cur.u !== page.u) {
-      crumbs.unshift({ u: cur.u, l: cur.u === '/' ? 'Inicio' : cur.l });
+      crumbs.unshift({ u: cur.u, l: cur.u === '/' ? 'Inicio' : (cur.bl || cur.l) });
       if (cur.u === '/') break;
       cur = BY_URL[cur.p];
     }
     const children = isHome ? [] : PAGES.filter(function (p) { return p.p === page.u && p.u !== page.u; });
-    const related = isHome ? [] : PAGES.filter(function (p) { return p.p === page.p && p.u !== page.u && p.t !== 'especial' && p.t !== 'legal'; }).slice(0, 6);
+    // Relacionadas: las 6 siguientes hermanas en orden circular, para que todas reciban enlaces de varias hermanas y no solo de su índice.
+    const sibs = isHome ? [] : PAGES.filter(function (p) { return p.p === page.p && p.t !== 'especial' && p.t !== 'legal'; });
+    const at = sibs.findIndex(function (p) { return p.u === page.u; });
+    const related = isHome ? [] : at === -1 ? sibs.filter(function (p) { return p.u !== page.u; }).slice(0, 6)
+      : Array.from({ length: Math.min(6, sibs.length - 1) }, function (_, k) { return sibs[(at + 1 + k) % sibs.length]; });
     const t = page.t;
+    const isArt = ['recurso', 'glosario', 'comercializadora', 'comparativa'].indexOf(t) !== -1 || page.u === '/implantacion';
+    const isInteg = t === 'integracion' || page.u === '/integraciones';
     const seg = page.u.split('/')[1] || '';
-    const base = page.qs.concat((SECTIONS[t] || []).filter(function (h) { return page.qs.indexOf(h) === -1; }));
-    const sections = page.s ? [] : base.slice(0, Math.max(3, page.qs.length)).map(function (h) { return { h: h }; });
+    const pqs = page.qs || [];
+    const base = pqs.concat((SECTIONS[t] || []).filter(function (h) { return pqs.indexOf(h) === -1; }));
+    const sections = page.s ? [] : base.slice(0, Math.max(3, pqs.length)).map(function (h) { return { h: h }; });
     const modals = {
       trial: { title: 'Prueba ContrataLux 7 días gratis', text: 'Crea tu cuenta y empieza a registrar contratos hoy. Sin compromiso.', button: 'Quiero probar la demo' },
       demo: { title: 'Pide tu demo', text: 'Te enseñamos ContrataLux en 30 minutos con casos de tu asesoría.', button: 'Pedir demo' },
@@ -205,7 +224,7 @@ class Component extends DCLogic {
     if (!st.modal) { this.openedAt = null; }
     return {
       isHome: isHome,
-      hasSk: page.sk.length > 0,
+      hasSk: (page.sk || []).length > 0,
       hasSec: page.sec.length > 0,
       hasClose: !!page.close,
       hasLk: page.lk.length > 0,
@@ -219,7 +238,7 @@ class Component extends DCLogic {
       hasMods: page.mods.length > 0,
       hasZl: !!(page.zl && page.zl.length),
       hasSrc: !!(page.src && page.src.length),
-      updText: (function (d) { const m = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']; const p = (d || '').split('-'); return p.length === 3 ? (+p[2]) + ' de ' + m[+p[1] - 1] + ' de ' + p[0] : ''; })(page.upd),
+      updText: (function (d) { const m = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']; const p = (d || '').slice(0, 10).split('-'); return p.length === 3 ? (+p[2]) + ' de ' + m[+p[1] - 1] + ' de ' + p[0] : ''; })(page.upd),
       taxText: (/^\/zonas\/(canarias|ceuta|melilla)/.test(page.u)) ? '(impuestos indirectos no incluidos)' : '+ IVA',
       hasVid: !!page.vid,
       hasImg2: !!page.img2,
@@ -227,7 +246,17 @@ class Component extends DCLogic {
       isInner: !isHome,
       page: page,
       crumbs: crumbs,
-      isArticle: ['recurso', 'glosario', 'comercializadora', 'comparativa'].indexOf(t) !== -1,
+      isArticle: isArt,
+      showUpd: !isHome && !isArt,
+      crumbLast: page.bl || page.l,
+      isIntegration: isInteg,
+      integrationNote: t === 'integracion' ? page.l + ' es una marca de su titular y se cita en esta página solo para explicar cómo trabaja ContrataLux con esa compañía. ContrataLux es un software independiente: nombrar a una comercializadora no implica un acuerdo oficial con ella, salvo que se indique expresamente.' : 'Las comercializadoras citadas son marcas de sus respectivos titulares. ContrataLux es un software independiente: nombrarlas no implica un acuerdo oficial con ellas, salvo que se indique expresamente.',
+      imgW: dimsOf(page.img)[0],
+      imgH: dimsOf(page.img)[1],
+      img2W: dimsOf(page.img2)[0],
+      img2H: dimsOf(page.img2)[1],
+      imgSrcset: srcsetFor(page.img),
+      img2Srcset: srcsetFor(page.img2),
       isGlossary: t === 'glosario',
       hasTool: !!TOOLS[page.u],
       tool: TOOLS[page.u] ? { title: TOOLS[page.u].title, lead: TOOLS[page.u].lead, note: TOOLS[page.u].note, groups: TOOLS[page.u].groups.map(function (g) { return { h: g.h, f: g.f.map(function (x) { const sv = (st.toolVals || {})[x.k]; return { k: x.k, l: x.l, ph: x.ph, v: sv != null ? sv : x.v }; }) }; }) } : null,
@@ -253,7 +282,7 @@ class Component extends DCLogic {
       children: children,
       childrenTitle: CHILD_TITLE[seg] || 'En esta sección',
       hasFaq: t !== 'legal' && page.fq.length > 0 || (t !== 'legal' && t !== 'hub'),
-      faqs: page.fq.length >= 3 ? page.fq : page.fq.concat(FAQS).slice(0, 4),
+      faqs: page.fq.length >= 3 ? page.fq : page.fq.concat(FAQS.filter(function (f) { return !(page.u === '/prueba-gratis' && f.q.indexOf('probar') !== -1); })).slice(0, 4),
       hasRelated: related.length > 0,
       related: related,
       cookiesOpen: st.cookies === 'open',
@@ -308,7 +337,10 @@ class Component extends DCLogic {
         if ((href === '#contacto' || href === '/contacto') && (label.indexOf('asesor') !== -1 || href === '/contacto')) { e.preventDefault(); this.setState({ modal: 'asesor', sent: false }); return; }
         if (href.indexOf('https://app.') === 0) { e.preventDefault(); this.setState({ toast: 'Aquí entrarán tus clientes a la app (app.contratalux.com).' }); return; }
         if (href.charAt(0) === '#') {
-          if (st.route !== '/') { e.preventDefault(); this.go('/', href.slice(1)); }
+          e.preventDefault();
+          if (st.route !== '/') { this.go('/', href.slice(1)); return; }
+          const target = document.getElementById(href.slice(1));
+          if (target) { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
           return;
         }
         if (href.charAt(0) === '/') {

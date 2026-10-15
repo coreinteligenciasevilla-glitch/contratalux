@@ -1,9 +1,9 @@
-<div onClick="{{intercept}}" style="font-family: 'Figtree', system-ui, sans-serif; color: #22313F; background: #FFFFFF; font-size: 17px; line-height: 1.55">
+<div onClick="{{intercept}}" style="font-family: 'Figtree', 'Figtree Fallback', system-ui, sans-serif; color: #22313F; background: #FFFFFF; font-size: 17px; line-height: 1.55">
 
 <!-- CABECERA -->
 <header style="border-bottom: 1px solid #E6EBF0; background: #FFFFFF">
 <div style="max-width: 1320px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px">
-<a href="#inicio" aria-label="ContrataLux, inicio" style="display: flex; align-items: center"><img src="/assets/logo-contratalux.png" alt="ContrataLux" width="640" height="206" style="height: 52px; width: auto; display: block"></a>
+<a href="/" aria-label="ContrataLux, inicio" style="display: flex; align-items: center"><img src="/assets/logo-contratalux.png" alt="ContrataLux" width="640" height="206" style="height: 52px; width: auto; display: block"></a>
 <nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 18px; align-items: center; font-weight: 600; font-size: 15px; margin-left: 12px">
 <a href="/modulos" style="color: #22313F; text-decoration: none">Funciones</a>
 <a href="/herramientas/comparador-de-tarifas" style="color: #22313F; text-decoration: none">Comparador de tarifas</a>
@@ -27,16 +27,17 @@
 <div style="max-width: 1200px; margin: 0 auto; padding: 72px 24px 64px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
 <div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
 <p style="margin: 0; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #0B7A70"><a href="/suministros/luz" style="color: #0B7A70; text-decoration: none">Luz</a> · <a href="/suministros/gas" style="color: #0B7A70; text-decoration: none">Gas</a> · <a href="/suministros/dual" style="color: #0B7A70; text-decoration: none">Dual</a> · <a href="/suministros/fibra" style="color: #0B7A70; text-decoration: none">Fibra</a> · <a href="/suministros/alarmas" style="color: #0B7A70; text-decoration: none">Alarmas</a> · <a href="/suministros/caes" style="color: #0B7A70; text-decoration: none">CAEs</a> · Tú eliges cuáles</p>
-<h1 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 54px; line-height: 1.08; color: #13202E">Programa de gestión para asesorías energéticas</h1>
-<p style="margin: 0; font-size: 20px; color: #3D4E5F">El CRM que controla cada contrato, cada comisión y cada comercial. Sustituye al Excel, a los WhatsApp sueltos, a las calculadoras por separado y a las hojas de comisiones.</p>
+<h1 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 54px; line-height: 1.08; color: #13202E">Programa de gestión para asesorías energéticas</h1>
+<p style="margin: 0; font-size: 20px; color: #3D4E5F">ContrataLux es un programa de gestión (CRM) para asesorías energéticas, agencias y redes comerciales que venden luz, gas, fibra, alarmas y CAEs. Controla cada contrato, cada comisión y cada comercial en una sola ficha, con tarifas de comercializadoras precargadas, y sustituye al Excel, a los WhatsApp sueltos y a las hojas de comisiones. Se prueba 7 días gratis.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
 <a href="https://app.contratalux.com/registro" style="background: #FFB000; color: #13202E; font-weight: 700; text-decoration: none; padding: 15px 26px; border-radius: 12px">Prueba 7 días gratis</a>
 <a href="/demo" style="background: #FFFFFF; color: #13202E; font-weight: 700; text-decoration: none; padding: 15px 26px; border-radius: 12px; border: 1.5px solid #13202E">Pide tu demo</a>
 </div>
+<p style="margin: 0; font-size: 15px; color: #4A5B6C">Mira qué incluye la <a href="/prueba-gratis" style="font-weight: 600">prueba ContrataLux 7 días gratis</a> y cómo formarte una <a href="/opiniones" style="font-weight: 600">opinión sobre ContrataLux</a>.</p>
 </div>
 <div style="flex: 1 1 420px; min-width: 0">
 <figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
-<img src="/assets/dashboard.webp" alt="Cuadro de mando de ContrataLux con contratos creados, altas, incidencias, mix de cartera y rendimiento del equipo" width="1600" height="900" fetchpriority="high" style="width: 100%; height: auto; border-radius: 16px; border: 1px solid #D5DEE7; box-shadow: 0 20px 50px rgba(19, 32, 46, 0.18)">
+<img src="/assets/dashboard.webp" srcset="/assets/dashboard-640.webp 640w, /assets/dashboard-1024.webp 1024w, /assets/dashboard.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Cuadro de mando de ContrataLux con contratos creados, altas, incidencias, mix de cartera y rendimiento del equipo" width="1600" height="900" fetchpriority="high" style="width: 100%; height: auto; border-radius: 16px; border: 1px solid #D5DEE7; box-shadow: 0 20px 50px rgba(19, 32, 46, 0.18)">
 <figcaption style="font-size: 13px; color: #5A6B7C">Panel de inicio de ContrataLux (datos de demostración).</figcaption>
 </figure>
 </div>
@@ -46,7 +47,7 @@
 <!-- DATOS CLAVE (GEO: hechos citables) -->
 <section aria-labelledby="datos-clave" style="border-bottom: 1px solid #E6EBF0">
 <div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px; display: flex; flex-direction: column; gap: 18px">
-<h2 id="datos-clave" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">ContrataLux en datos</h2>
+<h2 id="datos-clave" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">ContrataLux en datos</h2>
 <dl style="margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 20px">
 <div style="display: flex; flex-direction: column; gap: 4px"><dt style="font-size: 13px; font-weight: 700; color: #5A6B7C; text-transform: uppercase; letter-spacing: 0.05em">Qué es</dt><dd style="margin: 0; font-weight: 600">CRM y ERP online para el sector energético</dd></div>
 <div style="display: flex; flex-direction: column; gap: 4px"><dt style="font-size: 13px; font-weight: 700; color: #5A6B7C; text-transform: uppercase; letter-spacing: 0.05em">Para quién</dt><dd style="margin: 0; font-weight: 600">Asesorías energéticas, agencias y redes comerciales</dd></div>
@@ -86,70 +87,70 @@
 <section id="modulos" aria-labelledby="t-modulos">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 36px">
 <div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
-<h2 id="t-modulos" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Qué hace un programa de gestión para asesorías energéticas?</h2>
+<h2 id="t-modulos" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Qué hace un programa de gestión para asesorías energéticas?</h2>
 <p style="margin: 0; font-size: 18px; color: #3D4E5F">Ordena todo lo que pasa desde que captas un cliente hasta que cobras la comisión: contratos, comisiones, liquidaciones, equipo y venta. Son 35 secciones; estas son las que más se usan.</p>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
 <a href="/modulos/gestion-contratos-luz-gas" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/contratos-tabla.webp" alt="Captura de contratos en vivo en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/contratos-tabla.webp" srcset="/assets/contratos-tabla-640.webp 640w, /assets/contratos-tabla-1024.webp 1024w, /assets/contratos-tabla.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de contratos en vivo en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Contratos en vivo</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Contratos en vivo</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Luz, gas, dual, fibra, alarmas y CAEs en una tabla en tiempo real, con Kanban, calendario y cronología de cada contrato.</p>
 </div>
 </a>
 <a href="/modulos/comisiones-comerciales" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/dashboard-2.webp" alt="Captura de comisiones de comerciales en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/dashboard-2.webp" srcset="/assets/dashboard-2-640.webp 640w, /assets/dashboard-2-1024.webp 1024w, /assets/dashboard-2.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de comisiones de comerciales en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Comisiones de comerciales</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Comisiones de comerciales</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Bruto, neto para la empresa y repartido en cada contrato. Cada comercial ve sus comisiones pendientes.</p>
 </div>
 </a>
 <a href="/modulos/retrocomisiones" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/ficha-contrato.webp" alt="Captura de retrocomisiones en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/ficha-contrato.webp" srcset="/assets/ficha-contrato-640.webp 640w, /assets/ficha-contrato-1024.webp 1024w, /assets/ficha-contrato.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de retrocomisiones en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Retrocomisiones</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Retrocomisiones</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Días que quedan de retrocomisión en cada contrato, para saber qué baja te costaría la comisión.</p>
 </div>
 </a>
 <a href="/modulos/liquidaciones-comercializadoras" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/liquidaciones.webp" alt="Captura de liquidaciones y contabilidad en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/liquidaciones.webp" srcset="/assets/liquidaciones-640.webp 640w, /assets/liquidaciones-1024.webp 1024w, /assets/liquidaciones.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de liquidaciones y contabilidad en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Liquidaciones y contabilidad</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Liquidaciones y contabilidad</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Cierre mensual por objetivos, facturado frente a cobrado y margen real después de comisiones y nóminas.</p>
 </div>
 </a>
 <a href="/modulos/calculadora-ahorro" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/calculadora-ahorro.webp" alt="Captura de calculadora de ahorro en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/calculadora-ahorro.webp" srcset="/assets/calculadora-ahorro-640.webp 640w, /assets/calculadora-ahorro-1024.webp 1024w, /assets/calculadora-ahorro.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de calculadora de ahorro en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Calculadora de ahorro</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Calculadora de ahorro</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Cuatro pasos para enseñar al cliente cuánto ahorra, para particulares, comunidades, autónomos y empresas.</p>
 </div>
 </a>
 <a href="/modulos/comparador-tarifas" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/comparador.webp" alt="Comparativa de tarifas de ContrataLux con filtros por suministro, tipo de cliente, consumo y potencias" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/comparador.webp" srcset="/assets/comparador-640.webp 640w, /assets/comparador-1024.webp 1024w, /assets/comparador.webp 1680w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Comparativa de tarifas de ContrataLux con filtros por suministro, tipo de cliente, consumo y potencias" width="1680" height="620" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Comparador de tarifas</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Comparador de tarifas</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Todas tus tarifas comparadas por consumo, potencias y periodos para justificar el cambio.</p>
 </div>
 </a>
 <a href="/modulos/crm-leads" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/lead-ficha.webp" alt="Captura de leads y captadores con QR en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/lead-ficha.webp" srcset="/assets/lead-ficha-640.webp 640w, /assets/lead-ficha-1024.webp 1024w, /assets/lead-ficha.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de leads y captadores con QR en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Leads y captadores con QR</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Leads y captadores con QR</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Embudo de oportunidades y red de colaboradores con QR personal y comisión automática.</p>
 </div>
 </a>
 <a href="/modulos/certificados-ahorro-energetico" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/caes.webp" alt="Captura de certificados de Ahorro Energético en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/caes.webp" srcset="/assets/caes-640.webp 640w, /assets/caes-1024.webp 1024w, /assets/caes.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de certificados de Ahorro Energético en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Certificados de Ahorro Energético</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Certificados de Ahorro Energético</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Expedientes de CAE vinculados al contrato, del preanálisis a la emisión y la liquidación.</p>
 </div>
 </a>
 <a href="/modulos/bot-atr" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column">
-<img src="/assets/bot-atr.webp" alt="Captura de bot ATR en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
+<img src="/assets/bot-atr.webp" srcset="/assets/bot-atr-640.webp 640w, /assets/bot-atr-1024.webp 1024w, /assets/bot-atr.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Captura de bot ATR en ContrataLux" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; display: block; border-bottom: 1px solid #E1E7EE">
 <div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Bot ATR</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Bot ATR</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Solo si lo pides: un robot sube los contratos de Naturgy a su plataforma ATR. Servicio aparte.</p>
 </div>
 </a>
@@ -164,21 +165,22 @@
 <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
 <div style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
 <p style="margin: 0; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #0B7A70">Usuarios para tu equipo</p>
-<h2 id="t-equipo" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Tu equipo trabaja desde donde esté y tú lo revisas antes de enviarlo</h2>
+<h2 id="t-equipo" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Tu equipo trabaja desde donde esté y tú lo revisas antes de enviarlo</h2>
 <p style="margin: 0; font-size: 18px; color: #3D4E5F">Cada empleado o colaborador tiene su propio usuario. Da igual que esté en España o en otro país: ContrataLux funciona en el navegador, así que cualquiera de tu equipo puede registrar cualquier contrato, de cualquier suministro y de cualquier provincia.</p>
 <p style="margin: 0; font-size: 18px; color: #3D4E5F">El contrato queda registrado en el CRM, pero no se sube a la comercializadora hasta que tú o tu gerencia lo revisáis: compruebas los datos y la documentación, apruebas los casos dudosos (por ejemplo, un CUPS que ya tenía otro comercial) y solo entonces se hace el alta.</p>
 </div>
 <figure style="flex: 1 1 420px; min-width: 0; margin: 0">
-<img src="/assets/usuarios.webp" alt="Gestión de usuarios de ContrataLux con gerencias, grupos, conectados y cuentas bloqueadas" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; border-radius: 16px; border: 1px solid #D5DEE7; box-shadow: 0 16px 40px rgba(19, 32, 46, 0.14)">
+<img src="/assets/usuarios.webp" srcset="/assets/usuarios-640.webp 640w, /assets/usuarios-1024.webp 1024w, /assets/usuarios.webp 1600w" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="Gestión de usuarios de ContrataLux con gerencias, grupos, conectados y cuentas bloqueadas" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; border-radius: 16px; border: 1px solid #D5DEE7; box-shadow: 0 16px 40px rgba(19, 32, 46, 0.14)">
 </figure>
 </div>
 <div style="display: flex; flex-direction: column; gap: 18px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 26px; color: #13202E">¿Qué ganas con usuarios con permisos?</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 26px; color: #13202E">¿Qué ganas con usuarios con permisos?</h3>
+<p style="margin: 0; font-size: 18px; color: #3D4E5F">Con usuarios con permisos en ContrataLux, cada comercial ve solo sus clientes, contratos y comisiones; la oficina revisa cada contrato antes del alta; cada oficina o red trabaja con sus propias reglas, y cada cambio queda registrado en una cronología auditada.</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px">
-<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Cada uno ve lo suyo</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Un comercial ve sus clientes, sus contratos y sus comisiones; no los de los demás. Los datos de tu cartera quedan protegidos.</p></div>
-<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Supervisión antes del alta</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Los contratos pasan por revisión, y la bandeja de desbloqueos decide cuando dos comerciales registran el mismo CUPS.</p></div>
-<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Oficinas y redes con sus reglas</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Cada gerencia tiene sus miembros, su forma de pago, sus contratos mínimos y sus comercializadoras permitidas.</p></div>
-<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Todo queda registrado</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Quién creó, cambió o aprobó cada contrato y cuándo, con doble factor (2FA), registro de accesos y control horario por sesiones.</p></div>
+<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Cada uno ve lo suyo</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Un comercial ve sus clientes, sus contratos y sus comisiones; no los de los demás. Los datos de tu cartera quedan protegidos.</p></div>
+<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Supervisión antes del alta</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Los contratos pasan por revisión, y la bandeja de desbloqueos decide cuando dos comerciales registran el mismo CUPS.</p></div>
+<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Oficinas y redes con sus reglas</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Cada gerencia tiene sus miembros, su forma de pago, sus contratos mínimos y sus comercializadoras permitidas.</p></div>
+<div style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><h4 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Todo queda registrado</h4><p style="margin: 0; font-size: 15px; color: #4A5B6C">Quién creó, cambió o aprobó cada contrato y cuándo, con doble factor (2FA), registro de accesos y control horario por sesiones.</p></div>
 </div>
 <a href="/modulos/equipo-y-permisos" style="align-self: flex-start; font-weight: 700; padding: 6px 0">Ver equipo y permisos →</a>
 </div>
@@ -189,7 +191,7 @@
 </figure>
 <div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #0B7A70">Área del cliente</p>
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 30px; line-height: 1.2; color: #13202E">Tus clientes consultan lo suyo sin llamarte</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 30px; line-height: 1.2; color: #13202E">Tus clientes consultan lo suyo sin llamarte</h3>
 <p style="margin: 0; font-size: 17px; color: #3D4E5F">Tus clientes tienen su propia área en la web: entran con su usuario (su DNI, NIE o CIF) y su contraseña desde el móvil o el ordenador, sin instalar nada, y consultan sus contratos cuando quieren. Si olvidan la contraseña, la recuperan por correo. Y si tu negocio lo necesita, también te hacemos una app.</p>
 <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; color: #22313F">
 <li>Acceso web con usuario y contraseña, y recuperación por correo</li>
@@ -207,38 +209,38 @@
 <!-- CÓMO FUNCIONA (HowTo) -->
 <section aria-labelledby="t-como" style="background: #F6F8FB">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 36px">
-<h2 id="t-como" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Cómo se trabaja con ContrataLux?</h2>
+<h2 id="t-como" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Cómo se trabaja con ContrataLux?</h2>
 <ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px">
 <li style="background: #FFFFFF; border-radius: 16px; padding: 26px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Kanit', sans-serif; font-size: 34px; font-weight: 600; color: #FF6A00">1</span>
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Capta y compara</h3>
+<span style="font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 34px; font-weight: 600; color: #FF6A00">1</span>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Capta y compara</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">El lead entra por la web, un captador con QR o una llamada. Con la calculadora de ahorro y el comparador enseñas al cliente cuánto ahorra.</p>
 </li>
 <li style="background: #FFFFFF; border-radius: 16px; padding: 26px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Kanit', sans-serif; font-size: 34px; font-weight: 600; color: #FF6A00">2</span>
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Da de alta y tramita</h3>
+<span style="font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 34px; font-weight: 600; color: #FF6A00">2</span>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Da de alta y tramita</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">El alta guiada trae la comercializadora y su tarifa. Luego subes el alta a la comercializadora tú mismo o con PIX; para Naturgy puedes pedir aparte el robot que la sube solo. El seguimiento avisa de bloqueos e incidencias.</p>
 </li>
 <li style="background: #FFFFFF; border-radius: 16px; padding: 26px; display: flex; flex-direction: column; gap: 10px">
-<span style="font-family: 'Kanit', sans-serif; font-size: 34px; font-weight: 600; color: #FF6A00">3</span>
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Cobra y controla</h3>
+<span style="font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 34px; font-weight: 600; color: #FF6A00">3</span>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Cobra y controla</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Liquidas por objetivos, ves el margen real de la empresa y vigilas la retrocomisión y los vencidos para no perder ni una comisión.</p>
 </li>
 </ol>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
 <div style="background: #FFFFFF; border: 2px solid #12B5A6; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 10px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Tú eliges los suministros</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Tú eliges los suministros</h3>
 <p style="margin: 0; font-size: 16px; color: #3D4E5F">Tú eliges qué suministros gestionas: luz, gas, dual, fibra, telefonía, alarmas, CAEs o cualquier otro que vendas, dándolo de alta con su proveedor. Activas solo los que trabajas y añades más cuando quieras. <a href="/suministros">Ver suministros</a></p>
 </div>
 <div style="background: #FFFFFF; border: 2px solid #FFB000; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 10px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">El contrato no se sube solo a la comercializadora</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">El contrato no se sube solo a la comercializadora</h3>
 <p style="margin: 0; font-size: 16px; color: #3D4E5F">ContrataLux recoge y organiza los datos de cada contrato, pero no lo sube a la comercializadora: el alta la haces tú en su plataforma, o con PIX. Solo si lo pides, para Naturgy hay un robot que sube los contratos automáticamente, y es un servicio aparte. <a href="/modulos/bot-atr">Ver el robot de Naturgy</a></p>
 </div>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: center; background: #FFFFFF; border-radius: 18px; padding: 24px">
-<video controls preload="metadata" playsinline="{{true}}" poster="/assets/video-poster.jpg" aria-label="Vídeo de demostración de ContrataLux: panel, contratos, Kanban, calculadora de ahorro, mercado energético, CAEs, informes y bot ATR" style="flex: 1 1 420px; min-width: 0; width: 100%; aspect-ratio: 16 / 9; background: #13202E; border-radius: 14px"><source src="/assets/video.mp4" type="video/mp4"></video>
+<video controls preload="none" playsinline="{{true}}" poster="/assets/video-poster.jpg" aria-label="Vídeo de demostración de ContrataLux: panel, contratos, Kanban, calculadora de ahorro, mercado energético, CAEs, informes y bot ATR" style="flex: 1 1 420px; min-width: 0; width: 100%; aspect-ratio: 16 / 9; background: #13202E; border-radius: 14px"><source src="/assets/video.mp4" type="video/mp4"></video>
 <div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 24px; color: #13202E">Mira ContrataLux en 30 segundos</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 24px; color: #13202E">Mira ContrataLux en 30 segundos</h3>
 <p style="margin: 0; font-size: 16px; color: #4A5B6C">Panel de inicio, tabla de contratos en vivo, ficha con comisiones y cronología, Kanban, calculadora de ahorro, mercado energético, CAEs, informes y bot ATR.</p>
 <a href="/implantacion" style="font-weight: 700">Cómo empezar y pasar tus datos →</a>
 </div>
@@ -249,7 +251,7 @@
 <!-- COMPARATIVA (AEO: tabla) -->
 <section aria-labelledby="t-excel">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
-<h2 id="t-excel" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Excel o un programa de gestión?</h2>
+<h2 id="t-excel" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Excel o un programa de gestión?</h2>
 <div style="overflow-x: auto; border: 1px solid #E1E7EE; border-radius: 16px">
 <table style="width: 100%; min-width: 620px; border-collapse: collapse; font-size: 16px">
 <thead><tr style="background: #13202E; color: #FFFFFF; text-align: left"><th scope="col" style="padding: 14px 18px">Tarea</th><th scope="col" style="padding: 14px 18px">Con Excel</th><th scope="col" style="padding: 14px 18px">Con ContrataLux</th></tr></thead>
@@ -272,7 +274,7 @@
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
 <div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
 <p style="margin: 0; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #FFC21A">Herramienta gratis</p>
-<h2 id="t-comparador" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15">Comparador de tarifas de luz gratis para asesores</h2>
+<h2 id="t-comparador" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15">Comparador de tarifas de luz gratis para asesores</h2>
 <p style="margin: 0; font-size: 18px; color: #C9D4DF">Introduce el consumo y la potencia de la factura y obtén la comparativa. Dentro del CRM, la calculadora de ahorro y el panel de precios REE / eSIOS hacen lo mismo con todas las tarifas.</p>
 <a href="/herramientas/comparador-de-tarifas" style="align-self: flex-start; background: #FFB000; color: #13202E; font-weight: 700; text-decoration: none; padding: 15px 26px; border-radius: 12px">Probar el comparador</a>
 </div>
@@ -285,7 +287,7 @@
 <li><a href="/herramientas/calculadora-comisiones" style="display: block; color: #FFFFFF; text-decoration: none; border: 1px solid #2C4157; border-radius: 10px; padding: 12px 14px">Calculadora de comisiones</a></li>
 </ul>
 <figure style="flex: 1 1 100%; min-width: 0; margin: 0; display: flex; flex-direction: column; gap: 10px">
-<video controls preload="metadata" playsinline="{{true}}" muted="{{true}}" autoplay="{{true}}" loop="{{true}}" poster="/assets/calc-poster.jpg" aria-label="Calculadora de ahorro de ContrataLux: del tipo de cliente al cálculo de la mejor tarifa" style="width: 100%; aspect-ratio: 16 / 9; background: #F6F8FB; border-radius: 16px; border: 1px solid #2C4157; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35)"><source src="/assets/calc-video.mp4" type="video/mp4"></video>
+<video controls playsinline="{{true}}" muted="{{true}}" loop="{{true}}" data-lazyplay="1" preload="none" poster="/assets/calc-poster.jpg" aria-label="Calculadora de ahorro de ContrataLux: del tipo de cliente al cálculo de la mejor tarifa" style="width: 100%; aspect-ratio: 16 / 9; background: #F6F8FB; border-radius: 16px; border: 1px solid #2C4157; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35)"><source src="/assets/calc-video.mp4" type="video/mp4"></video>
 <figcaption style="font-size: 14px; color: #C9D4DF">Así calcula ContrataLux el ahorro en una visita: eliges el tipo de cliente, metes sus datos, sus consumos y los importes de su factura, y te ordena las tarifas de tus comercializadoras con el ahorro de cada una. Desde ahí descargas el PDF, creas el contrato o se lo envías por email. <a href="/modulos/calculadora-ahorro" style="color: #FFC21A; font-weight: 700">Ver la calculadora de ahorro →</a></figcaption>
 </figure>
 </div>
@@ -294,7 +296,7 @@
 <!-- SOLUCIONES -->
 <section id="soluciones" aria-labelledby="t-soluciones">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
-<h2 id="t-soluciones" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Para quién es ContrataLux?</h2>
+<h2 id="t-soluciones" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Para quién es ContrataLux?</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px">
 <li><a href="/soluciones/comerciales-autonomos-energia" style="display: block; text-decoration: none; color: #13202E; background: #FFF4DA; border-radius: 999px; padding: 10px 18px; font-weight: 600">Comerciales autónomos</a></li>
 <li><a href="/soluciones/agentes-energeticos" style="display: block; text-decoration: none; color: #13202E; background: #FFF4DA; border-radius: 999px; padding: 10px 18px; font-weight: 600">Agentes energéticos</a></li>
@@ -314,30 +316,30 @@
 <section id="precios" aria-labelledby="t-precios" style="background: #F6F8FB">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
 <div style="display: flex; flex-direction: column; gap: 10px; max-width: 760px">
-<h2 id="t-precios" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Cuánto cuesta ContrataLux?</h2>
-<p style="margin: 0; font-size: 18px; color: #3D4E5F">Desde 90 € al mes + IVA. Todos los planes incluyen luz, gas, fibra y telefonía. Precios vigentes desde octubre de 2026, sin IVA.</p>
+<h2 id="t-precios" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">¿Cuánto cuesta ContrataLux?</h2>
+<p style="margin: 0; font-size: 18px; color: #3D4E5F">Desde 90 € al mes + IVA. Todos los planes incluyen luz, gas, fibra y telefonía. Precios vigentes desde octubre de 2026, sin IVA. <a href="/prueba-gratis" style="font-weight: 600">Mira qué incluye la prueba ContrataLux 7 días gratis</a>.</p>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px">
 <div style="background: #FFFFFF; border: 1px solid #E1E7EE; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Básico</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Básico</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">1 o 2 usuarios</p>
-<p style="margin: 0; font-family: 'Kanit', sans-serif; font-size: 40px; font-weight: 600; color: #13202E">90 €<span style="font-size: 16px; font-weight: 500; color: #4A5B6C"> /mes + IVA</span></p>
+<p style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 40px; font-weight: 600; color: #13202E">90 €<span style="font-size: 16px; font-weight: 500; color: #4A5B6C"> /mes + IVA</span></p>
 <a href="https://app.contratalux.com/registro" style="margin-top: auto; text-align: center; background: #13202E; color: #FFFFFF; font-weight: 700; text-decoration: none; padding: 13px; border-radius: 10px">Prueba 7 días gratis</a>
 </div>
 <div style="background: #FFFFFF; border: 2px solid #FFB000; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Equipo</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Equipo</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Hasta 10 usuarios</p>
-<p style="margin: 0; font-family: 'Kanit', sans-serif; font-size: 40px; font-weight: 600; color: #13202E">195 €<span style="font-size: 16px; font-weight: 500; color: #4A5B6C"> /mes + IVA</span></p>
+<p style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 40px; font-weight: 600; color: #13202E">195 €<span style="font-size: 16px; font-weight: 500; color: #4A5B6C"> /mes + IVA</span></p>
 <a href="https://app.contratalux.com/registro" style="margin-top: auto; text-align: center; background: #FFB000; color: #13202E; font-weight: 700; text-decoration: none; padding: 13px; border-radius: 10px">Prueba 7 días gratis</a>
 </div>
 <div style="background: #FFFFFF; border: 1px solid #E1E7EE; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Ilimitado</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Ilimitado</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Usuarios sin límite</p>
-<p style="margin: 0; font-family: 'Kanit', sans-serif; font-size: 26px; font-weight: 600; color: #13202E">Consultar con asesor</p>
+<p style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 26px; font-weight: 600; color: #13202E">Consultar con asesor</p>
 <a href="#contacto" style="margin-top: auto; text-align: center; background: #FFFFFF; color: #13202E; font-weight: 700; text-decoration: none; padding: 12px; border-radius: 10px; border: 1.5px solid #13202E">Hablar con un asesor</a>
 </div>
 <div style="background: #FFFFFF; border: 1px solid #E1E7EE; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Plataforma propia</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 22px; color: #13202E">Plataforma propia</h3>
 <p style="margin: 0; font-size: 15px; color: #4A5B6C">Tu propio programa de gestión, personalizado según la operativa de tu negocio e instalado en tu servidor, con tu marca y tu dominio. Para quien quiere el control absoluto.</p>
 <ul style="margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #3D4E5F">
 <li>En tu servidor o en uno que te preparamos e instalamos</li>
@@ -347,17 +349,17 @@
 <li>Migramos tu CRM, ERP o programa actual</li>
 <li>Mantenimiento, seguridad, copias y soporte, aparte y opcionales</li>
 </ul>
-<p style="margin: 0; font-family: 'Kanit', sans-serif; font-size: 26px; font-weight: 600; color: #13202E">Consultar con asesor</p>
+<p style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 26px; font-weight: 600; color: #13202E">Consultar con asesor</p>
 <a href="/plataforma-propia" style="font-weight: 700; color: #1557D6; font-size: 15px">Ver cómo funciona la plataforma propia →</a>
 <a href="#contacto" style="margin-top: auto; text-align: center; background: #FFFFFF; color: #13202E; font-weight: 700; text-decoration: none; padding: 12px; border-radius: 10px; border: 1.5px solid #13202E">Hablar con un asesor</a>
 </div>
 </div>
 <div style="background: #13202E; color: #FFFFFF; border-radius: 18px; padding: 24px 28px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between">
 <div style="display: flex; flex-direction: column; gap: 4px; flex: 1 1 420px; min-width: 0">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 22px">PIX, tu asesor de IA</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 22px">PIX, tu asesor de IA</h3>
 <p style="margin: 0; font-size: 15px; color: #C9D4DF">Conectado a ContrataLux: consulta tus contratos y comisiones, te avisa de lo que se atasca, redacta correos y propuestas y atiende por web, WhatsApp, correo o voz, con aprobación humana en lo sensible. <a href="/modulos/pix-asistente-ia" style="color: #FFC21A">Ver PIX, el asistente de IA</a></p>
 </div>
-<p style="margin: 0; font-family: 'Kanit', sans-serif; font-size: 28px; font-weight: 600; color: #FFC21A">desde 90 €<span style="font-size: 15px; font-weight: 500; color: #C9D4DF"> /mes + IVA</span></p>
+<p style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 28px; font-weight: 600; color: #FFC21A">desde 90 €<span style="font-size: 15px; font-weight: 500; color: #C9D4DF"> /mes + IVA</span></p>
 </div>
 </div>
 </section>
@@ -365,7 +367,7 @@
 <!-- ZONAS (SEO local + GEO) -->
 <section aria-labelledby="t-zonas">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 24px">
-<h2 id="t-zonas" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Software para asesorías energéticas en toda España</h2>
+<h2 id="t-zonas" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Software para asesorías energéticas en toda España</h2>
 <p style="margin: 0; font-size: 18px; color: #3D4E5F; max-width: 760px">Trabajamos en remoto con asesorías de toda España. Elige tu comunidad.</p>
 <ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px">
 <li><a href="/zonas/andalucia/sevilla" style="display: block; text-decoration: none; color: #13202E; border: 1px solid #E1E7EE; border-radius: 10px; padding: 12px 14px; font-weight: 600">Sevilla</a></li>
@@ -396,12 +398,12 @@
 <!-- RECURSOS -->
 <section id="recursos" aria-labelledby="t-recursos" style="background: #F6F8FB">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
-<h2 id="t-recursos" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Guía del asesor energético</h2>
+<h2 id="t-recursos" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Guía del asesor energético</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px">
-<a href="/recursos/comercializadoras" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Comercializadoras</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">Cómo trabajar como agente de cada una.</p></a>
-<a href="/recursos/negocio" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Montar tu asesoría</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">Negocio, comisiones, captación y trámites.</p></a>
-<a href="/recursos/tarifas" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Tarifas y normativa</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">2.0TD, 3.0TD, 6.1TD, gas y cambios legales.</p></a>
-<a href="/recursos/glosario" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Glosario</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">CUPS, SIPS, peajes, potencia y más.</p></a>
+<a href="/recursos/comercializadoras" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Comercializadoras</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">Cómo trabajar como agente de cada una.</p></a>
+<a href="/recursos/negocio" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Montar tu asesoría</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">Negocio, comisiones, captación y trámites.</p></a>
+<a href="/recursos/tarifas" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Tarifas y normativa</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">2.0TD, 3.0TD, 6.1TD, gas y cambios legales.</p></a>
+<a href="/recursos/glosario" style="text-decoration: none; color: #22313F; background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">Glosario</h3><p style="margin: 0; font-size: 15px; color: #4A5B6C">CUPS, SIPS, peajes, potencia y más.</p></a>
 </div>
 </div>
 </section>
@@ -409,18 +411,18 @@
 <!-- BENEFICIOS (sin opiniones hasta tener reseñas reales) -->
 <section aria-labelledby="t-opiniones" style="background: #F6F8FB">
 <div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
-<h2 id="t-opiniones" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Lo que cambia en tu asesoría con ContrataLux</h2>
+<h2 id="t-opiniones" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Lo que cambia en tu asesoría con ContrataLux</h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px">
 <div style="background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 10px; border-top: 4px solid #FFB000">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Ninguna comisión se pierde</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">Ninguna comisión se pierde</h3>
 <p style="margin: 0; font-size: 16px; color: #3D4E5F">La retrocomisión cuenta los días en cada contrato, los vencidos salen en una lista para llamar y las liquidaciones cruzan lo facturado con lo cobrado.</p>
 </div>
 <div style="background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 10px; border-top: 4px solid #FFB000">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">El gerente ve el negocio en una pantalla</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">El gerente ve el negocio en una pantalla</h3>
 <p style="margin: 0; font-size: 16px; color: #3D4E5F">Contratos bloqueados de más de 48 horas, rendimiento por comercial, cuota por comercializadora y comisiones pendientes, cada uno con su ámbito de acceso.</p>
 </div>
 <div style="background: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 10px; border-top: 4px solid #FFB000">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">El comercial cierra en la misma visita</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 21px; color: #13202E">El comercial cierra en la misma visita</h3>
 <p style="margin: 0; font-size: 16px; color: #3D4E5F">Calculadora de ahorro en cuatro pasos, todas tus tarifas comparadas y el precio de la luz de hoy para elegir entre fijo e indexado.</p>
 </div>
 </div>
@@ -431,65 +433,65 @@
 <!-- FAQ (AEO) -->
 <section aria-labelledby="t-faq">
 <div style="max-width: 860px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 20px">
-<h2 id="t-faq" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Preguntas frecuentes</h2>
+<h2 id="t-faq" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 38px; line-height: 1.15; color: #13202E">Preguntas frecuentes</h2>
 <details open style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Qué es un programa de gestión para asesorías energéticas?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Qué es un programa de gestión para asesorías energéticas?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Es un CRM que centraliza los contratos que vende una asesoría (luz, gas, dual, fibra, alarmas y CAEs), el trabajo de sus comerciales y el dinero que cobra de cada comercializadora: comisiones, retrocomisiones y liquidaciones. Sustituye al Excel y evita perder comisiones.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Cuánto cuesta ContrataLux?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Cuánto cuesta ContrataLux?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">El plan Básico cuesta 90 € al mes + IVA para 1 o 2 usuarios y el plan Equipo 195 € al mes + IVA para hasta 10. Para usuarios ilimitados o una plataforma en tu propio servidor, consulta con un asesor.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Se puede probar gratis?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Se puede probar gratis?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí. Tienes 7 días de prueba gratis para registrar contratos, configurar comisiones y comparar tarifas con tu equipo antes de elegir plan.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Sirve si estoy empezando como asesor energético?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Sirve si estoy empezando como asesor energético?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí. El plan Básico está pensado para 1 o 2 personas: registras tus primeros contratos, tus comisiones y tus clientes desde el primer día, y cambias de plan cuando crezca el equipo.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo pasar mis datos desde Excel o desde otro programa?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo pasar mis datos desde Excel o desde otro programa?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí. Tienes tres opciones: los migramos nosotros, los pasas tú a mano o lo hace PIX, el asistente de IA. Y si algún día te vas, tus datos salen a Excel en un clic: contratos, clientes, leads, liquidaciones y más.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Cuánto se tarda en empezar a usarlo?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Cuánto se tarda en empezar a usarlo?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Empiezas en cuanto te damos el acceso: las comercializadoras y sus tarifas ya vienen cargadas. Si quieres tu propia plataforma o más personalización, es un desarrollo aparte que depende de lo que necesites.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo gestionar varios CUPS por cliente?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo gestionar varios CUPS por cliente?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí. Cada cliente puede tener varios puntos de suministro de luz y gas, cada uno con su contrato, su tarifa, su potencia y su comercializadora.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo elegir qué suministros gestiono?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo elegir qué suministros gestiono?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Tú eliges qué suministros gestionas: luz, gas, dual, fibra, telefonía, alarmas, CAEs o cualquier otro que vendas, dándolo de alta con su proveedor. Activas solo los que trabajas y añades más cuando quieras. Cada contrato lleva su comercializadora, su tarifa y su comisión, con tarifas 2.0TD, 3.0TD y de alta tensión.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿ContrataLux sube los contratos a la comercializadora?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿ContrataLux sube los contratos a la comercializadora?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">ContrataLux recoge y organiza los datos de cada contrato, pero no lo sube a la comercializadora: el alta la haces tú en su plataforma, o con PIX. Solo si lo pides, para Naturgy hay un robot que sube los contratos automáticamente, y es un servicio aparte.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Mis comerciales pueden trabajar desde fuera de España?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Mis comerciales pueden trabajar desde fuera de España?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí. Cada empleado tiene su usuario y entra desde el navegador, esté en España o en otro país. Puede registrar cualquier contrato y tú lo revisas antes de que se suba a la comercializadora.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Qué es el área del cliente?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Qué es el área del cliente?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Un acceso para que cada cliente consulte el estado de sus contratos con su DNI o CIF, sin llamar a tu oficina. Si olvida el acceso, lo recupera por correo.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo tener el programa en mi propio servidor?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Puedo tener el programa en mi propio servidor?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí, con el plan Plataforma propia: se adapta a la operativa de tu negocio (procesos, estados, informes y módulos a medida) y se instala en tu servidor, con tu dominio y tu marca. Tú controlas los datos y los accesos. Es un desarrollo a medida y el precio depende de lo que necesites. <a href="/plataforma-propia" style="color: #1557D6">Ver la plataforma propia</a></p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Qué es PIX?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Qué es PIX?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">PIX es el agente de IA que se conecta a ContrataLux: consulta los datos del CRM para darte alertas e informes, y ejecuta tareas como redactar correos, preparar propuestas o atender por WhatsApp y voz, con aprobación humana en lo sensible. Desde 90 € al mes + IVA.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Gestiona Certificados de Ahorro Energético (CAE)?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Gestiona Certificados de Ahorro Energético (CAE)?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Sí. Tiene un módulo de CAE con el flujo completo del expediente (preanálisis, validación técnica, cesión, verificación, emisión y liquidación), vinculado al contrato de origen y con alertas de subsanaciones y vencimientos.</p>
 </details>
 <details style="border-bottom: 1px solid #E1E7EE; padding: 18px 0">
-<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Es seguro y cumple el RGPD?</h3></summary>
+<summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 20px; color: #13202E">¿Es seguro y cumple el RGPD?</h3></summary>
 <p style="margin: 10px 0 0; color: #3D4E5F">Incluye doble factor (2FA), registro de accesos, bloqueo por intentos fallidos y un registro de sucesos con más de 30 tipos de acción. El consentimiento RGPD de cada cliente se pide por email o WhatsApp y solo se guarda con aceptación expresa.</p>
 </details>
 </div>
@@ -499,7 +501,7 @@
 <section id="partners" style="background: #FFF4DA">
 <div style="max-width: 1200px; margin: 0 auto; padding: 64px 24px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 8px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 34px; line-height: 1.15; color: #13202E">Deja el Excel y ordena tu asesoría</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 34px; line-height: 1.15; color: #13202E">Deja el Excel y ordena tu asesoría</h2>
 <p style="margin: 0; font-size: 17px; color: #3D4E5F">¿Tienes tus contratos en Excel? <a href="/implantacion">Te los migramos</a>. ¿Tienes una red de agentes? <a href="/hazte-partner">Colabora con ContrataLux como canal</a>.</p>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
@@ -517,12 +519,13 @@
 <main style="max-width: 1040px; margin: 0 auto; padding: 28px 24px 72px; display: flex; flex-direction: column; gap: 28px">
 <nav aria-label="Ruta" style="display: flex; flex-wrap: wrap; gap: 6px; font-size: 14px; color: #5A6B7C">
 <sc-for list="{{crumbs}}" as="c" hint-placeholder-count="2"><span><a href="{{c.u}}" style="color: #1557D6">{{c.l}}</a> ›</span></sc-for>
-<span style="color: #22313F">{{page.l}}</span>
+<span style="color: #22313F">{{crumbLast}}</span>
 </nav>
 <div style="display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #0B7A70">{{page.kick}}</p>
-<h1 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 46px; line-height: 1.1; color: #13202E">{{page.h1}}</h1>
+<h1 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 46px; line-height: 1.1; color: #13202E">{{page.h1}}</h1>
 <sc-if value="{{isArticle}}" hint-placeholder-val="{{false}}"><p style="margin: 0; font-size: 14px; color: #5A6B7C">Por <a href="/sobre-nosotros" style="color: #1557D6">el equipo de ContrataLux</a> · Actualizado el <time datetime="{{page.upd}}">{{updText}}</time></p></sc-if>
+<sc-if value="{{showUpd}}" hint-placeholder-val="{{false}}"><p style="margin: 0; font-size: 14px; color: #5A6B7C">Actualizada el <time datetime="{{page.upd}}">{{updText}}</time></p></sc-if>
 </div>
 <div style="display: flex; flex-direction: column; gap: 14px">
 <sc-for list="{{page.intro}}" as="x" hint-placeholder-count="2"><p style="margin: 0; font-size: 19px; line-height: 1.6; color: #3D4E5F">{{x.t}}</p></sc-for>
@@ -530,7 +533,7 @@
 
 <sc-if value="{{hasTool}}" hint-placeholder-val="{{false}}">
 <section id="calculadora" aria-labelledby="t-tool" style="background: #F6F8FB; border: 1px solid #E1E7EE; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 16px">
-<div style="display: flex; flex-direction: column; gap: 6px"><h2 id="t-tool" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 28px; color: #13202E">{{tool.title}}</h2><p style="margin: 0; color: #3D4E5F">{{tool.lead}}</p></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><h2 id="t-tool" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 28px; color: #13202E">{{tool.title}}</h2><p style="margin: 0; color: #3D4E5F">{{tool.lead}}</p></div>
 <form onsubmit="{{runTool}}" style="display: flex; flex-direction: column; gap: 18px">
 <sc-for list="{{tool.groups}}" as="g" hint-placeholder-count="2">
 <fieldset style="border: 0; margin: 0; padding: 0; min-width: 0; display: flex; flex-direction: column; gap: 8px">
@@ -545,7 +548,7 @@
 <sc-if value="{{hasToolErr}}" hint-placeholder-val="{{false}}"><p role="alert" style="margin: 0; color: #B42318; font-weight: 600">{{toolErr}}</p></sc-if>
 <sc-if value="{{hasToolRes}}" hint-placeholder-val="{{false}}">
 <div role="status" aria-live="polite" style="background: #FFFFFF; border: 1px solid #E1E7EE; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 10px">
-<h3 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Resultado</h3>
+<h3 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Resultado</h3>
 <dl style="margin: 0; display: flex; flex-direction: column; gap: 8px">
 <sc-for list="{{toolRes}}" as="r" hint-placeholder-count="3"><div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; border-bottom: 1px solid #EEF2F6; padding-bottom: 8px"><dt style="color: #3D4E5F">{{r.l}}</dt><dd style="{{r.st}}">{{r.v}}</dd></div></sc-for>
 </dl>
@@ -558,21 +561,21 @@
 
 <sc-if value="{{hasImg}}" hint-placeholder-val="{{false}}">
 <figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
-<img src="{{page.img}}" alt="{{imgAlt}}" width="1600" height="900" loading="lazy" style="width: 100%; height: auto; border-radius: 14px; border: 1px solid #E1E7EE; box-shadow: 0 10px 30px rgba(19, 32, 46, 0.10)">
+<img src="{{page.img}}" srcset="{{imgSrcset}}" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="{{imgAlt}}" width="{{imgW}}" height="{{imgH}}" loading="lazy" style="width: 100%; height: auto; border-radius: 14px; border: 1px solid #E1E7EE; box-shadow: 0 10px 30px rgba(19, 32, 46, 0.10)">
 <figcaption style="font-size: 13px; color: #5A6B7C">{{imgAlt}}.</figcaption>
 </figure>
 </sc-if>
 
 <sc-if value="{{hasVid}}" hint-placeholder-val="{{false}}">
 <figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
-<video controls preload="metadata" poster="{{page.vidPoster}}" autoplay="{{true}}" muted="{{true}}" loop="{{true}}" playsinline="{{true}}" aria-label="{{page.vidCap}}" style="width: 100%; aspect-ratio: 16 / 9; border-radius: 14px; border: 1px solid #E1E7EE; box-shadow: 0 10px 30px rgba(19, 32, 46, 0.10); background: #F6F8FB"><source src="{{page.vid}}" type="video/mp4"></video>
+<video controls preload="none" data-lazyplay="1" poster="{{page.vidPoster}}" muted="{{true}}" loop="{{true}}" playsinline="{{true}}" aria-label="{{page.vidCap}}" style="width: 100%; aspect-ratio: 16 / 9; border-radius: 14px; border: 1px solid #E1E7EE; box-shadow: 0 10px 30px rgba(19, 32, 46, 0.10); background: #F6F8FB"><source src="{{page.vid}}" type="video/mp4"></video>
 <figcaption style="font-size: 13px; color: #5A6B7C">{{page.vidCap}}</figcaption>
 </figure>
 </sc-if>
 
 <sc-if value="{{hasImg2}}" hint-placeholder-val="{{false}}">
 <figure style="margin: 0; display: flex; flex-direction: column; gap: 8px">
-<img src="{{page.img2}}" alt="{{page.img2Cap}}" loading="lazy" style="width: 100%; height: auto; border-radius: 14px; border: 1px solid #E1E7EE; box-shadow: 0 10px 30px rgba(19, 32, 46, 0.10)">
+<img src="{{page.img2}}" srcset="{{img2Srcset}}" sizes="(max-width: 720px) calc(100vw - 48px), 1024px" alt="{{page.img2Cap}}" width="{{img2W}}" height="{{img2H}}" loading="lazy" style="width: 100%; height: auto; border-radius: 14px; border: 1px solid #E1E7EE; box-shadow: 0 10px 30px rgba(19, 32, 46, 0.10)">
 <figcaption style="font-size: 13px; color: #5A6B7C">{{page.img2Cap}}</figcaption>
 </figure>
 </sc-if>
@@ -580,14 +583,14 @@
 <sc-if value="{{hasF}}" hint-placeholder-val="{{false}}">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; align-items: start">
 <section style="border: 1px solid #E1E7EE; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 24px; color: #13202E">{{fTitle}}</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 24px; color: #13202E">{{fTitle}}</h2>
 <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; color: #3D4E5F">
 <sc-for list="{{page.f}}" as="x" hint-placeholder-count="4"><li>{{x.t}}</li></sc-for>
 </ul>
 </section>
 <sc-if value="{{hasB}}" hint-placeholder-val="{{false}}">
 <section style="background: #FFF4DA; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 24px; color: #13202E">Qué ganas</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 24px; color: #13202E">Qué ganas</h2>
 <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; color: #22313F">
 <sc-for list="{{page.b}}" as="x" hint-placeholder-count="3"><li>{{x.t}}</li></sc-for>
 </ul>
@@ -600,7 +603,7 @@
 <div style="display: flex; flex-direction: column; gap: 30px">
 <sc-for list="{{page.sec}}" as="s" hint-placeholder-count="3">
 <section style="display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 30px; line-height: 1.2; color: #13202E">{{s.h}}</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 30px; line-height: 1.2; color: #13202E">{{s.h}}</h2>
 <sc-for list="{{s.p}}" as="x" hint-placeholder-count="2"><p style="margin: 0; font-size: 17px; line-height: 1.65; color: #3D4E5F">{{x.t}}</p></sc-for>
 <sc-if value="{{s.hasLi}}" hint-placeholder-val="{{false}}"><ul style="margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; font-size: 17px; color: #22313F"><sc-for list="{{s.li}}" as="x" hint-placeholder-count="3"><li>{{x.t}}</li></sc-for></ul></sc-if>
 <sc-if value="{{s.hasTb}}" hint-placeholder-val="{{false}}"><div style="overflow-x: auto; border: 1px solid #E1E7EE; border-radius: 14px"><table style="width: 100%; border-collapse: collapse; font-size: 16px; color: #22313F; min-width: 480px"><caption style="caption-side: bottom; text-align: left; padding: 10px 14px; font-size: 13px; color: #5A6B7C">{{s.cap}}</caption><thead style="background: #F6F8FB"><tr><th data-for="{{s.th}}" data-as="c" scope="col" style="text-align: left; padding: 12px 14px; font-weight: 700; color: #13202E; border-bottom: 1px solid #E1E7EE">{{c.t}}</th></tr></thead><tbody><tr data-for="{{s.tr}}" data-as="row"><td data-for="{{row.c}}" data-as="c" style="padding: 11px 14px; border-bottom: 1px solid #EEF2F6; vertical-align: top">{{c.t}}</td></tr></tbody></table></div></sc-if>
@@ -611,7 +614,7 @@
 
 <sc-if value="{{hasMods}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 14px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 26px; color: #13202E">Funciones que más vas a usar</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 26px; color: #13202E">Funciones que más vas a usar</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px">
 <sc-for list="{{page.mods}}" as="m" hint-placeholder-count="3"><li><a href="{{m.u}}" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; height: 100%; box-sizing: border-box"><strong style="color: #13202E">{{m.l}}</strong><span aria-hidden="true" style="font-size: 13px; color: #1557D6">→</span></a></li></sc-for>
 </ul>
@@ -620,7 +623,7 @@
 
 <sc-if value="{{hasZl}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 14px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 26px; color: #13202E">Plataforma propia en todas las comunidades</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 26px; color: #13202E">Plataforma propia en todas las comunidades</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px">
 <sc-for list="{{page.zl}}" as="z" hint-placeholder-count="6"><li><a href="{{z.u}}" style="display: block; text-decoration: none; color: #13202E; border: 1px solid #E1E7EE; border-radius: 999px; padding: 9px 15px; font-weight: 600; font-size: 15px">{{z.l}}</a></li></sc-for>
 </ul>
@@ -629,7 +632,7 @@
 
 <sc-if value="{{hasChildren}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 14px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 28px; color: #13202E">{{childrenTitle}}</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 28px; color: #13202E">{{childrenTitle}}</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px">
 <sc-for list="{{children}}" as="ch" hint-placeholder-count="6">
 <li><a href="{{ch.u}}" style="text-decoration: none; color: #22313F; border: 1px solid #E1E7EE; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; height: 100%; box-sizing: border-box"><strong style="color: #13202E">{{ch.l}}</strong><span aria-hidden="true" style="font-size: 13px; color: #1557D6">→</span></a></li>
@@ -640,9 +643,11 @@
 
 <sc-if value="{{hasClose}}" hint-placeholder-val="{{false}}"><p style="margin: 0; font-size: 18px; line-height: 1.6; color: #13202E; font-weight: 500">{{page.close}}</p></sc-if>
 
+<sc-if value="{{isIntegration}}" hint-placeholder-val="{{false}}"><p style="margin: 0; font-size: 15px; line-height: 1.55; color: #4A5B6C">{{integrationNote}}</p></sc-if>
+
 <sc-if value="{{hasSrc}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 10px; border-top: 1px solid #E1E7EE; padding-top: 18px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 20px; color: #13202E">Fuentes oficiales</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 20px; color: #13202E">Fuentes oficiales</h2>
 <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
 <sc-for list="{{page.src}}" as="sr" hint-placeholder-count="1"><li><a href="{{sr.u}}" target="_blank" rel="noopener">{{sr.l}}</a></li></sc-for>
 </ul>
@@ -651,7 +656,7 @@
 
 <sc-if value="{{hasLk}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Sigue leyendo</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Sigue leyendo</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px">
 <sc-for list="{{page.lk}}" as="l" hint-placeholder-count="3"><li><a href="{{l.u}}" style="font-weight: 600; font-size: 17px">{{l.l}}<span aria-hidden="true"> →</span></a></li></sc-for>
 </ul>
@@ -660,16 +665,16 @@
 
 <sc-if value="{{hasFaq}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 4px">
-<h2 style="margin: 0 0 8px; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 28px; color: #13202E">Preguntas frecuentes</h2>
+<h2 style="margin: 0 0 8px; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 28px; color: #13202E">Preguntas frecuentes</h2>
 <sc-for list="{{faqs}}" as="fq" hint-placeholder-count="3">
-<details style="border-bottom: 1px solid #E1E7EE; padding: 14px 0"><summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">{{fq.q}}</h3></summary><p style="margin: 8px 0 0; color: #3D4E5F">{{fq.a}}</p></details>
+<details style="border-bottom: 1px solid #E1E7EE; padding: 14px 0"><summary><h3 style="margin: 0; display: inline; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">{{fq.q}}</h3></summary><p style="margin: 8px 0 0; color: #3D4E5F">{{fq.a}}</p></details>
 </sc-for>
 </section>
 </sc-if>
 
 <sc-if value="{{hasRelated}}" hint-placeholder-val="{{false}}">
 <section style="display: flex; flex-direction: column; gap: 12px">
-<h2 style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Más en esta sección</h2>
+<h2 style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 22px; color: #13202E">Más en esta sección</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px">
 <sc-for list="{{related}}" as="r" hint-placeholder-count="4"><li><a href="{{r.u}}" style="display: block; text-decoration: none; color: #13202E; background: #FFF4DA; border-radius: 999px; padding: 10px 16px; font-weight: 600">{{r.l}}</a></li></sc-for>
 </ul>
@@ -677,7 +682,7 @@
 </sc-if>
 
 <div style="background: #13202E; color: #FFFFFF; border-radius: 18px; padding: 28px; display: flex; flex-wrap: wrap; gap: 18px; align-items: center; justify-content: space-between">
-<div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 360px; min-width: 0"><p style="margin: 0; font-family: 'Kanit', sans-serif; font-size: 24px; font-weight: 600">Ordena tu asesoría con ContrataLux</p><p style="margin: 0; color: #C9D4DF">Luz, gas, dual, fibra, alarmas y CAEs en un solo CRM. Desde 90 € al mes {{taxText}}.</p></div>
+<div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 360px; min-width: 0"><p style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-size: 24px; font-weight: 600">Ordena tu asesoría con ContrataLux</p><p style="margin: 0; color: #C9D4DF">Luz, gas, dual, fibra, alarmas y CAEs en un solo CRM. Desde 90 € al mes {{taxText}}.</p></div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px"><a href="https://app.contratalux.com/registro" style="background: #FFB000; color: #13202E; font-weight: 700; text-decoration: none; padding: 14px 22px; border-radius: 12px">Prueba 7 días gratis</a><a href="/demo" style="background: #FFFFFF; color: #13202E; font-weight: 700; text-decoration: none; padding: 14px 22px; border-radius: 12px">Pide tu demo</a></div>
 </div>
 </main>
@@ -689,16 +694,18 @@
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 28px; font-size: 15px">
 <div style="display: flex; flex-direction: column; gap: 12px">
 <img src="/assets/logo-contratalux-oscuro.png" alt="ContrataLux" width="640" height="206" style="height: 64px; width: auto; align-self: flex-start">
-<p style="margin: 0">ContrataLux es un producto de Inteligenthia Sevilla SL · NIF [NIF] · Calle Betis 3, 41449 Alcolea del Río (Sevilla) · <a href="tel:+34601869668" style="color: #C9D4DF">601 869 668</a> · <a href="mailto:info@contratalux.com" style="color: #C9D4DF">info@contratalux.com</a></p>
+<p style="margin: 0">ContrataLux es un producto de Inteligenthia Sevilla SL · NIF B88763818 · Calle Betis 3, 41449 Alcolea del Río (Sevilla) · <a href="tel:+34601869668" style="color: #C9D4DF">601 869 668</a> · <a href="mailto:info@contratalux.com" style="color: #C9D4DF">info@contratalux.com</a></p>
+<!--SOCIAL-->
 </div>
-<nav aria-label="Producto" style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; color: #FFFFFF">Producto</span><a href="/modulos" style="color: #C9D4DF">Funciones</a><a href="/suministros" style="color: #C9D4DF">Suministros</a><a href="/precios" style="color: #C9D4DF">Planes</a><a href="/integraciones" style="color: #C9D4DF">Integraciones</a><a href="/plataforma-propia" style="color: #C9D4DF">Plataforma propia</a><a href="/seguridad-y-rgpd" style="color: #C9D4DF">Seguridad y RGPD</a></nav>
+<nav aria-label="Producto" style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; color: #FFFFFF">Producto</span><a href="/modulos" style="color: #C9D4DF">Funciones</a><a href="/suministros" style="color: #C9D4DF">Suministros</a><a href="/precios" style="color: #C9D4DF">Planes</a><a href="/prueba-gratis" style="color: #C9D4DF">Prueba gratis</a><a href="/integraciones" style="color: #C9D4DF">Integraciones</a><a href="/plataforma-propia" style="color: #C9D4DF">Plataforma propia</a><a href="/seguridad-y-rgpd" style="color: #C9D4DF">Seguridad y RGPD</a></nav>
 <nav aria-label="Herramientas" style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; color: #FFFFFF">Herramientas</span><a href="/herramientas/comparador-de-tarifas" style="color: #C9D4DF">Comparador de tarifas</a><a href="/herramientas" style="color: #C9D4DF">Calculadoras</a><a href="/comparativas" style="color: #C9D4DF">Comparativas</a></nav>
 <nav aria-label="Recursos" style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; color: #FFFFFF">Recursos</span><a href="/recursos" style="color: #C9D4DF">Biblioteca</a><a href="/recursos/glosario" style="color: #C9D4DF">Glosario</a><a href="/zonas" style="color: #C9D4DF">Zonas</a></nav>
-<nav aria-label="Empresa" style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; color: #FFFFFF">Empresa</span><a href="/sobre-nosotros" style="color: #C9D4DF">Sobre nosotros</a><a href="/hazte-partner" style="color: #C9D4DF">Colabora como canal</a><a href="/contacto" style="color: #C9D4DF">Contacto</a></nav>
+<nav aria-label="Empresa" style="display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; color: #FFFFFF">Empresa</span><a href="/sobre-nosotros" style="color: #C9D4DF">Sobre nosotros</a><a href="/opiniones" style="color: #C9D4DF">Opiniones</a><a href="/implantacion" style="color: #C9D4DF">Cómo empezar</a><a href="/hazte-partner" style="color: #C9D4DF">Colabora como canal</a><a href="/contacto" style="color: #C9D4DF">Contacto</a></nav>
 </div>
 <div style="border-top: 1px solid #2C4157; padding-top: 20px; display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; font-size: 14px">
-<p style="margin: 0">© 2026 ContrataLux · Página actualizada en octubre de 2026</p>
+<p style="margin: 0">© 2026 ContrataLux · Actualizada el <time datetime="{{page.upd}}">{{updText}}</time></p>
 <nav aria-label="Legal" style="display: flex; flex-wrap: wrap; gap: 8px 20px"><a href="/aviso-legal" style="color: #C9D4DF">Aviso legal</a><a href="/politica-de-privacidad" style="color: #C9D4DF">Política de privacidad</a><a href="/politica-de-cookies" style="color: #C9D4DF">Política de cookies</a><a href="#cookies" style="color: #C9D4DF">Configurar cookies</a></nav>
+<p style="margin: 0; width: 100%; font-size: 13px; color: #9FB0C1">«Área cliente» y «Entrar» llevan al acceso de clientes, alojado en webs.labs.forgenex.com (dominio de ForgeNEX).</p>
 </div>
 </div>
 </footer>
@@ -713,7 +720,7 @@
 <div id="cookies" role="dialog" aria-labelledby="t-cookies" style="position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 10; max-width: 1000px; margin: 0 auto; background: #FFFFFF; color: #22313F; border: 1px solid #D5DEE7; border-radius: 16px; box-shadow: 0 8px 30px rgba(19, 32, 46, 0.18); padding: 20px 22px; display: flex; flex-direction: column; gap: 16px">
 <div style="display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center">
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
-<h2 id="t-cookies" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Usamos cookies</h2>
+<h2 id="t-cookies" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 500; font-size: 19px; color: #13202E">Usamos cookies</h2>
 <p style="margin: 0; font-size: 14px; color: #3D4E5F">Las técnicas hacen que la web funcione. Con tu permiso, usamos también cookies de análisis para saber qué páginas se visitan y mejorar la web. Puedes aceptarlas, rechazarlas o elegir cuáles. <a href="/politica-de-cookies">Política de cookies</a>.</p>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px">
@@ -738,7 +745,7 @@
 <div style="position: fixed; inset: 0; z-index: 20; background: rgba(19, 32, 46, 0.6); display: flex; align-items: center; justify-content: center; padding: 16px">
 <div role="dialog" aria-labelledby="t-modal" style="width: 100%; max-width: 480px; max-height: 90vh; overflow-y: auto; background: #FFFFFF; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
-<h2 id="t-modal" style="margin: 0; font-family: 'Kanit', sans-serif; font-weight: 600; font-size: 26px; line-height: 1.15; color: #13202E">{{modalTitle}}</h2>
+<h2 id="t-modal" style="margin: 0; font-family: 'Kanit', 'Kanit Fallback', sans-serif; font-weight: 600; font-size: 26px; line-height: 1.15; color: #13202E">{{modalTitle}}</h2>
 <button type="button" onClick="{{closeModal}}" aria-label="Cerrar" style="font: inherit; font-size: 22px; width: 44px; height: 44px; border: none; background: #F1F4F8; border-radius: 10px; cursor: pointer; color: #13202E">×</button>
 </div>
 <sc-if value="{{formPending}}" hint-placeholder-val="{{true}}">

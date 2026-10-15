@@ -4,7 +4,7 @@ class DCLogic {
   constructor(props) { this.props = props || {}; this.state = {}; }
   setState(p) { this.state = Object.assign({}, this.state, typeof p === 'function' ? p(this.state) : p); scheduleRender(); }
 }
-let comp, ROOT, TPL, pending = false;
+let comp, ROOT, TPL, pending = false, MORPH = false;
 const SVGNS = 'http://www.w3.org/2000/svg';
 const ONE = /^\{\{([^}]+)\}\}$/;
 function look(path, scopes) {
@@ -54,7 +54,7 @@ function proc(node, scopes, out) {
   for (const a of Array.from(node.attributes)) {
     if (a.name.indexOf('hint-placeholder') === 0) continue;
     const m = ONE.exec(a.value);
-    if (/^on[a-z]+$/i.test(a.name) && m) { const fn = look(m[1], scopes); if (typeof fn === 'function') el.addEventListener(a.name.slice(2).toLowerCase(), fn); continue; }
+    if (/^on[a-z]+$/i.test(a.name) && m) { const fn = look(m[1], scopes); if (typeof fn === 'function') { el.addEventListener(a.name.slice(2).toLowerCase(), fn); (el.__h = el.__h || []).push([a.name.slice(2).toLowerCase(), fn]); } continue; }
     if (m) {
       const v = look(m[1], scopes);
       if (v === true) { el.setAttribute(a.name, ''); if (!inSvg && a.name in el) { try { el[a.name] = true; } catch (e) { /* solo lectura */ } } }
@@ -66,12 +66,44 @@ function proc(node, scopes, out) {
   node.childNodes.forEach(function (c) { proc(c, scopes, el); });
   out.appendChild(el);
 }
+// Actualiza el DOM que ya existe (el HTML pre-renderizado) en lugar de reconstruirlo: no se repintan
+// imágenes ni texto, solo se añaden los manejadores de eventos y lo que cambie (p. ej. el banner de cookies).
+function sameKind(a, b) { return a.nodeType === b.nodeType && (a.nodeType !== 1 || a.tagName === b.tagName); }
+function morphChildren(cur, fresh) {
+  let c = cur.firstChild, f = fresh.firstChild;
+  while (f) {
+    const nf = f.nextSibling;
+    if (!c) { cur.appendChild(f); }
+    else if (sameKind(c, f)) { const nc = c.nextSibling; morphNode(c, f); c = nc; }
+    else { cur.replaceChild(f, c); c = f.nextSibling; }
+    f = nf;
+  }
+  while (c) { const nc = c.nextSibling; cur.removeChild(c); c = nc; }
+}
+function morphNode(c, f) {
+  if (c.nodeType !== 1) { if (c.nodeValue !== f.nodeValue) c.nodeValue = f.nodeValue; return; }
+  const keepOpen = c.tagName === 'DETAILS';
+  for (const a of Array.from(c.attributes)) { if (!f.hasAttribute(a.name) && !(keepOpen && a.name === 'open')) c.removeAttribute(a.name); }
+  for (const a of Array.from(f.attributes)) { if (c.getAttribute(a.name) !== a.value) c.setAttribute(a.name, a.value); }
+  if (c.__h) c.__h.forEach(function (h) { c.removeEventListener(h[0], h[1]); });
+  if (f.__h) f.__h.forEach(function (h) { c.addEventListener(h[0], h[1]); });
+  c.__h = f.__h;
+  const tag = c.tagName;
+  if (tag === 'VIDEO') { if (c.muted !== f.muted) c.muted = f.muted; }
+  morphChildren(c, f);
+  if (tag === 'INPUT') {
+    if (c.type === 'checkbox' || c.type === 'radio') { if (c.checked !== f.checked) c.checked = f.checked; }
+    else if (f.hasAttribute('value') && c.value !== f.value) c.value = f.value;
+  } else if (tag === 'TEXTAREA') { if (f.textContent !== '' && c.value !== f.value) c.value = f.value; }
+  else if (tag === 'SELECT' && f.querySelector('[selected]') && c.value !== f.value) c.value = f.value;
+}
 function render() {
   pending = false;
   const vals = comp.renderVals();
   const frag = document.createDocumentFragment();
   TPL.content.childNodes.forEach(function (c) { proc(c, [vals], frag); });
-  ROOT.replaceChildren(frag);
+  if (MORPH) morphChildren(ROOT, frag); else ROOT.replaceChildren(frag);
   if (comp.componentDidUpdate) comp.componentDidUpdate();
+  if (typeof afterRender === 'function') afterRender();
 }
 function scheduleRender() { if (!pending) { pending = true; Promise.resolve().then(render); } }

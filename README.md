@@ -31,7 +31,7 @@ El build:
 1. Calcula un hash del contenido de cada ruta. Si cambia, actualiza su fecha en `src/estado-paginas.json`; esa fecha es el `lastmod` del sitemap, el `dateModified` del JSON-LD y la fecha visible «Actualizado el…». **Sube siempre `src/estado-paginas.json` con tus cambios** para que las fechas no se reinicien.
 2. Pinta cada ruta con el mismo runtime que usa el navegador y escribe `public/ruta.html` (la portada es `public/index.html`).
 3. Genera el `<head>` de cada página, el JSON-LD (Organization, WebSite, SoftwareApplication, WebPage o CollectionPage, BreadcrumbList, Article en las guías y WebApplication en el comparador gratis), `sitemap*.xml`, `robots.txt`, `llms.txt` y `404.html`.
-4. Falla si queda un marcador sin rellenar (`[…]`, `{campo}`, `TODO`, `AAAA-MM-DD`) en algún JSON-LD, y avisa si queda `[NIF]` en las páginas.
+4. Falla si queda un marcador sin rellenar (`[…]`, `{campo}`, `TODO`, `AAAA-MM-DD`) en algún JSON-LD, y también si queda cualquier `[…]` en el texto visible de las páginas (el build termina con error).
 
 ## Publicación
 
@@ -49,8 +49,15 @@ El servidor debe ser Apache o LiteSpeed (lee `static/.htaccess`):
 
 Se rellenan en `src/site.json` (JSON-LD) y en el contenido (`src/pages.json`, pie de `src/template.html`):
 
-- NIF de Inteligenthia Sevilla SL (pie, aviso legal, privacidad, cookies).
 - Datos de inscripción en el Registro Mercantil (aviso legal).
 - URLs de los perfiles oficiales (`sameAs`).
-- Fecha de publicación del vídeo de demostración (`video.uploadDate`) para activar su VideoObject.
 - Host definitivo del botón «Entrar».
+
+## Rendimiento (resumen)
+
+- `src/runtime.js` **no reconstruye** la página al cargar: actualiza el HTML pre-renderizado (`morphChildren`) y solo añade los manejadores y lo que cambie (p. ej. el banner de cookies).
+- Fuentes de reserva con métricas ajustadas (`Figtree Fallback`, `Kanit Fallback` en `scripts/build.mjs`) y precarga de Figtree 400/600 y Kanit 600, para evitar saltos de diseño.
+- Las imágenes llevan `width`/`height` reales (`IMG_D` en `src/component.js`) y `sizes` para móvil. Si añades una captura `.webp` nueva, añádela a `IMG_D` y genera sus versiones `-640` y `-1024`.
+- Los vídeos con `data-lazyplay` solo se descargan y arrancan al verse en pantalla (mudos). Se declaran en `site.json` → `videos`.
+- `clx-data` (datos públicos por página) no incluye los campos internos `k`, `q`, `o`, `s`, `sk`, `qs` (lista `PRIVATE` en el build).
+- Compresión, caché y HSTS: ver `docs/servidor-nginx.md`.

@@ -39,12 +39,13 @@
 "k": "precio programa asesoría energética",
 "h1": "¿Cuánto cuesta ContrataLux?",
 "l": "Precio programa asesoría energética",
+"bl": "Precios",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿Precio programa asesoría energética?",
 "f": [],
-"ti": "Precios del programa para asesorías energéticas | ContrataLux",
+"ti": "Precios del programa de asesorías energéticas | ContrataLux",
 "md": "Precios de ContrataLux: Básico 90 €/mes + IVA (1 o 2 usuarios) y Equipo 195 €/mes + IVA (hasta 10). Ilimitado y plataforma propia, a consultar.",
 "sk": [
 {
@@ -64,12 +65,8 @@
 "b": [],
 "fq": [
 {
-"q": "¿Hay prueba gratis?",
-"a": "Sí, 7 días con todas las funciones."
-},
-{
-"q": "¿Los precios llevan IVA?",
-"a": "No. Los precios publicados son sin IVA."
+"q": "¿Los precios de ContrataLux llevan IVA?",
+"a": "No. Los precios publicados de ContrataLux son sin IVA."
 }
 ],
 "mods": [],
@@ -155,6 +152,10 @@
 "close": "Pruébalo 7 días gratis o habla con un asesor para ver qué plan encaja con tu asesoría.",
 "lk": [
 {
+"u": "/prueba-gratis",
+"l": "Prueba ContrataLux 7 días gratis"
+},
+{
 "u": "/plataforma-propia",
 "l": "Plataforma propia con tu marca"
 },
@@ -182,6 +183,7 @@
 "k": "demo software asesoría energética",
 "h1": "Demo de ContrataLux para tu asesoría energética",
 "l": "Demo software asesoría energética",
+"bl": "Demo",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
@@ -197,12 +199,12 @@
 "b": [],
 "fq": [
 {
-"q": "¿Cuánto dura la demo?",
-"a": "Unos 30 minutos."
+"q": "¿Cuánto dura la demo de ContrataLux?",
+"a": "La demo de ContrataLux dura unos 30 minutos."
 },
 {
-"q": "¿Tiene coste?",
-"a": "No. La demo es gratuita."
+"q": "¿Tiene coste la demo de ContrataLux?",
+"a": "No. La demo de ContrataLux es gratuita."
 }
 ],
 "mods": [],
@@ -295,12 +297,13 @@
 "k": "CRM asesoría energética gratis prueba",
 "h1": "Prueba ContrataLux 7 días gratis",
 "l": "CRM asesoría energética gratis prueba",
+"bl": "Prueba gratis",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿CRM asesoría energética gratis prueba?",
 "f": [],
-"ti": "Prueba gratis el CRM para asesorías energéticas | ContrataLux",
+"ti": "Prueba gratis el CRM de asesorías energéticas | ContrataLux",
 "md": "Prueba ContrataLux 7 días gratis con todas las funciones: registra contratos de luz, gas, fibra, alarmas y CAEs y controla tus comisiones sin compromiso.",
 "sk": [
 {
@@ -314,12 +317,12 @@
 "b": [],
 "fq": [
 {
-"q": "¿La prueba tiene todas las funciones?",
-"a": "Sí, todas."
+"q": "¿La prueba gratis de ContrataLux incluye todas las funciones?",
+"a": "Sí. La prueba gratis de ContrataLux incluye todas las funciones del programa."
 },
 {
-"q": "¿Cuánto dura?",
-"a": "7 días."
+"q": "¿Cuánto dura la prueba gratis de ContrataLux?",
+"a": "La prueba gratis de ContrataLux dura 7 días."
 }
 ],
 "mods": [],
@@ -395,13 +398,14 @@
 "k": "contacto ContrataLux",
 "h1": "Contacta con ContrataLux",
 "l": "Contacto ContrataLux",
+"bl": "Contacto",
 "p": "/",
 "t": "especial",
 "kick": "ContrataLux",
 "q": "¿Contacto ContrataLux?",
 "f": [],
-"ti": "Contacto | ContrataLux",
-"md": "Contacta con ContrataLux: info@contratalux.com o +34 601 869 668. Calle Betis 3, 41449 Alcolea del Río (Sevilla). Te resolvemos dudas y te enseñamos el programa.",
+"ti": "Contacto: demo y dudas sobre el programa | ContrataLux",
+"md": "Contacta con ContrataLux: info@contratalux.com o +34 601 869 668. Calle Betis 3, 41449 Alcolea del Río (Sevilla). Resolvemos dudas y te enseñamos el programa.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -506,6 +510,10 @@
 "a": "No. ContrataLux es la marca del programa y su titular es Inteligenthia Sevilla SL."
 },
 {
+"q": "¿Inteligencia Sevilla e Inteligenthia Sevilla SL son la misma empresa?",
+"a": "Sí. Inteligencia Sevilla es el nombre comercial e Inteligenthia Sevilla SL es la razón social de la sociedad titular de ContrataLux."
+},
+{
 "q": "¿Solo dais servicio en Sevilla?",
 "a": "No. El servicio es 100 % online y damos soporte a asesorías de cualquier punto de España."
 },
@@ -529,10 +537,21 @@
 "h": "¿Quién está detrás de ContrataLux?",
 "p": [
 {
-"t": "Detrás está Inteligenthia Sevilla SL, con domicilio en Calle Betis 3, 41449 Alcolea del Río (Sevilla). El equipo desarrolla software de gestión, automatizaciones y agentes de IA, y de ese trabajo sale PIX, el asistente de IA que se conecta a ContrataLux."
+"t": "Detrás de ContrataLux hay dos empresas de software: Inteligencia Sevilla y ForgeNEX. Inteligencia Sevilla es la marca comercial; Inteligenthia Sevilla SL es la razón social de la sociedad que figura como titular de ContrataLux, con domicilio en Calle Betis 3, 41449 Alcolea del Río, Sevilla. El equipo desarrolla software de gestión, automatizaciones y agentes de IA, y de ese trabajo sale PIX, el asistente de IA que se conecta a ContrataLux."
 },
 {
 "t": "Puedes hablar con nosotros en el 601 869 668 o en info@contratalux.com."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
+},
+{
+"h": "¿Quién dirige Inteligenthia Sevilla?",
+"p": [
+{
+"t": "Sandra Delgado Mañas es la administradora única de Inteligenthia Sevilla SL, la sociedad titular de ContrataLux, según consta en el Registro Mercantil de Sevilla."
 }
 ],
 "li": [],
@@ -571,6 +590,9 @@
 },
 {
 "t": "Desarrollos y Plataforma propia presupuestados aparte, solo si los necesitas."
+},
+{
+"t": "Acceso de clientes: «Área cliente» y «Entrar» llevan a webs.labs.forgenex.com, un dominio de ForgeNEX, una de las dos empresas que hay detrás de ContrataLux."
 }
 ],
 "hasLi": true,
@@ -588,7 +610,7 @@
 "hasTb": false
 }
 ],
-"close": "Esto es ContrataLux, quiénes somos y cómo trabajamos. La mejor forma de conocernos es usar el programa: empieza la prueba gratis de 7 días o pide una demo con el equipo.",
+"close": "Así es ContrataLux, el programa de gestión de Inteligenthia Sevilla SL: quiénes somos y cómo trabajamos. La mejor forma de conocernos es usar el programa: empieza la prueba gratis de 7 días o pide una demo con el equipo.",
 "lk": [
 {
 "u": "/contacto",
@@ -1327,7 +1349,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/modulos/comisiones-comerciales",
@@ -2492,7 +2514,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/modulos/portal-cliente",
@@ -4319,7 +4341,7 @@
 "h": "¿Cómo se gestionan los contratos de Iberdrola en ContrataLux?",
 "p": [
 {
-"t": "Iberdrola está entre las las principales comercializadoras y operadoras precargadas, con sus tarifas. Al dar de alta un contrato eliges la tarifa, adjuntas la documentación y sigues su estado en el Kanban por fases."
+"t": "Iberdrola está entre las principales comercializadoras y operadoras precargadas, con sus tarifas. Al dar de alta un contrato eliges la tarifa, adjuntas la documentación y sigues su estado en el Kanban por fases."
 },
 {
 "t": "La ficha calcula la comisión bruta, neta y repartida y cuenta los días de retrocomisión. El envío a la plataforma de Iberdrola se hace de forma manual o con ayuda de PIX, el agente de IA, con acceso autorizado."
@@ -4541,7 +4563,7 @@
 "ni": false,
 "intro": [
 {
-"t": "Ser agente de Naturgy tiene una particularidad práctica en ContrataLux: es la única comercializadora con bot ATR, que envía automáticamente los contratos a la plataforma ATR. Si vendes mucho Naturgy, ese detalle cambia cuántas horas dedica tu back office a tramitar altas."
+"t": "Ser agente de Naturgy tiene una particularidad práctica en ContrataLux: es la única comercializadora para la que ContrataLux ofrece el bot ATR, que envía automáticamente los contratos a la plataforma ATR. Si vendes mucho Naturgy, ese detalle cambia cuántas horas dedica tu back office a tramitar altas."
 },
 {
 "t": "Naturgy tiene una larga trayectoria en gas natural además de electricidad, así que es habitual que la venta incluya gas o sea dual."
@@ -5315,7 +5337,7 @@
 "h": "¿Cómo se organizan los contratos de Audax en ContrataLux?",
 "p": [
 {
-"t": "Comprueba en la demo si Audax Renovables figura entre las las principales comercializadoras precargadas. Sus contratos se gestionan en la misma tabla que el resto, con tarifa 2.0TD, 3.0TD o alta tensión y comisión configurada."
+"t": "Comprueba en la demo si Audax Renovables figura entre las principales comercializadoras precargadas. Sus contratos se gestionan en la misma tabla que el resto, con tarifa 2.0TD, 3.0TD o alta tensión y comisión configurada."
 },
 {
 "t": "Para empresas con varios suministros, cada CUPS es un contrato vinculado a la misma ficha de cliente, y las liquidaciones por objetivos te dicen si el canal está cumpliendo. El envío es manual o con PIX."
@@ -6020,7 +6042,7 @@
 "t": "Aunque no cobres comisión, te conviene registrar el contrato. En la ficha guardas CUPS, tarifa, fecha de alta y documentos, de modo que cuando el cliente vuelva a pedirte una revisión tienes todo su historial y la cronología auditada de lo que hiciste."
 },
 {
-"t": "Si la cooperativa no está entre las las principales comercializadoras precargadas, consulta con el equipo de ContrataLux cómo darla de alta en tu cuenta. El envío de la documentación se hace por los canales que indique la cooperativa, de forma manual o apoyándote en PIX."
+"t": "Si la cooperativa no está entre las principales comercializadoras precargadas, consulta con el equipo de ContrataLux cómo darla de alta en tu cuenta. El envío de la documentación se hace por los canales que indique la cooperativa, de forma manual o apoyándote en PIX."
 }
 ],
 "li": [],
@@ -16471,7 +16493,7 @@
 "t": "Los errores al montar una asesoría energética casi nunca están en la venta, sino en lo que viene después: comisiones sin controlar, retrocesiones que nadie esperaba y comerciales que se pisan clientes. Detectarlos pronto cuesta poco; descubrirlos en la primera liquidación cuesta mucho."
 },
 {
-"t": "Esta es la lista de fallos que más se repiten en asesorías nuevas y cómo evitarlos desde el primer mes."
+"t": "Los fallos más repetidos al montar una asesoría energética, y cómo evitarlos desde el primer mes, son los que siguen."
 }
 ],
 "sec": [
@@ -26042,7 +26064,7 @@
 "q": "¿Cómo se trabaja con Naturgy desde ContrataLux?",
 "f": [],
 "ti": "Programa de agentes conectado con Naturgy | ContrataLux",
-"md": "Si eres agente o canal de Naturgy, ContrataLux es un programa de agentes conectado con Naturgy de forma real: es la única comercializadora para la que…",
+"md": "Si eres agente o canal de Naturgy, ContrataLux incluye el bot ATR, que envía tus contratos a la plataforma ATR sin teclearlos dos veces. Servicio adicional.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -26084,7 +26106,7 @@
 "ni": false,
 "intro": [
 {
-"t": "Si eres agente o canal de Naturgy, ContrataLux es un programa de agentes conectado con Naturgy de forma real: es la única comercializadora para la que existe el bot ATR, que envía tus contratos a la plataforma ATR sin teclearlos dos veces."
+"t": "Si eres agente o canal de Naturgy, ContrataLux es un programa de agentes conectado con Naturgy mediante el bot ATR, que envía tus contratos a la plataforma ATR sin teclearlos dos veces. Naturgy es la única comercializadora para la que ContrataLux ofrece este bot."
 },
 {
 "t": "El bot es un servicio adicional que se contrata aparte del plan. Sin él, los contratos de Naturgy se gestionan igual que los del resto de compañías, con su ficha, sus estados y sus comisiones."
@@ -26177,7 +26199,20 @@
 "l": "gestión de contratos de luz y gas"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.esios.ree.es/",
+"l": "eSIOS, datos oficiales del sistema eléctrico (Red Eléctrica)"
+},
+{
+"u": "https://www.cnmc.es/",
+"l": "CNMC, regulador de la energía"
+},
+{
+"u": "https://www.naturgy.es/",
+"l": "Web oficial de Naturgy"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -26185,7 +26220,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/integraciones/iberdrola",
@@ -26212,7 +26247,7 @@
 },
 {
 "q": "¿Están cargadas las tarifas de Iberdrola?",
-"a": "Sí, Iberdrola está entre las las principales comercializadoras precargadas; revisa que precios y comisiones coincidan con tu acuerdo."
+"a": "Sí, Iberdrola está entre las principales comercializadoras precargadas; revisa que precios y comisiones coincidan con tu acuerdo."
 },
 {
 "q": "¿Puedo ver solo mis contratos de Iberdrola?",
@@ -26264,7 +26299,7 @@
 "t": "En redes grandes es habitual que dos personas visiten al mismo cliente. Cuando se introduce un CUPS que ya existe en otro comercial, ContrataLux lo manda a la bandeja de desbloqueos para que un responsable decida, en lugar de que el conflicto aparezca el día de la liquidación."
 },
 {
-"t": "Esto es especialmente útil con una comercializadora de cartera tan amplia, donde coinciden muchos clientes potenciales en la misma zona."
+"t": "Evitar duplicados importa especialmente con una comercializadora de cartera tan amplia como Iberdrola, donde coinciden muchos clientes potenciales en la misma zona."
 }
 ],
 "li": [],
@@ -26332,7 +26367,20 @@
 "l": "gestión de contratos de luz y gas"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.esios.ree.es/",
+"l": "eSIOS, datos oficiales del sistema eléctrico (Red Eléctrica)"
+},
+{
+"u": "https://www.cnmc.es/",
+"l": "CNMC, regulador de la energía"
+},
+{
+"u": "https://www.iberdrola.es/",
+"l": "Web oficial de Iberdrola"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -26340,7 +26388,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/integraciones/endesa",
@@ -26484,7 +26532,20 @@
 "l": "integraciones software comercializadoras"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.esios.ree.es/",
+"l": "eSIOS, datos oficiales del sistema eléctrico (Red Eléctrica)"
+},
+{
+"u": "https://www.cnmc.es/",
+"l": "CNMC, regulador de la energía"
+},
+{
+"u": "https://www.endesa.com/",
+"l": "Web oficial de Endesa"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -26492,7 +26553,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/integraciones/repsol",
@@ -26636,7 +26697,20 @@
 "l": "integraciones software comercializadoras"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.esios.ree.es/",
+"l": "eSIOS, datos oficiales del sistema eléctrico (Red Eléctrica)"
+},
+{
+"u": "https://www.cnmc.es/",
+"l": "CNMC, regulador de la energía"
+},
+{
+"u": "https://www.repsol.es/",
+"l": "Web oficial de Repsol"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -26644,7 +26718,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/integraciones/totalenergies",
@@ -26782,7 +26856,20 @@
 "l": "integraciones software comercializadoras"
 }
 ],
-"src": [],
+"src": [
+{
+"u": "https://www.esios.ree.es/",
+"l": "eSIOS, datos oficiales del sistema eléctrico (Red Eléctrica)"
+},
+{
+"u": "https://www.cnmc.es/",
+"l": "CNMC, regulador de la energía"
+},
+{
+"u": "https://www.totalenergies.es/",
+"l": "Web oficial de TotalEnergies"
+}
+],
 "upd": "2026-10-14",
 "zl": [],
 "vid": "",
@@ -26790,7 +26877,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Listado de comercializadoras en ContrataLux"
 },
 {
 "u": "/implantacion",
@@ -26850,7 +26937,7 @@
 "t": "Cómo empezar con un programa para asesoría energética sin parar de vender: con acceso desde el alta, una primera semana centrada en los contratos activos y el histórico cargándose en segundo plano."
 },
 {
-"t": "Esta es la hoja de ruta que seguimos con ContrataLux, pensada para que tu equipo trabaje en el programa desde el primer día."
+"t": "La hoja de ruta de implantación de ContrataLux está pensada para que tu equipo trabaje en el programa desde el primer día."
 }
 ],
 "sec": [
@@ -26944,7 +27031,7 @@
 "vidCap": "",
 "img2": "",
 "img2Cap": "",
-"imgCap": ""
+"imgCap": "Gestión de usuarios de ContrataLux con gerencias, grupos, conectados y cuentas bloqueadas"
 },
 {
 "u": "/opiniones",
@@ -26956,7 +27043,7 @@
 "kick": "ContrataLux",
 "q": "¿Opiniones ContrataLux?",
 "f": [],
-"ti": "Opiniones ContrataLux | ContrataLux",
+"ti": "Opiniones sobre ContrataLux: valóralo con 7 días de prueba",
 "md": "Si buscas opiniones ContrataLux, aquí no vas a encontrar testimonios fabricados ni estrellas sin nombre.",
 "sk": [],
 "qs": [],
@@ -28555,7 +28642,7 @@
 "h": "Errores más habituales",
 "p": [
 {
-"t": "Estos son los fallos que más aparecen al cotejar una factura con su contrato, sobre todo en los primeros meses tras un cambio:"
+"t": "Los errores de factura que más aparecen al cotejarla con su contrato, sobre todo en los primeros meses tras un cambio de comercializadora, son estos:"
 }
 ],
 "li": [
@@ -28904,7 +28991,7 @@
 "q": "¿Aviso legal ContrataLux?",
 "f": [],
 "ti": "Aviso legal ContrataLux | ContrataLux",
-"md": "Aviso legal ContrataLux: información legal de la web de ContrataLux.",
+"md": "Aviso legal de ContrataLux: titular, NIF, domicilio, datos registrales, condiciones de uso y propiedad intelectual de la web contratalux.com.",
 "sk": [],
 "qs": [],
 "o": "Sin búsquedas en el autocompletado: solo la keyword principal",
@@ -28944,7 +29031,7 @@
 "t": "Titular: Inteligenthia Sevilla SL."
 },
 {
-"t": "NIF: [NIF]."
+"t": "NIF: B88763818."
 },
 {
 "t": "Domicilio: Calle Betis 3, 41449 Alcolea del Río (Sevilla), España."
@@ -28956,7 +29043,7 @@
 "t": "Correo electrónico: info@contratalux.com."
 },
 {
-"t": "Datos registrales: [datos de inscripción en el Registro Mercantil]."
+"t": "Datos registrales: Registro Mercantil de Sevilla, hoja SE-154653, inscripción 1.ª (20 de mayo de 2026)."
 }
 ],
 "hasLi": true,
@@ -29103,7 +29190,7 @@
 "p": [],
 "li": [
 {
-"t": "Inteligenthia Sevilla SL, NIF [NIF]."
+"t": "Inteligenthia Sevilla SL, NIF B88763818."
 },
 {
 "t": "Calle Betis 3, 41449 Alcolea del Río (Sevilla)."
@@ -29256,10 +29343,10 @@
 "ni": false,
 "intro": [
 {
-"t": "Esta es la política de cookies ContrataLux: explica qué cookies usa el sitio web contratalux.com, para qué sirven, cuánto tiempo se conservan y cómo puedes aceptarlas, rechazarlas o cambiar tu elección en cualquier momento."
+"t": "La política de cookies ContrataLux explica qué cookies usa el sitio web contratalux.com, para qué sirven, cuánto tiempo se conservan y cómo puedes aceptarlas, rechazarlas o cambiar tu elección en cualquier momento."
 },
 {
-"t": "El titular del sitio es Inteligenthia Sevilla SL, con NIF [NIF] y domicilio en Calle Betis 3, 41449 Alcolea del Río (Sevilla). Para cualquier duda sobre esta política puedes escribir a info@contratalux.com o llamar al 601 869 668."
+"t": "El titular del sitio es Inteligenthia Sevilla SL, con NIF B88763818 y domicilio en Calle Betis 3, 41449 Alcolea del Río (Sevilla). Para cualquier duda sobre esta política puedes escribir a info@contratalux.com o llamar al 601 869 668."
 }
 ],
 "sec": [
@@ -29402,7 +29489,7 @@
 "ni": false,
 "intro": [
 {
-"t": "Estas son las funciones del programa para asesorías energéticas que incluye ContrataLux, ordenadas según el ciclo real de una venta: desde que entra un lead hasta que cobras la comisión y revisas los resultados del mes."
+"t": "Las funciones del programa para asesorías energéticas que incluye ContrataLux están ordenadas según el ciclo real de una venta: desde que entra un lead hasta que cobras la comisión y revisas los resultados del mes."
 },
 {
 "t": "Cada módulo tiene su propia página con lo que hace, a quién le sirve y cómo se conecta con el resto. Todos trabajan sobre la misma ficha de cliente y de contrato, así que un dato que se introduce una vez aparece en el resto de la plataforma."
@@ -31481,7 +31568,7 @@
 "t": "ContrataLux recoge y organiza los datos de cada contrato, pero no lo sube a la comercializadora: el alta la haces tú en su plataforma, o con PIX. Solo si lo pides, para Naturgy hay un robot que sube los contratos automáticamente, y es un servicio aparte."
 },
 {
-"t": "Este es el software para gestionar todos los suministros de una asesoría energética desde una sola ficha de cliente: luz, gas, contratos duales, fibra, alarmas y Certificados de Ahorro Energético."
+"t": "ContrataLux es el software para gestionar todos los suministros de una asesoría energética desde una sola ficha de cliente: luz, gas, contratos duales, fibra, alarmas y Certificados de Ahorro Energético."
 },
 {
 "t": "Cada tipo de suministro tiene sus reglas, sus comercializadoras y sus comisiones. Aquí tienes una página para cada uno con lo que cambia en la gestión diaria."

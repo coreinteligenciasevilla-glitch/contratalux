@@ -5,28 +5,28 @@
   "pub": "2026-10-14"
  },
  "/precios": {
-  "hash": "0880d4340f9704b8",
-  "upd": "2026-10-15",
+  "hash": "cc9dac53993b4773",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/demo": {
-  "hash": "166726d2410f4020",
-  "upd": "2026-10-15",
+  "hash": "f52e58fbefdbea21",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/prueba-gratis": {
-  "hash": "2f674802cc8b9d5a",
-  "upd": "2026-10-15",
+  "hash": "d1855fb4f88c0d9f",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/contacto": {
-  "hash": "3a82dc264154aea8",
-  "upd": "2026-10-15",
+  "hash": "e9c53f895b63221b",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/sobre-nosotros": {
-  "hash": "0ac6a85fe17a604b",
-  "upd": "2026-10-15",
+  "hash": "754d3a0a7bfabecb",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/integraciones": {
@@ -55,8 +55,8 @@
   "pub": "2026-10-14"
  },
  "/modulos/gestion-contratos-fibra-telefonia": {
-  "hash": "0c09d2b9125a76f6",
-  "upd": "2026-10-14",
+  "hash": "1a263875a4313e1a",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/modulos/comisiones-comerciales": {
@@ -130,8 +130,8 @@
   "pub": "2026-10-14"
  },
  "/modulos/integracion-comercializadoras": {
-  "hash": "12dbf5a9ca527b30",
-  "upd": "2026-10-14",
+  "hash": "3b980b8dc1f0668d",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/modulos/portal-cliente": {
@@ -190,8 +190,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/iberdrola": {
-  "hash": "cb2e0043b8246156",
-  "upd": "2026-10-15",
+  "hash": "9262cddfbccaa872",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/endesa": {
@@ -200,8 +200,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/naturgy": {
-  "hash": "0e3e2d70b73a0e99",
-  "upd": "2026-10-15",
+  "hash": "050abe3f1abd3d58",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/repsol": {
@@ -225,8 +225,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/audax-renovables": {
-  "hash": "be65909be97d04f5",
-  "upd": "2026-10-15",
+  "hash": "57507307a9e28964",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/factor-energia": {
@@ -250,8 +250,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/som-energia": {
-  "hash": "f21f9d6bf765fb38",
-  "upd": "2026-10-15",
+  "hash": "548beeb8fbb25571",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/podo": {
@@ -610,8 +610,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/negocio/errores-asesoria-energetica": {
-  "hash": "1d255d4cf70fbf9c",
-  "upd": "2026-10-15",
+  "hash": "802d43b94809a6ba",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/cups": {
@@ -965,38 +965,38 @@
   "pub": "2026-10-14"
  },
  "/integraciones/naturgy": {
-  "hash": "33cafd1630534389",
-  "upd": "2026-10-15",
+  "hash": "313c891a3154293b",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/integraciones/iberdrola": {
-  "hash": "9bff229f43a07882",
-  "upd": "2026-10-15",
+  "hash": "b3e475d53854468e",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/integraciones/endesa": {
-  "hash": "689920b8e65e9198",
-  "upd": "2026-10-15",
+  "hash": "6e314a264f78179b",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/integraciones/repsol": {
-  "hash": "20458b6b67f5045d",
-  "upd": "2026-10-15",
+  "hash": "e6945be10986345a",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/integraciones/totalenergies": {
-  "hash": "c18dff4f216bbf6a",
-  "upd": "2026-10-15",
+  "hash": "5839ba321f7ffc01",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/implantacion": {
-  "hash": "bf90f523901c142c",
-  "upd": "2026-10-15",
+  "hash": "4025def0ca29f0a6",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/opiniones": {
-  "hash": "e6ab9482c429ff88",
-  "upd": "2026-10-15",
+  "hash": "3cc6018fd4ae48a8",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/montar-equipo-comercial-energia": {
@@ -1050,8 +1050,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/tramites/detectar-errores-facturacion": {
-  "hash": "7b4abce88ad61d34",
-  "upd": "2026-10-15",
+  "hash": "0c85e85d9f64f82b",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/zonas/ceuta": {
@@ -1065,23 +1065,23 @@
   "pub": "2026-10-14"
  },
  "/aviso-legal": {
-  "hash": "9b7d5b2b1a79e8fb",
-  "upd": "2026-10-15",
+  "hash": "4cbf7dfa1ad7eac7",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/politica-de-privacidad": {
-  "hash": "255b3b84141f9636",
-  "upd": "2026-10-15",
+  "hash": "aee5dce3f9f863ad",
+  "upd": "2026-10-15T17:47:38+02:00",
   "pub": "2026-10-14"
  },
  "/politica-de-cookies": {
-  "hash": "0c72f44e4e6520c1",
-  "upd": "2026-10-15",
+  "hash": "b9039a1a2e62474d",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/modulos": {
-  "hash": "dee7be33892b3209",
-  "upd": "2026-10-15",
+  "hash": "5e16546bf211f59e",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/soluciones": {
@@ -1180,8 +1180,8 @@
   "pub": "2026-10-14"
  },
  "/suministros": {
-  "hash": "b3f06c8688376c1c",
-  "upd": "2026-10-15",
+  "hash": "ed14b5962a4d547d",
+  "upd": "2026-10-15T19:55:00+02:00",
   "pub": "2026-10-14"
  },
  "/suministros/luz": {
