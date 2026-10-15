@@ -170,6 +170,7 @@ function head(p) {
   const type = p.u.startsWith('/recursos/') ? 'article' : 'website';
   return `<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="msvalidate.01" content="E992393D68F322DE035D9BA996FC749F" />
 <title>${esc(p.ti)}</title>
 <meta name="description" content="${esc(p.md)}">
 <link rel="canonical" href="${url(p.u)}">
