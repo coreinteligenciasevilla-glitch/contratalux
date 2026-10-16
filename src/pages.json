@@ -29223,6 +29223,9 @@
 },
 {
 "t": "Analizar el uso del sitio web mediante cookies analíticas: tu consentimiento, según la política de cookies."
+},
+{
+"t": "Demostrar que has dado o rechazado el consentimiento de cookies, con un registro de cada elección (fecha, dirección IP, identificador aleatorio del navegador, versión del banner y categorías aceptadas). Si nos escribes por un formulario, ese identificador se envía con tu mensaje para relacionarlo con tu elección: cumplimiento de una obligación legal (artículo 7.1 del RGPD)."
 }
 ],
 "hasLi": true,
@@ -29236,6 +29239,9 @@
 },
 {
 "t": "Los datos para comunicaciones comerciales se conservan hasta que retires el consentimiento o te opongas."
+},
+{
+"t": "El registro de consentimientos de cookies se conserva 24 meses desde cada elección y después se borra automáticamente."
 }
 ],
 "li": [],
@@ -29392,7 +29398,7 @@
 "t": "La primera vez que entras en la web aparece un banner con tres opciones al mismo nivel: aceptar todas, rechazar todas y configurar. Si rechazas o cierras el banner sin elegir, solo se cargan las cookies técnicas. Si eliges configurar, puedes activar o desactivar cada categoría por separado antes de guardar."
 },
 {
-"t": "Tu decisión se guarda en una cookie técnica para no volver a preguntarte en cada visita. Te volveremos a pedir el consentimiento cuando cambien las cookies utilizadas o, como máximo, pasados 24 meses desde tu elección. Para poder demostrar que has dado o rechazado el consentimiento, como exige el RGPD, guardamos en nuestro servidor un registro de cada elección con la fecha, un identificador aleatorio de tu navegador, la versión del banner y las categorías que aceptaste o rechazaste. Ese registro no incluye tu dirección IP, tu nombre, tu email ni ningún otro dato que te identifique."
+"t": "Tu decisión se guarda en una cookie técnica para no volver a preguntarte en cada visita. Te volveremos a pedir el consentimiento cuando cambien las cookies utilizadas o, como máximo, pasados 24 meses desde tu elección. Para poder demostrar que has dado o rechazado el consentimiento, como exige el RGPD, guardamos en nuestro servidor un registro de cada elección con la fecha, tu dirección IP, un identificador aleatorio de tu navegador, la versión del banner y las categorías que aceptaste o rechazaste. Si después nos escribes por un formulario de la web, ese identificador se envía con tu mensaje para poder relacionarlo con tu elección. El registro se conserva 24 meses y no es accesible desde internet. Más detalles en la política de privacidad."
 }
 ],
 "li": [],

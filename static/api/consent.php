@@ -3,7 +3,7 @@
 //
 // Guarda una línea JSON por elección en <carpeta del dominio>/private/consent/AAAA-MM.jsonl,
 // FUERA de public_html, para que el despliegue (rsync --delete) no la borre y no sea accesible desde internet.
-// No guarda IP, user-agent ni cabeceras. Solo: fecha, ID aleatorio del navegador, versión del banner y elección.
+// Guarda: fecha, IP, ID aleatorio del navegador, versión del banner y elección. No guarda user-agent ni otras cabeceras.
 
 declare(strict_types=1);
 
@@ -56,6 +56,15 @@ if (!is_dir($dir) && !@mkdir($dir, 0750, true) && !is_dir($dir)) {
     fin(500);
 }
 
+// IP del visitante (prueba del consentimiento). Si PHP está detrás del nginx local de Hestia, la real viene en X-Real-IP.
+$ip = $_SERVER['REMOTE_ADDR'] ?? '';
+if (in_array($ip, ['127.0.0.1', '::1'], true) && !empty($_SERVER['HTTP_X_REAL_IP'])) {
+    $ip = $_SERVER['HTTP_X_REAL_IP'];
+}
+if (!filter_var($ip, FILTER_VALIDATE_IP)) {
+    $ip = '';
+}
+
 date_default_timezone_set('Europe/Madrid');
 $file = $dir . '/' . date('Y-m') . '.jsonl';
 
@@ -65,7 +74,7 @@ if (is_file($file) && filesize($file) > 50 * 1024 * 1024) {
 }
 
 $linea = json_encode(
-    ['t' => date('c'), 'id' => $d['id'], 'v' => $d['v'], 'a' => $d['a'], 'd' => $d['d'], 's' => $d['s']],
+    ['t' => date('c'), 'ip' => $ip, 'id' => $d['id'], 'v' => $d['v'], 'a' => $d['a'], 'd' => $d['d'], 's' => $d['s']],
     JSON_UNESCAPED_SLASHES
 ) . "\n";
 
@@ -75,6 +84,13 @@ if (@file_put_contents($file, $linea, FILE_APPEND | LOCK_EX) === false) {
 }
 if ($nuevo) {
     @chmod($file, 0640);
+    // Retención: al empezar un mes nuevo se borran los archivos de hace más de 24 meses.
+    $limite = date('Y-m', strtotime('first day of -24 months'));
+    foreach (glob($dir . '/*.jsonl') ?: [] as $viejo) {
+        if (basename($viejo, '.jsonl') < $limite) {
+            @unlink($viejo);
+        }
+    }
 }
 
 fin(204);

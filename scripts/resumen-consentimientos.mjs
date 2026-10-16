@@ -1,6 +1,6 @@
 // Resumen del registro de consentimientos de cookies.
 // Uso:  node scripts/resumen-consentimientos.mjs ARCHIVO.jsonl [OTRO.jsonl ...]
-//       node scripts/resumen-consentimientos.mjs ARCHIVO.jsonl --id <id del navegador>   (muestra el historial de una persona que te dé su ID)
+//       node scripts/resumen-consentimientos.mjs ARCHIVO.jsonl --id <id del navegador>   (historial de una persona: el ID aparece en los emails de los formularios)
 // Los archivos están en el servidor: /home/inteligenciasevilla/web/contratalux.com/private/consent/AAAA-MM.jsonl
 import { readFileSync } from 'node:fs';
 
@@ -24,7 +24,7 @@ rows.sort((a, b) => a.t.localeCompare(b.t));
 if (wanted) {
   const mine = rows.filter((r) => r.id === wanted);
   if (!mine.length) console.log('No hay registros para ese ID.');
-  for (const r of mine) console.log(`${r.t}  banner ${r.v}  ${r.s}  análisis=${r.a ? 'sí' : 'no'}  publicidad=${r.d ? 'sí' : 'no'}`);
+  for (const r of mine) console.log(`${r.t}  IP ${r.ip || '-'}  banner ${r.v}  ${r.s}  análisis=${r.a ? 'sí' : 'no'}  publicidad=${r.d ? 'sí' : 'no'}`);
   process.exit(0);
 }
 

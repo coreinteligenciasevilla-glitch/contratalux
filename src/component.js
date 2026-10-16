@@ -319,6 +319,10 @@ class Component extends DCLogic {
         try { last = parseInt(window.localStorage.getItem('clx_form_last') || '0', 10) || 0; } catch (err) { last = this.lastSent || 0; }
         if (now - last < 60000) { this.setState({ sent: true, sendError: false }); return; }
         try { window.localStorage.setItem('clx_form_last', String(now)); } catch (err) { this.lastSent = now; }
+        // Une el formulario con el registro de consentimientos de cookies (mismo ID que guarda /api/consent.php)
+        let cid = '';
+        try { cid = window.localStorage.getItem('clx_cid') || ''; } catch (err) {}
+        data.append('ID consentimiento cookies', /^[a-f0-9]{32}$/.test(cid) ? cid : 'sin elección en el banner');
         this.setState({ sent: true, sendError: false });
         fetch('https://formsubmit.co/ajax/info@contratalux.com', { method: 'POST', headers: { Accept: 'application/json' }, body: data })
           .then((r) => { if (!r.ok) throw new Error('envío'); })
