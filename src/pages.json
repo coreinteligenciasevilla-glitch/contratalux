@@ -29392,7 +29392,7 @@
 "t": "La primera vez que entras en la web aparece un banner con tres opciones al mismo nivel: aceptar todas, rechazar todas y configurar. Si rechazas o cierras el banner sin elegir, solo se cargan las cookies técnicas. Si eliges configurar, puedes activar o desactivar cada categoría por separado antes de guardar."
 },
 {
-"t": "Tu decisión se guarda en una cookie técnica para no volver a preguntarte en cada visita. Te volveremos a pedir el consentimiento cuando cambien las cookies utilizadas o, como máximo, pasados 24 meses desde tu elección."
+"t": "Tu decisión se guarda en una cookie técnica para no volver a preguntarte en cada visita. Te volveremos a pedir el consentimiento cuando cambien las cookies utilizadas o, como máximo, pasados 24 meses desde tu elección. Para poder demostrar que has dado o rechazado el consentimiento, como exige el RGPD, guardamos en nuestro servidor un registro de cada elección con la fecha, un identificador aleatorio de tu navegador, la versión del banner y las categorías que aceptaste o rechazaste. Ese registro no incluye tu dirección IP, tu nombre, tu email ni ningún otro dato que te identifique."
 }
 ],
 "li": [],

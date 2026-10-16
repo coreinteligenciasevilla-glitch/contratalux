@@ -18,6 +18,10 @@ const SOCIAL_HTML = (SITE.sameAs || []).length
   ? '<p style="margin: 0">Síguenos en: ' + SITE.sameAs.map((u) => { const h = new URL(u).hostname.replace(/^www\./, ''); return `<a href="${u.replace(/"/g, '&quot;')}" target="_blank" rel="noopener me" style="color: #C9D4DF">${SOCIAL_NAMES[h] || h}</a>`; }).join(' · ') + '</p>'
   : '';
 const TEMPLATE = read('template.html').replace('<!--SOCIAL-->', SOCIAL_HTML);
+// Versión del banner de cookies: cambia sola cuando cambia el texto o los botones del banner (queda en el registro de consentimientos).
+const BANNER_HTML = TEMPLATE.slice(TEMPLATE.indexOf('<!-- BANNER DE COOKIES'), TEMPLATE.indexOf('<!-- FORMULARIOS'));
+if (!BANNER_HTML) throw new Error('No se encuentra el banner de cookies en template.html');
+const CONSENT_V = 'b-' + createHash('sha256').update(BANNER_HTML).digest('hex').slice(0, 8);
 const RUNTIME = read('runtime.js');
 const COMPONENT = read('component.js');
 const BASECSS = read('base.css');
@@ -96,8 +100,9 @@ ${COMPONENT}
   var pend = ''; try { pend = sessionStorage.getItem('clx_anchor') || ''; sessionStorage.removeItem('clx_anchor'); } catch (e) {}
   if (pend) comp.anchor = pend; else if (location.hash) comp.anchor = location.hash.slice(1);
   try { var ck = JSON.parse(localStorage.getItem('clx_cookies') || 'null'); if (ck) { comp.state.cookies = 'closed'; comp.state.analytics = !!ck.a; comp.state.ads = !!ck.d; } } catch (e) {}
+  function clxConsentLog(a, d) { try { var id = ''; try { id = localStorage.getItem('clx_cid') || ''; } catch (e) {} if (!/^[a-f0-9]{32}$/.test(id)) { var b = new Uint8Array(16); crypto.getRandomValues(b); id = Array.prototype.map.call(b, function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); try { localStorage.setItem('clx_cid', id); } catch (e) {} } var body = JSON.stringify({ id: id, v: '${CONSENT_V}', a: !!a, d: !!d, s: a && d ? 'accept_all' : (!a && !d ? 'reject_all' : 'custom') }); if (!(navigator.sendBeacon && navigator.sendBeacon('/api/consent.php', new Blob([body], { type: 'application/json' })))) fetch('/api/consent.php', { method: 'POST', body: body, headers: { 'Content-Type': 'application/json' }, keepalive: true }); } catch (e) {} }
   var set = comp.setState.bind(comp);
-  comp.setState = function (p) { set(p); if (p && p.cookies === 'closed') { try { localStorage.setItem('clx_cookies', JSON.stringify({ a: comp.state.analytics, d: comp.state.ads })); } catch (e) {} if (typeof gtag === 'function') { var a = comp.state.analytics ? 'granted' : 'denied', d = comp.state.ads ? 'granted' : 'denied'; gtag('consent', 'update', { analytics_storage: a, ad_storage: d, ad_user_data: d, ad_personalization: d }); dataLayer.push({ event: 'clx_consent_update' }); } } };
+  comp.setState = function (p) { set(p); if (p && p.cookies === 'closed') { try { localStorage.setItem('clx_cookies', JSON.stringify({ a: comp.state.analytics, d: comp.state.ads })); } catch (e) {} if (typeof gtag === 'function') { var a = comp.state.analytics ? 'granted' : 'denied', d = comp.state.ads ? 'granted' : 'denied'; gtag('consent', 'update', { analytics_storage: a, ad_storage: d, ad_user_data: d, ad_personalization: d }); dataLayer.push({ event: 'clx_consent_update' }); } clxConsentLog(comp.state.analytics, comp.state.ads); } };
   var go = comp.go.bind(comp);
   comp.go = function (url, anchor) { if (url === comp.state.route) go(url, anchor); else { if (anchor) { try { sessionStorage.setItem('clx_anchor', anchor); } catch (e) { url += '#' + anchor; } } location.href = url; } };
   render();
