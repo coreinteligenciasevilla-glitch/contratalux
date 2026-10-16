@@ -97,7 +97,7 @@ ${COMPONENT}
   if (pend) comp.anchor = pend; else if (location.hash) comp.anchor = location.hash.slice(1);
   try { var ck = JSON.parse(localStorage.getItem('clx_cookies') || 'null'); if (ck) { comp.state.cookies = 'closed'; comp.state.analytics = !!ck.a; comp.state.ads = !!ck.d; } } catch (e) {}
   var set = comp.setState.bind(comp);
-  comp.setState = function (p) { set(p); if (p && p.cookies === 'closed') { try { localStorage.setItem('clx_cookies', JSON.stringify({ a: comp.state.analytics, d: comp.state.ads })); } catch (e) {} } };
+  comp.setState = function (p) { set(p); if (p && p.cookies === 'closed') { try { localStorage.setItem('clx_cookies', JSON.stringify({ a: comp.state.analytics, d: comp.state.ads })); } catch (e) {} if (typeof gtag === 'function') { var a = comp.state.analytics ? 'granted' : 'denied', d = comp.state.ads ? 'granted' : 'denied'; gtag('consent', 'update', { analytics_storage: a, ad_storage: d, ad_user_data: d, ad_personalization: d }); dataLayer.push({ event: 'clx_consent_update' }); } } };
   var go = comp.go.bind(comp);
   comp.go = function (url, anchor) { if (url === comp.state.route) go(url, anchor); else { if (anchor) { try { sessionStorage.setItem('clx_anchor', anchor); } catch (e) { url += '#' + anchor; } } location.href = url; } };
   render();
@@ -163,6 +163,21 @@ function jsonld(p) {
   return out.replace(/</g, '\\u003c');
 }
 
+// ---------- Google Tag Manager (con Consent Mode v2 ligado al banner de cookies) ----------
+const GTM_ID = 'GTM-P8NBPNTM';
+const GTM_HEAD = `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{var c=JSON.parse(localStorage.getItem('clx_cookies')||'null');if(c)gtag('consent','update',{analytics_storage:c.a?'granted':'denied',ad_storage:c.d?'granted':'denied',ad_user_data:c.d?'granted':'denied',ad_personalization:c.d?'granted':'denied'});}catch(e){}</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');</script>
+<!-- End Google Tag Manager -->`;
+const GTM_BODY = `<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->`;
+
 // ---------- head ----------
 function head(p) {
   const ogKey = p.u.slice(1).replace(/\//g, '-');
@@ -170,6 +185,7 @@ function head(p) {
   const type = p.u.startsWith('/recursos/') ? 'article' : 'website';
   return `<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+${GTM_HEAD}
 <meta name="msvalidate.01" content="E992393D68F322DE035D9BA996FC749F" />
 <title>${esc(p.ti)}</title>
 <meta name="description" content="${esc(p.md)}">
@@ -199,7 +215,7 @@ ${p.u === '/' ? '<link rel="preload" as="image" href="/assets/dashboard-1024.web
 // ---------- páginas ----------
 const warn = new Set();
 for (const p of PAGES) {
-  const html = `<!doctype html>\n<html lang="es">\n<head>\n${head(p)}\n</head>\n<body>\n<div id="app">${w.prerender(p.u)}</div>\n<script type="application/json" id="clx-data">${pageData(p)}</script>\n</body>\n</html>\n`;
+  const html = `<!doctype html>\n<html lang="es">\n<head>\n${head(p)}\n</head>\n<body>\n${GTM_BODY}\n<div id="app">${w.prerender(p.u)}</div>\n<script type="application/json" id="clx-data">${pageData(p)}</script>\n</body>\n</html>\n`;
   const visible = html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, ' ');
   const hole = visible.match(/\[[^\]\[]{2,}\]|\{\{[^}]*\}\}|\bTODO\b|AAAA-MM-DD/);
   if (hole) warn.add(p.u + ' → ' + hole[0].slice(0, 60));
@@ -215,12 +231,14 @@ writeFileSync(join(OUT, '404.html'), `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+${GTM_HEAD}
 <title>Página no encontrada | ContrataLux</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="stylesheet" href="/assets/site.css?v=${CSS_V}">
 </head>
 <body>
+${GTM_BODY}
 <header style="border-bottom: 1px solid #E6EBF0; padding: 14px 24px"><a href="/"><img src="/assets/logo-contratalux.png" alt="ContrataLux" width="640" height="206" style="height: 52px; width: auto"></a></header>
 <main style="max-width: 760px; margin: 0 auto; padding: 72px 24px; font-family: 'Figtree', 'Figtree Fallback', system-ui, sans-serif; color: #22313F">
 <p style="margin: 0; font-weight: 700; color: #0B7A70; letter-spacing: 0.08em">ERROR 404</p>
