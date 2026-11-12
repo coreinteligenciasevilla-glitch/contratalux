@@ -187,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->`;
 
 // ---------- Ahrefs Web Analytics (sin cookies: no depende del banner) ----------
-const AHREFS = '<script src="https://analytics.ahrefs.com/analytics.js" data-key="ic9/FZOG07+y9jUzulkFXQ" async></script>';
+const AHREFS = '<script src="https://analytics.ahrefs.com/analytics.js" data-key="FrokHPNoyD6dDp6cdRFXKg" async></script>';
 
 // ---------- head ----------
 function head(p) {
