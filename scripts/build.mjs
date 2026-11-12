@@ -183,6 +183,9 @@ const GTM_BODY = `<!-- Google Tag Manager (noscript) -->
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->`;
 
+// ---------- Ahrefs Web Analytics (sin cookies: no depende del banner) ----------
+const AHREFS = '<script src="https://analytics.ahrefs.com/analytics.js" data-key="ic9/FZOG07+y9jUzulkFXQ" async></script>';
+
 // ---------- head ----------
 function head(p) {
   const ogKey = p.u.slice(1).replace(/\//g, '-');
@@ -214,7 +217,8 @@ ${p.ni ? '<meta name="robots" content="noindex, follow">\n' : ''}<meta property=
 <link rel="preload" href="/assets/fonts/kanit-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 ${p.u === '/' ? '<link rel="preload" as="image" href="/assets/dashboard-1024.webp" imagesrcset="/assets/dashboard-640.webp 640w, /assets/dashboard-1024.webp 1024w, /assets/dashboard.webp 1600w" imagesizes="(max-width: 720px) calc(100vw - 48px), 1024px" fetchpriority="high">\n' : ''}<link rel="stylesheet" href="/assets/site.css?v=${CSS_V}">
 <script type="application/ld+json">${jsonld(p)}</script>
-<script src="/assets/app.js?v=${JS_V}" defer></script>`;
+<script src="/assets/app.js?v=${JS_V}" defer></script>
+${AHREFS}`;
 }
 
 // ---------- páginas ----------
@@ -241,6 +245,7 @@ ${GTM_HEAD}
 <meta name="robots" content="noindex">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="stylesheet" href="/assets/site.css?v=${CSS_V}">
+${AHREFS}
 </head>
 <body>
 ${GTM_BODY}
