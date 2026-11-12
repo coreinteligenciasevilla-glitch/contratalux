@@ -20,13 +20,13 @@
   "pub": "2026-10-14"
  },
  "/contacto": {
-  "hash": "e9c53f895b63221b",
-  "upd": "2026-10-15T17:47:38+02:00",
+  "hash": "798c1ca2cc3dbbd5",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/sobre-nosotros": {
-  "hash": "fafd20511aafa8fd",
-  "upd": "2026-11-12T19:40:24+01:00",
+  "hash": "5e0f74db687a6eef",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/integraciones": {
@@ -40,8 +40,8 @@
   "pub": "2026-10-14"
  },
  "/hazte-partner": {
-  "hash": "a30f1f1495d37648",
-  "upd": "2026-10-15",
+  "hash": "1ce99d08bebdb8f2",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/herramientas/comparador-de-tarifas": {
@@ -140,13 +140,13 @@
   "pub": "2026-10-14"
  },
  "/soluciones/comerciales-autonomos-energia": {
-  "hash": "9f084cd2e069f47c",
-  "upd": "2026-10-15",
+  "hash": "9aa2e01e4db05ac3",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/soluciones/agentes-energeticos": {
-  "hash": "6f3d0771b5a2ac0e",
-  "upd": "2026-10-15",
+  "hash": "b02098ac7e649cf6",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/soluciones/canales-comercializadoras": {
@@ -440,8 +440,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/negocio/como-montar-una-asesoria-energetica": {
-  "hash": "bcebc4d33e0500c9",
-  "upd": "2026-10-15",
+  "hash": "ce430a79fc2c7837",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/cuanto-gana-un-asesor-energetico": {
@@ -470,8 +470,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/captacion/captar-clientes-empresas-luz": {
-  "hash": "2417a5164928ab32",
-  "upd": "2026-10-15",
+  "hash": "bddc38916c13fe6e",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/estudio-energetico-paso-a-paso": {
@@ -875,13 +875,13 @@
   "pub": "2026-10-14"
  },
  "/zonas/region-de-murcia": {
-  "hash": "024290ea5135781c",
-  "upd": "2026-10-15",
+  "hash": "06bfec08c1f5bcb8",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/zonas/comunidad-de-madrid": {
-  "hash": "af95dd1124a93cbd",
-  "upd": "2026-10-15",
+  "hash": "75f277d2af2dcfc2",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/zonas/cataluna": {
@@ -890,13 +890,13 @@
   "pub": "2026-10-14"
  },
  "/zonas/castilla-la-mancha": {
-  "hash": "df8c032b29b048ef",
-  "upd": "2026-10-15",
+  "hash": "6bf17e9b5301ccae",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/zonas/extremadura": {
-  "hash": "96a756ca1857c4ff",
-  "upd": "2026-10-15",
+  "hash": "58ddb0815b2926ba",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/zonas/castilla-y-leon": {
@@ -975,8 +975,8 @@
   "pub": "2026-10-14"
  },
  "/implantacion": {
-  "hash": "4025def0ca29f0a6",
-  "upd": "2026-10-15T19:55:00+02:00",
+  "hash": "c3cac045d3579cb4",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/opiniones": {
@@ -1040,13 +1040,13 @@
   "pub": "2026-10-14"
  },
  "/zonas/ceuta": {
-  "hash": "71c632b6299eaa84",
-  "upd": "2026-10-15",
+  "hash": "3861500b54d75bf6",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/zonas/melilla": {
-  "hash": "a5e76f30f541d5d0",
-  "upd": "2026-10-15",
+  "hash": "0653cfc7f1ab9df3",
+  "upd": "2026-11-12T21:06:56+01:00",
   "pub": "2026-10-14"
  },
  "/aviso-legal": {
