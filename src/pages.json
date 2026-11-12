@@ -623,6 +623,14 @@
 {
 "u": "/seguridad-y-rgpd",
 "l": "software asesoría energética RGPD"
+},
+{
+"u": "/soluciones",
+"l": "Programa para cada tipo de asesor energético"
+},
+{
+"u": "/herramientas",
+"l": "Calculadoras gratis para asesores energéticos"
 }
 ],
 "src": [],
@@ -1273,7 +1281,20 @@
 ],
 "sec": [],
 "close": "",
-"lk": [],
+"lk": [
+{
+"u": "/modulos/liquidaciones-comercializadoras",
+"l": "Control de liquidaciones de comercializadoras"
+},
+{
+"u": "/modulos/red-de-colaboradores",
+"l": "Gestión de captadores y colaboradores con QR"
+},
+{
+"u": "/suministros/luz",
+"l": "Software para vender contratos de luz"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -2072,7 +2093,20 @@
 ],
 "sec": [],
 "close": "",
-"lk": [],
+"lk": [
+{
+"u": "/modulos/equipo-y-permisos",
+"l": "Gestión de equipos comerciales de energía"
+},
+{
+"u": "/modulos/crm-leads",
+"l": "CRM para asesoría energética"
+},
+{
+"u": "/recursos/normativa/verifactu-asesorias",
+"l": "Verifactu para asesorías energéticas"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -2347,7 +2381,20 @@
 ],
 "sec": [],
 "close": "",
-"lk": [],
+"lk": [
+{
+"u": "/integraciones",
+"l": "Integraciones software comercializadoras"
+},
+{
+"u": "/modulos/retrocomisiones",
+"l": "Control de retrocomisiones de contratos de energía"
+},
+{
+"u": "/modulos/comisiones-comerciales",
+"l": "Programa de comisiones para comerciales"
+}
+],
 "src": [],
 "upd": "2026-10-14",
 "zl": [],
@@ -3925,6 +3972,14 @@
 {
 "u": "/soluciones/administradores-fincas",
 "l": "administradores de fincas que venden energía"
+},
+{
+"u": "/soluciones/agentes-energeticos",
+"l": "Programa para agentes energéticos independientes"
+},
+{
+"u": "/suministros/dual",
+"l": "Dual luz y gas"
 }
 ],
 "src": [],
@@ -4369,6 +4424,14 @@
 {
 "u": "/recursos/comercializadoras",
 "l": "comercializadoras para agentes de energía"
+},
+{
+"u": "/recursos/comercializadoras/naturgy",
+"l": "Ser agente de Naturgy"
+},
+{
+"u": "/integraciones/iberdrola",
+"l": "Programa de agentes conectado con Iberdrola"
 }
 ],
 "src": [],
@@ -5502,6 +5565,18 @@
 {
 "u": "/recursos/comercializadoras/audax-renovables",
 "l": "ser agente de Audax Renovables"
+},
+{
+"u": "/recursos/comercializadoras/bassols-energia",
+"l": "Ser agente de Bassols Energia"
+},
+{
+"u": "/recursos/comercializadoras/eleia",
+"l": "Ser agente de Eleia"
+},
+{
+"u": "/recursos/negocio/organizar-red-colaboradores",
+"l": "Cómo organizar una red de colaboradores"
 }
 ],
 "src": [],
@@ -5643,6 +5718,18 @@
 {
 "u": "/recursos/comercializadoras/factor-energia",
 "l": "ser agente de Factor Energía"
+},
+{
+"u": "/recursos/comercializadoras/aldro-energia",
+"l": "Ser agente de Aldro Energía"
+},
+{
+"u": "/recursos/comercializadoras/unielectrica",
+"l": "Ser agente de Unieléctrica"
+},
+{
+"u": "/recursos/negocio/subdistribuidor-energia",
+"l": "Qué es un subdistribuidor de energía"
 }
 ],
 "src": [],
@@ -6612,6 +6699,14 @@
 {
 "u": "/recursos/comercializadoras/totalenergies",
 "l": "ser agente de TotalEnergies"
+},
+{
+"u": "/recursos/comercializadoras/repsol",
+"l": "Ser agente de Repsol"
+},
+{
+"u": "/recursos/negocio/como-ser-agente-de-una-comercializadora",
+"l": "Cómo ser agente de una comercializadora de luz"
 }
 ],
 "src": [],
@@ -7431,6 +7526,14 @@
 {
 "u": "/modulos/comisiones-comerciales",
 "l": "programa de comisiones para comerciales"
+},
+{
+"u": "/recursos/negocio/asesoria-o-comercializadora",
+"l": "Diferencia entre asesoría energética y comercializadora"
+},
+{
+"u": "/recursos/negocio/corredurias-energeticas",
+"l": "Qué es una correduría energética"
 }
 ],
 "src": [],
@@ -7563,6 +7666,18 @@
 {
 "u": "/modulos/pix-asistente-ia",
 "l": "asistente de IA para asesorías energéticas"
+},
+{
+"u": "/recursos/comercializadoras/gana-energia",
+"l": "Ser agente de Gana Energía"
+},
+{
+"u": "/recursos/comercializadoras/som-energia",
+"l": "Ser agente de Som Energia"
+},
+{
+"u": "/recursos/comisiones/precios-negociados-margen",
+"l": "Cómo calcular el margen en una tarifa de luz"
 }
 ],
 "src": [],
@@ -7965,6 +8080,14 @@
 {
 "u": "/modulos/comisiones-comerciales",
 "l": "programa de comisiones para comerciales"
+},
+{
+"u": "/recursos/comisiones/autofacturas-colaboradores-guia",
+"l": "Cómo hacer autofacturas a colaboradores"
+},
+{
+"u": "/recursos/negocio/cuanto-gana-un-asesor-energetico",
+"l": "Cuánto gana un asesor energético"
 }
 ],
 "src": [],
@@ -8100,6 +8223,18 @@
 {
 "u": "/recursos/comisiones/autofacturas-colaboradores-guia",
 "l": "guía de autofacturas para colaboradores"
+},
+{
+"u": "/recursos/comercializadoras/imagina-energia",
+"l": "Ser agente de Imagina Energía"
+},
+{
+"u": "/recursos/comercializadoras/pepeenergy",
+"l": "Ser agente de Pepeenergy"
+},
+{
+"u": "/herramientas/calculadora-comisiones",
+"l": "Calculadora de comisiones asesor energético"
 }
 ],
 "src": [],
@@ -8235,6 +8370,18 @@
 {
 "u": "/modulos/retrocomisiones",
 "l": "control de retrocomisiones de contratos de energía"
+},
+{
+"u": "/recursos/comercializadoras/holaluz",
+"l": "Ser agente de Holaluz"
+},
+{
+"u": "/recursos/comercializadoras/octopus-energy",
+"l": "Ser agente de Octopus Energy"
+},
+{
+"u": "/recursos/comisiones/como-funcionan-las-comisiones",
+"l": "Cómo funcionan las comisiones de las comercializadoras"
 }
 ],
 "src": [],
@@ -10230,6 +10377,14 @@
 {
 "u": "/modulos/calculadora-ahorro",
 "l": "calculadora de ahorro energético para comerciales"
+},
+{
+"u": "/herramientas/calculadora-factura-2-0td",
+"l": "Calculadora factura luz 2.0TD"
+},
+{
+"u": "/recursos/glosario/potencia-contratada",
+"l": "Qué es la potencia contratada"
 }
 ],
 "src": [
@@ -10374,6 +10529,18 @@
 {
 "u": "/modulos/calculadora-ahorro",
 "l": "calculadora de ahorro energético para comerciales"
+},
+{
+"u": "/herramientas/calculadora-3-0td",
+"l": "Calculadora tarifa 3.0TD"
+},
+{
+"u": "/recursos/glosario/termino-de-potencia",
+"l": "Qué es el término de potencia"
+},
+{
+"u": "/recursos/tramites/multipunto-empresas",
+"l": "Gestionar empresas con varios suministros"
 }
 ],
 "src": [],
@@ -10513,6 +10680,18 @@
 {
 "u": "/modulos/avisos-renovaciones",
 "l": "aviso de vencimiento de contratos de luz"
+},
+{
+"u": "/herramientas/calculadora-6-1td",
+"l": "Calculadora tarifa 6.1TD"
+},
+{
+"u": "/recursos/glosario/maximetro",
+"l": "Qué es el maxímetro"
+},
+{
+"u": "/recursos/glosario/curva-de-carga",
+"l": "Qué es la curva de carga"
 }
 ],
 "src": [],
@@ -10941,6 +11120,14 @@
 {
 "u": "/modulos/retrocomisiones",
 "l": "control de retrocomisiones de contratos de energía"
+},
+{
+"u": "/herramientas/calculadora-gas",
+"l": "Calculadora factura de gas"
+},
+{
+"u": "/suministros/gas",
+"l": "Software para vender contratos de gas natural"
 }
 ],
 "src": [],
@@ -11417,6 +11604,18 @@
 {
 "u": "/modulos/mercado-energetico",
 "l": "precio de la luz en tiempo real para comerciales de energía"
+},
+{
+"u": "/herramientas/comparador-de-tarifas",
+"l": "Comparador de tarifas de luz gratis"
+},
+{
+"u": "/recursos/glosario/tarifa-indexada",
+"l": "Qué es una tarifa indexada"
+},
+{
+"u": "/herramientas/indexada-o-fija",
+"l": "Tarifa indexada o fija para empresas"
 }
 ],
 "src": [],
@@ -14014,6 +14213,18 @@
 {
 "u": "/modulos/gestion-documental",
 "l": "gestión documental asesoría energética"
+},
+{
+"u": "/recursos/glosario/datadis",
+"l": "Qué es Datadis"
+},
+{
+"u": "/recursos/tramites/consultar-sips-asesor",
+"l": "Cómo consultar el SIPS siendo asesor"
+},
+{
+"u": "/recursos/glosario/curva-de-carga",
+"l": "Qué es la curva de carga"
 }
 ],
 "src": [],
@@ -14425,6 +14636,18 @@
 {
 "u": "/modulos/pix-asistente-ia",
 "l": "asistente de IA para asesorías energéticas"
+},
+{
+"u": "/recursos/tramites/detectar-errores-facturacion",
+"l": "Cómo detectar errores en la factura de la comercializadora"
+},
+{
+"u": "/recursos/glosario/cups",
+"l": "Qué es el CUPS"
+},
+{
+"u": "/modulos/liquidaciones-comercializadoras",
+"l": "Control de liquidaciones de comercializadoras"
 }
 ],
 "src": [],
@@ -14563,6 +14786,14 @@
 {
 "u": "/modulos/cuadro-de-mando",
 "l": "cuadro de mando asesoría energética"
+},
+{
+"u": "/recursos/tramites/alta-nueva-suministro",
+"l": "Alta nueva de suministro eléctrico"
+},
+{
+"u": "/recursos/glosario/sips",
+"l": "Qué es el SIPS"
 }
 ],
 "src": [],
@@ -14977,6 +15208,10 @@
 {
 "u": "/recursos/tramites/proceso-cambio-comercializadora",
 "l": "cuánto tarda un cambio de comercializadora"
+},
+{
+"u": "/recursos/tramites/detectar-errores-facturacion",
+"l": "Cómo detectar errores en la factura de la comercializadora"
 }
 ],
 "src": [],
@@ -16506,6 +16741,14 @@
 {
 "u": "/modulos/pix-asistente-ia",
 "l": "asistente de IA para asesorías energéticas"
+},
+{
+"u": "/recursos/glosario/switching",
+"l": "Qué es el switching"
+},
+{
+"u": "/recursos/tramites/proceso-cambio-comercializadora",
+"l": "Cuánto tarda un cambio de comercializadora"
 }
 ],
 "src": [],
@@ -17172,6 +17415,14 @@
 {
 "u": "/modulos/crm-leads",
 "l": "CRM para asesoría energética"
+},
+{
+"u": "/recursos/glosario/impuesto-electrico",
+"l": "Qué es el impuesto eléctrico"
+},
+{
+"u": "/recursos/tramites/estudio-energetico-paso-a-paso",
+"l": "Cómo hacer un estudio energético"
 }
 ],
 "src": [],
@@ -17774,6 +18025,10 @@
 {
 "u": "/modulos/mercado-energetico",
 "l": "precio de la luz en tiempo real para comerciales de energía"
+},
+{
+"u": "/herramientas/estudio-ahorro",
+"l": "Plantilla estudio de ahorro energético"
 }
 ],
 "src": [],
@@ -19520,6 +19775,14 @@
 {
 "u": "/recursos/glosario/cups",
 "l": "qué es el CUPS de luz y gas"
+},
+{
+"u": "/suministros/gas",
+"l": "Software para vender contratos de gas natural"
+},
+{
+"u": "/recursos/tramites/alta-nueva-suministro",
+"l": "Alta nueva de suministro eléctrico"
 }
 ],
 "src": [],
@@ -20335,6 +20598,14 @@
 {
 "u": "/recursos/fibra-y-telefonia/portabilidad-lineas-empresa",
 "l": "portabilidad de líneas móviles de empresa"
+},
+{
+"u": "/recursos/tarifas/tarifa-fibra-empresas",
+"l": "Tarifa de fibra para empresas"
+},
+{
+"u": "/suministros/fibra",
+"l": "Software para vender fibra y telefonía"
 }
 ],
 "src": [],
@@ -21527,6 +21798,18 @@
 {
 "u": "/modulos/gestion-contratos-luz-gas",
 "l": "gestión de contratos de luz y gas"
+},
+{
+"u": "/recursos/normativa/venta-telefonica-luz",
+"l": "Prohibición venta telefónica de luz"
+},
+{
+"u": "/recursos/normativa/reclamaciones-cnmc",
+"l": "Reclamaciones a comercializadoras CNMC"
+},
+{
+"u": "/recursos/comisiones/retrocesion-comisiones-bajas",
+"l": "Retrocesión de comisiones por baja"
 }
 ],
 "src": [],
@@ -22521,6 +22804,14 @@
 {
 "u": "/plataforma-propia/licencia-sin-cuota-mensual",
 "l": "Licencia sin cuota mensual"
+},
+{
+"u": "/plataforma-propia/migrar-crm-erp",
+"l": "Migrar tu CRM o ERP"
+},
+{
+"u": "/plataforma-propia/programa-a-medida",
+"l": "Programa de gestión a medida para asesoría energética"
 }
 ],
 "src": [],
@@ -22864,6 +23155,14 @@
 {
 "u": "/modulos/cuadro-de-mando",
 "l": "cuadro de mando asesoría energética"
+},
+{
+"u": "/recursos/negocio/kpis-asesoria-energetica",
+"l": "Indicadores para una asesoría energética"
+},
+{
+"u": "/recursos/negocio/errores-asesoria-energetica",
+"l": "Errores al montar una asesoría energética"
 }
 ],
 "src": [],
@@ -25643,6 +25942,10 @@
 {
 "u": "/plataforma-propia",
 "l": "Programa de gestión propio para tu asesoría energética"
+},
+{
+"u": "/zonas/aragon",
+"l": "Programa para asesorías energéticas en Aragón"
 }
 ],
 "src": [],
@@ -28217,6 +28520,18 @@
 {
 "u": "/modulos/crm-leads",
 "l": "CRM para asesoría energética"
+},
+{
+"u": "/recursos/tarifas/autoconsumo-empresas",
+"l": "Autoconsumo para empresas rentabilidad"
+},
+{
+"u": "/recursos/glosario/omie",
+"l": "Qué es OMIE"
+},
+{
+"u": "/recursos/captacion/captar-clientes-empresas-luz",
+"l": "Cómo captar clientes para cambiar la luz"
 }
 ],
 "src": [],

@@ -25,8 +25,8 @@
   "pub": "2026-10-14"
  },
  "/sobre-nosotros": {
-  "hash": "754d3a0a7bfabecb",
-  "upd": "2026-10-15T19:55:00+02:00",
+  "hash": "fafd20511aafa8fd",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/integraciones": {
@@ -50,8 +50,8 @@
   "pub": "2026-10-14"
  },
  "/modulos/gestion-contratos-luz-gas": {
-  "hash": "cf5b068fdf29944b",
-  "upd": "2026-10-14",
+  "hash": "b8e29670f7d214e9",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/modulos/gestion-contratos-fibra-telefonia": {
@@ -100,8 +100,8 @@
   "pub": "2026-10-14"
  },
  "/modulos/gestion-documental": {
-  "hash": "475412c68c7317b2",
-  "upd": "2026-10-14",
+  "hash": "b8ded6df4f5b93ff",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/modulos/certificados-ahorro-energetico": {
@@ -120,8 +120,8 @@
   "pub": "2026-10-14"
  },
  "/modulos/bot-atr": {
-  "hash": "0941076618da5344",
-  "upd": "2026-10-14",
+  "hash": "965da1012d35dd47",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/modulos/pix-asistente-ia": {
@@ -175,8 +175,8 @@
   "pub": "2026-10-14"
  },
  "/soluciones/inmobiliarias": {
-  "hash": "c0fac1737b3e2c86",
-  "upd": "2026-10-15",
+  "hash": "1ddf171548c69ded",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/soluciones/distribuidores-telecomunicaciones": {
@@ -190,8 +190,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/iberdrola": {
-  "hash": "9262cddfbccaa872",
-  "upd": "2026-10-15T19:55:00+02:00",
+  "hash": "914e6ddca4e44b47",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/endesa": {
@@ -230,13 +230,13 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/factor-energia": {
-  "hash": "81c27b8260913ad9",
-  "upd": "2026-10-15",
+  "hash": "90479792cf375e73",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/nexus-energia": {
-  "hash": "af3f9665df4e355e",
-  "upd": "2026-10-15",
+  "hash": "f561c762d06e8e14",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/gana-energia": {
@@ -270,8 +270,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/plenitude": {
-  "hash": "49bd66929dbfdc9d",
-  "upd": "2026-10-15",
+  "hash": "69e1f76e987bebc3",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/axpo": {
@@ -300,13 +300,13 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/visalia": {
-  "hash": "57bc1eb7bb559a59",
-  "upd": "2026-10-15",
+  "hash": "ae956088a86d030d",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/chc-energia": {
-  "hash": "f71f5b1bc7037fef",
-  "upd": "2026-10-15",
+  "hash": "9ed6984cd45a263a",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/bassols-energia": {
@@ -320,18 +320,18 @@
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/adx-energia": {
-  "hash": "f5a883fccbc97a9f",
-  "upd": "2026-10-15",
+  "hash": "db946a6cb2a0a4dc",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/contigo-energia": {
-  "hash": "e2af3e737e7d9080",
-  "upd": "2026-10-15",
+  "hash": "6c069dce869251af",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/ignis-energia": {
-  "hash": "b0c2d139a97fc2e3",
-  "upd": "2026-10-15",
+  "hash": "79ee9b345b586508",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/comercializadoras/pepeenergy": {
@@ -385,18 +385,18 @@
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-2-0td": {
-  "hash": "1b5c7bfc6482e913",
-  "upd": "2026-10-15",
+  "hash": "0099b22e60dad024",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-3-0td": {
-  "hash": "e357f36d2a341621",
-  "upd": "2026-10-15",
+  "hash": "dd889c607e9ab45b",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifa-6-1td": {
-  "hash": "de70d1096b41b431",
-  "upd": "2026-10-15",
+  "hash": "34b3569bf39c6ad6",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/peajes-y-cargos": {
@@ -410,8 +410,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/tarifas-gas-rl": {
-  "hash": "07d6bfd4fd1e4ffd",
-  "upd": "2026-10-15",
+  "hash": "59e3a5d8c10fafbd",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/precio-gas-empresas": {
@@ -425,8 +425,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/precio-luz-empresas": {
-  "hash": "56ffd441bc129b71",
-  "upd": "2026-10-15",
+  "hash": "9409710e570398d6",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/autoconsumo-empresas": {
@@ -515,8 +515,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/tramites/consentimiento-datadis": {
-  "hash": "cab435f01b9666bd",
-  "upd": "2026-10-15",
+  "hash": "f8a89f4077729ae1",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/consultar-sips-asesor": {
@@ -530,13 +530,13 @@
   "pub": "2026-10-14"
  },
  "/recursos/tramites/contrato-rechazado-que-hacer": {
-  "hash": "8b7c49d6911dd68e",
-  "upd": "2026-10-15",
+  "hash": "c41a1cc16d253820",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/causas-rechazo-contratos": {
-  "hash": "7e4db1d67696b6e3",
-  "upd": "2026-10-15",
+  "hash": "30bc2011ba2742ab",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/cambio-de-titular-luz": {
@@ -550,8 +550,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/tramites/permanencia-penalizacion": {
-  "hash": "5f33e8e3b7b11bfd",
-  "upd": "2026-10-15",
+  "hash": "da58a047a522e55d",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tramites/multipunto-empresas": {
@@ -605,8 +605,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/glosario/atr": {
-  "hash": "e30dbbb7b30b58dd",
-  "upd": "2026-10-15",
+  "hash": "d3ef321745ecf612",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/sips": {
@@ -630,8 +630,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/glosario/energia-reactiva": {
-  "hash": "76c4b4f7db8e1768",
-  "upd": "2026-10-15",
+  "hash": "a1503ac8013bca20",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/peajes-electricos": {
@@ -650,8 +650,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/glosario/termino-de-energia": {
-  "hash": "74e5c51e1294bd92",
-  "upd": "2026-10-15",
+  "hash": "a7035118d4bcf76f",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/tarifa-indexada": {
@@ -710,8 +710,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/glosario/certificado-de-instalacion-de-gas": {
-  "hash": "33cfc960ec2f2cdc",
-  "upd": "2026-10-15",
+  "hash": "20665b78f05d24d8",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/lectura-real-y-estimada": {
@@ -740,8 +740,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/centralita-virtual-empresas": {
-  "hash": "6511c92bb2565f56",
-  "upd": "2026-10-15",
+  "hash": "aa52c0471027800f",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/glosario/curva-de-carga": {
@@ -785,8 +785,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/normativa/derecho-desistimiento-luz": {
-  "hash": "95bdea38ed60b5b7",
-  "upd": "2026-10-15",
+  "hash": "e1eaddaad49d8e22",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/normativa/reclamaciones-cnmc": {
@@ -815,8 +815,8 @@
   "pub": "2026-10-14"
  },
  "/comparativas/nube-o-servidor-propio": {
-  "hash": "c49bc4f316c41e75",
-  "upd": "2026-11-12T19:18:01+01:00",
+  "hash": "7bb1805d622b5f90",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/comparativas/comparador-o-programa-completo": {
@@ -825,8 +825,8 @@
   "pub": "2026-10-14"
  },
  "/comparativas/excel-o-programa": {
-  "hash": "c715979c55e7c46f",
-  "upd": "2026-11-12T19:18:01+01:00",
+  "hash": "4cfab759e897065c",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/comparativas/crm-generico-o-especifico": {
@@ -935,8 +935,8 @@
   "pub": "2026-10-14"
  },
  "/zonas/navarra": {
-  "hash": "513cbcd3cb20d2bd",
-  "upd": "2026-10-15",
+  "hash": "7b5e3dd3f666d2a1",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/zonas/cantabria": {
@@ -1020,8 +1020,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/negocio/ppa-para-pymes": {
-  "hash": "8df7e7e1a3e97b93",
-  "upd": "2026-10-15",
+  "hash": "9e461c570b09dabe",
+  "upd": "2026-11-12T19:40:24+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/linkedin-asesores-energeticos": {
