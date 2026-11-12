@@ -152,8 +152,11 @@ function jsonld(p) {
     }
     g.push(ORG, WEB, APP, page, { '@type': 'BreadcrumbList', '@id': url(p.u) + '#breadcrumb',
       itemListElement: crumbs(p).map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.l, item: url(c.u) })) });
-    if (isGuide(p) || p.u === '/implantacion') g.push({ '@type': 'Article', '@id': url(p.u) + '#article', headline: p.h1, description: p.md, mainEntityOfPage: { '@id': url(p.u) + '#page' },
+    if (isGuide(p) || p.t === 'comparativa' || p.u === '/implantacion') g.push({ '@type': 'Article', '@id': url(p.u) + '#article', headline: p.h1, description: p.md, mainEntityOfPage: { '@id': url(p.u) + '#page' },
       author: { '@id': D + '/#org' }, publisher: { '@id': D + '/#org' }, datePublished: p.pub, dateModified: p.upd, image: abs(p.img || SITE.ogImage), inLanguage: 'es-ES' });
+    // Preguntas frecuentes visibles en la página
+    if (p.t !== 'legal' && p.fq && p.fq.length) g.push({ '@type': 'FAQPage', '@id': url(p.u) + '#faq', isPartOf: { '@id': url(p.u) + '#page' }, inLanguage: 'es-ES',
+      mainEntity: p.fq.map((x) => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a } })) });
     // Calculadoras gratis: funcionan en la propia página (src/component.js, TOOLS)
     if (p.t === 'herramienta' && COMPONENT.includes(`'${p.u}'`)) g.push({ '@type': 'WebApplication', '@id': url(p.u) + '#tool', name: p.h1, url: url(p.u) + '#calculadora', description: p.md,
       applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', browserRequirements: 'Requiere JavaScript', isAccessibleForFree: true,
