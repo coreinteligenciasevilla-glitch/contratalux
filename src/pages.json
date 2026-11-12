@@ -164,7 +164,7 @@
 "l": "Todas las funciones del programa"
 },
 {
-"u": "/plataforma-propia/cloud-o-servidor-propio",
+"u": "/comparativas/nube-o-servidor-propio",
 "l": "¿Cloud o servidor propio?"
 }
 ],
@@ -11127,6 +11127,22 @@
 {
 "q": "¿Qué documentación pide normalmente una operadora?",
 "a": "Datos del titular con DNI o CIF, dirección de instalación, cuenta bancaria y, si hay portabilidad, los números y el operador de origen. Los requisitos exactos los fija cada operadora."
+},
+{
+"q": "¿Necesito un plan distinto para gestionar fibra en ContrataLux?",
+"a": "No. Todos los planes, desde el Básico de 90 €/mes + IVA, incluyen luz, gas, fibra y telefonía."
+},
+{
+"q": "¿Se calculan igual las comisiones de fibra que las de luz?",
+"a": "Cada contrato guarda su comisión bruta, neta y repartida según lo que pague la operadora, así que puedes tener reglas distintas por tipo de producto y verlas juntas en las liquidaciones."
+},
+{
+"q": "¿Qué hago con las incidencias de instalación?",
+"a": "Regístralas en el propio contrato. Quedan en la cronología auditada con fecha y usuario, y cualquier compañero sabe en qué punto está sin llamar al comercial."
+},
+{
+"q": "¿Puedo vender también alarmas?",
+"a": "Sí, ADT Alarmas está entre las operadoras precargadas y las alarmas se gestionan en el mismo módulo que la fibra y la telefonía."
 }
 ],
 "mods": [],
@@ -11205,6 +11221,47 @@
 "li": [],
 "hasLi": false,
 "hasTb": false
+},
+{
+"h": "Qué cambia en la venta de fibra respecto a la luz",
+"p": [
+{
+"t": "En luz el cambio es administrativo y el cliente no nota nada en casa. En fibra hay una instalación física, una cita con un técnico, un router nuevo y, a veces, una portabilidad de número. Son más puntos donde algo puede fallar y donde el cliente te va a llamar."
+},
+{
+"t": "Por eso conviene preguntar antes de proponer: cobertura en la dirección, permanencia vigente con su operadora actual, número de líneas móviles y si usa la conexión para trabajar."
+}
+],
+"li": [
+{
+"t": "Cobertura confirmada antes de prometer nada."
+},
+{
+"t": "Permanencia actual y posible penalización."
+},
+{
+"t": "Líneas móviles y si hay portabilidades."
+},
+{
+"t": "Fecha de instalación y quién la confirma con el cliente."
+}
+],
+"hasLi": true,
+"hasTb": false
+},
+{
+"h": "Cómo detectar candidatos en tu cartera actual",
+"p": [
+{
+"t": "No hace falta buscar clientes nuevos para empezar. Filtra tu cartera de energía por clientes que no tengan ningún contrato de telecomunicaciones registrado y prioriza los que renuevan luz pronto: la llamada de renovación es la excusa natural para preguntar por la fibra."
+},
+{
+"t": "Con la exportación a Excel puedes sacar esa lista y repartirla entre comerciales, y el informe de 12 meses te dirá después qué peso tiene la fibra en tus comisiones."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
 }
 ],
 "close": "Vender luz y fibra en un mismo paquete funciona cuando controlas cada contrato por separado sin perder la visión del cliente. Prueba ContrataLux 7 días gratis y gestiona energía y telecomunicaciones en la misma cartera, o pide una demo para verlo con tus operadoras.",
@@ -11224,6 +11281,10 @@
 {
 "u": "/modulos/gestion-contratos-luz-gas",
 "l": "gestión de contratos de luz y gas"
+},
+{
+"u": "/recursos/captacion/fidelizar-cartera-renovaciones",
+"l": "cómo fidelizar la cartera de clientes de luz"
 }
 ],
 "src": [],
@@ -12940,151 +13001,6 @@
 "imgCap": ""
 },
 {
-"u": "/recursos/negocio/dejar-el-excel",
-"k": "pasar del Excel a un programa en una asesoría energética",
-"h1": "Pasar del Excel a un programa en una asesoría energética",
-"l": "Pasar del Excel a un programa en una asesoría energética",
-"p": "/recursos/negocio",
-"t": "recurso",
-"kick": "Guía del asesor · Negocio",
-"q": "¿Pasar del Excel a un programa en una asesoría energética?",
-"f": [],
-"ti": "Pasar del Excel a un programa en una asesoría energética",
-"md": "Pasar del Excel a un programa en una asesoría energética: guía clara para asesores energéticos, con ejemplos y pasos. Y cómo llevarlo al día con…",
-"sk": [
-{
-"s": "plantilla de CRM en Excel"
-},
-{
-"s": "CRM en Excel gratis"
-}
-],
-"qs": [],
-"o": "Autocompletado de Google",
-"s": "",
-"img": "",
-"b": [],
-"fq": [
-{
-"q": "¿Pierdo el histórico al dejar el Excel?",
-"a": "No, si lo importas. Conviene migrar también contratos de baja para conservar el histórico de comisiones."
-},
-{
-"q": "¿Puedo seguir exportando a Excel?",
-"a": "Sí, ContrataLux permite exportar a Excel cuando lo necesites para tu gestor o una comercializadora."
-},
-{
-"q": "¿Cuánto cuesta el cambio?",
-"a": "El plan Básico cuesta 90 €/mes + IVA para 1-2 usuarios y el Equipo 195 €/mes + IVA hasta 10; hay prueba gratis de 7 días."
-}
-],
-"mods": [],
-"ni": false,
-"intro": [
-{
-"t": "Pasar del Excel a un programa en una asesoría energética suele llegar tarde, cuando ya hay comisiones que no cuadran o contratos dados de baja que nadie vio. La hoja de cálculo funciona con veinte contratos y una persona; falla cuando hay varias comercializadoras, varios comerciales y fechas que vigilar."
-},
-{
-"t": "Esta guía te ayuda a reconocer el momento, a preparar los datos y a hacer la migración sin parar la actividad."
-}
-],
-"sec": [
-{
-"h": "¿Sirve una plantilla de CRM en Excel para una asesoría energética?",
-"p": [
-{
-"t": "Sirve para empezar. Una plantilla de CRM en Excel con columnas de cliente, CUPS, comercializadora, estado y comisión te ordena los primeros meses. El límite aparece cuando necesitas avisos por fecha, permisos por usuario o historial de cambios."
-},
-{
-"t": "Un CRM en Excel gratis no te avisa de que mañana vence la retrocomisión de un contrato ni impide que dos comerciales metan el mismo CUPS."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "¿Cuándo pasar del Excel a un programa en una asesoría energética?",
-"p": [
-{
-"t": "Cuando se cumplen dos o más de estas señales. Cada una significa que estás perdiendo dinero o tiempo en reconstruir información."
-}
-],
-"li": [
-{
-"t": "Trabajas con más de una comercializadora y no sabes cuánto te debe cada una."
-},
-{
-"t": "Más de una persona edita el archivo y aparecen versiones distintas."
-},
-{
-"t": "Te enteras de una baja cuando llega la retrocesión."
-},
-{
-"t": "No sabes qué contratos vencen el mes que viene."
-},
-{
-"t": "Un mismo CUPS aparece asignado a dos comerciales."
-}
-],
-"hasLi": true,
-"hasTb": false
-},
-{
-"h": "¿Cómo preparar el Excel para migrar?",
-"p": [
-{
-"t": "Unifica columnas antes de importar: una fila por contrato, CUPS sin espacios, fechas en el mismo formato y comercializadora escrita siempre igual. Separa los datos del cliente de los del contrato si un cliente tiene varios suministros."
-},
-{
-"t": "En ContrataLux la migración puede hacerla el equipo de ContrataLux, tú mismo a mano o PIX, y tienes acceso desde el momento del alta, así que puedes seguir trabajando mientras se cargan los datos."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "Qué ganas el primer mes",
-"p": [
-{
-"t": "Ves los contratos en tabla, en Kanban por fases o en calendario de altas, bajas y fin de retrocomisión. La bandeja de desbloqueos te avisa cuando el mismo CUPS entra por dos comerciales, y cada contrato muestra su comisión bruta, neta y repartida."
-},
-{
-"t": "Además, el registro de sucesos y la cronología auditada de cada contrato te dicen quién cambió qué y cuándo, algo imposible de reconstruir en un archivo compartido."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-}
-],
-"close": "Pasar del Excel a un programa en una asesoría energética es más fácil si pruebas con tus propios datos. Activa los 7 días gratis de ContrataLux o pide una demo y te ayudamos con la migración.",
-"lk": [
-{
-"u": "/modulos/gestion-contratos-luz-gas",
-"l": "gestión de contratos de luz y gas"
-},
-{
-"u": "/modulos/avisos-renovaciones",
-"l": "aviso de vencimiento de contratos de luz"
-},
-{
-"u": "/modulos/cuadro-de-mando",
-"l": "cuadro de mando asesoría energética"
-}
-],
-"src": [],
-"upd": "2026-10-14",
-"zl": [],
-"vid": "",
-"vidPoster": "",
-"vidCap": "",
-"img2": "",
-"img2Cap": "",
-"imgCap": ""
-},
-{
 "u": "/recursos/negocio/organizar-red-colaboradores",
 "k": "cómo organizar una red de colaboradores",
 "h1": "Cómo organizar una red de colaboradores",
@@ -13346,7 +13262,7 @@
 "l": "control de liquidaciones de comercializadoras"
 },
 {
-"u": "/recursos/negocio/dejar-el-excel",
+"u": "/comparativas/excel-o-programa",
 "l": "pasar del Excel a un programa en una asesoría energética"
 }
 ],
@@ -13490,148 +13406,6 @@
 {
 "u": "/recursos/captacion",
 "l": "guías de captación de clientes de energía"
-}
-],
-"src": [],
-"upd": "2026-10-14",
-"zl": [],
-"vid": "",
-"vidPoster": "",
-"vidCap": "",
-"img2": "",
-"img2Cap": "",
-"imgCap": ""
-},
-{
-"u": "/recursos/captacion/vender-fibra-ademas-de-luz",
-"k": "vender fibra además de luz y gas",
-"h1": "Vender fibra además de luz y gas",
-"l": "Vender fibra además de luz y gas",
-"p": "/recursos/captacion",
-"t": "recurso",
-"kick": "Guía del asesor · Captación",
-"q": "¿Vender fibra además de luz y gas?",
-"f": [],
-"ti": "Vender fibra además de luz y gas | ContrataLux",
-"md": "Vender fibra además de luz y gas: guía clara para asesores energéticos, con ejemplos y pasos. Y cómo llevarlo al día con ContrataLux.",
-"sk": [],
-"qs": [],
-"o": "Sin búsquedas en el autocompletado: solo la keyword principal",
-"s": "",
-"img": "",
-"b": [],
-"fq": [
-{
-"q": "¿Necesito un plan distinto para gestionar fibra en ContrataLux?",
-"a": "No. Todos los planes, desde el Básico de 90 €/mes + IVA, incluyen luz, gas, fibra y telefonía."
-},
-{
-"q": "¿Se calculan igual las comisiones de fibra que las de luz?",
-"a": "Cada contrato guarda su comisión bruta, neta y repartida según lo que pague la operadora, así que puedes tener reglas distintas por tipo de producto y verlas juntas en las liquidaciones."
-},
-{
-"q": "¿Qué hago con las incidencias de instalación?",
-"a": "Regístralas en el propio contrato. Quedan en la cronología auditada con fecha y usuario, y cualquier compañero sabe en qué punto está sin llamar al comercial."
-},
-{
-"q": "¿Puedo vender también alarmas?",
-"a": "Sí, ADT Alarmas está entre las operadoras precargadas y las alarmas se gestionan en el mismo módulo que la fibra y la telefonía."
-}
-],
-"mods": [],
-"ni": false,
-"intro": [
-{
-"t": "Vender fibra además de luz y gas es la forma más directa de sacar más rendimiento a cada visita: el cliente ya te ha dado su factura, ya confía en ti y ya está en modo «revisar gastos fijos». Preguntarle por su conexión de internet y su móvil cuesta un minuto y puede convertir un contrato en dos o tres."
-},
-{
-"t": "El reto no es comercial, es de organización. La fibra tiene sus propios plazos de instalación, sus propias incidencias y sus propias comisiones, y si la gestionas en una hoja aparte de la energía acabas sin saber qué has vendido a quién."
-}
-],
-"sec": [
-{
-"h": "¿Por qué tiene sentido vender fibra además de luz y gas?",
-"p": [
-{
-"t": "Porque el cliente que cambia de comercializadora eléctrica ya ha superado la barrera de «me da pereza cambiar». La conversación sobre su factura de telecomunicaciones es la misma: qué paga, qué usa y si hay una oferta mejor con la operadora adecuada."
-},
-{
-"t": "Además, un cliente con varios servicios contigo es más difícil de perder. Si otro asesor le ofrece solo luz, tendría que mover también la fibra y el móvil para dejarte del todo."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "Qué cambia en la venta de fibra respecto a la luz",
-"p": [
-{
-"t": "En luz el cambio es administrativo y el cliente no nota nada en casa. En fibra hay una instalación física, una cita con un técnico, un router nuevo y, a veces, una portabilidad de número. Son más puntos donde algo puede fallar y donde el cliente te va a llamar."
-},
-{
-"t": "Por eso conviene preguntar antes de proponer: cobertura en la dirección, permanencia vigente con su operadora actual, número de líneas móviles y si usa la conexión para trabajar."
-}
-],
-"li": [
-{
-"t": "Cobertura confirmada antes de prometer nada."
-},
-{
-"t": "Permanencia actual y posible penalización."
-},
-{
-"t": "Líneas móviles y si hay portabilidades."
-},
-{
-"t": "Fecha de instalación y quién la confirma con el cliente."
-}
-],
-"hasLi": true,
-"hasTb": false
-},
-{
-"h": "¿Cómo se gestionan juntos los contratos de energía y telecomunicaciones?",
-"p": [
-{
-"t": "En ContrataLux todos los contratos cuelgan de la misma ficha de cliente, sea luz, gas, fibra o alarma. Cada uno tiene su estado en el Kanban por fases, sus documentos y su comisión, y todos los planes incluyen luz, gas, fibra y telefonía sin coste extra."
-},
-{
-"t": "Entre las operadoras precargadas están Digi, Avatel, Orange y O2, junto a las comercializadoras de energía. Así el comercial registra la venta cruzada en el mismo momento y en el mismo sitio, sin abrir otra herramienta."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "Cómo detectar candidatos en tu cartera actual",
-"p": [
-{
-"t": "No hace falta buscar clientes nuevos para empezar. Filtra tu cartera de energía por clientes que no tengan ningún contrato de telecomunicaciones registrado y prioriza los que renuevan luz pronto: la llamada de renovación es la excusa natural para preguntar por la fibra."
-},
-{
-"t": "Con la exportación a Excel puedes sacar esa lista y repartirla entre comerciales, y el informe de 12 meses te dirá después qué peso tiene la fibra en tus comisiones."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-}
-],
-"close": "Vender fibra además de luz y gas es sencillo cuando todo vive en la misma ficha y cada contrato tiene su estado y su comisión. Prueba ContrataLux 7 días gratis o pide una demo y verás cómo encaja la venta cruzada en tu día a día.",
-"lk": [
-{
-"u": "/modulos/gestion-contratos-fibra-telefonia",
-"l": "gestión de contratos de fibra, telefonía y alarmas"
-},
-{
-"u": "/modulos/gestion-contratos-luz-gas",
-"l": "gestión de contratos de luz y gas"
-},
-{
-"u": "/recursos/captacion/fidelizar-cartera-renovaciones",
-"l": "cómo fidelizar la cartera de clientes de luz"
 }
 ],
 "src": [],
@@ -15758,138 +15532,6 @@
 {
 "u": "/recursos/captacion/linkedin-asesores-energeticos",
 "l": "captar clientes en LinkedIn siendo asesor energético"
-}
-],
-"src": [],
-"upd": "2026-10-14",
-"zl": [],
-"vid": "",
-"vidPoster": "",
-"vidCap": "",
-"img2": "",
-"img2Cap": "",
-"imgCap": ""
-},
-{
-"u": "/recursos/negocio/formar-comerciales-energia",
-"k": "cómo formar a comerciales de energía",
-"h1": "Cómo formar a comerciales de energía",
-"l": "Cómo formar a comerciales de energía",
-"p": "/recursos/negocio",
-"t": "recurso",
-"kick": "Guía del asesor · Negocio",
-"q": "¿Cómo formar a comerciales de energía?",
-"f": [],
-"ti": "Cómo formar a comerciales de energía | ContrataLux",
-"md": "Cómo formar a comerciales de energía: guía clara para asesores energéticos, con ejemplos y pasos. Y cómo llevarlo al día con ContrataLux.",
-"sk": [],
-"qs": [],
-"o": "Sin búsquedas en el autocompletado: solo la keyword principal",
-"s": "",
-"img": "",
-"b": [],
-"fq": [
-{
-"q": "¿Cuánto dura la formación inicial?",
-"a": "Un mes es un plazo razonable para que alguien sin experiencia venda acompañado; la autonomía completa suele tardar más."
-},
-{
-"q": "¿Quién debe acompañar las primeras visitas?",
-"a": "Un comercial con buen ratio de activación y pocas bajas, no necesariamente el que más vende."
-},
-{
-"q": "¿La comercializadora forma a mis comerciales?",
-"a": "Suele formar en sus productos y su plataforma; la técnica de venta y tu proceso interno te corresponden a ti."
-}
-],
-"mods": [],
-"ni": false,
-"intro": [
-{
-"t": "Cómo formar a comerciales de energía es sobre todo una cuestión de método: un plan de incorporación por semanas, práctica con facturas reales y acompañamiento en las primeras visitas. Un manual largo que nadie lee no sustituye a nada de eso."
-},
-{
-"t": "Esta guía se centra en el cómo: secuencia, prácticas y seguimiento. Si buscas qué temario incluir, lo tratamos en la guía de formación para comerciales de energía."
-}
-],
-"sec": [
-{
-"h": "¿Cómo formar a comerciales de energía en su primer mes?",
-"p": [
-{
-"t": "Con un plan en cuatro semanas que alterne teoría breve y práctica. El objetivo de la primera semana no es vender, sino leer una factura sin ayuda; el de la cuarta, cerrar una venta acompañado."
-}
-],
-"li": [
-{
-"t": "Semana 1: lectura de facturas 2.0TD y 3.0TD con casos reales anonimizados."
-},
-{
-"t": "Semana 2: comparativa y estudio de ahorro con la calculadora."
-},
-{
-"t": "Semana 3: role play de objeciones y visitas acompañadas."
-},
-{
-"t": "Semana 4: primeras ventas propias con revisión antes de tramitar."
-}
-],
-"hasLi": true,
-"hasTb": false
-},
-{
-"h": "¿Por qué practicar con facturas reales?",
-"p": [
-{
-"t": "Porque los errores caros nacen en la lectura: potencias mal copiadas, un CUPS incompleto o un titular que no coincide. Practicar con facturas reales anonimizadas, con permiso de los clientes, enseña a detectarlos antes de que la comercializadora rechace el contrato."
-},
-{
-"t": "Prepara un pequeño banco de casos: una vivienda 2.0TD, un comercio con potencia alta, una nave en 3.0TD y una comunidad de propietarios. Pide al comercial que haga el estudio completo de cada uno y corrígelo con él, señalando qué datos habría tenido que comprobar con el cliente."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "Revisión antes de tramitar",
-"p": [
-{
-"t": "Durante las primeras semanas, que otra persona revise cada contrato antes de enviarlo. Con permisos por grupo puedes dejar que el comercial nuevo cree contratos pero no los pase de fase hasta que un responsable los valide."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "Cómo medir si la formación funciona",
-"p": [
-{
-"t": "Mira su tasa de rechazos y de bajas en los tres primeros meses frente a la media del equipo. Si rechaza más, el problema es de tramitación; si se le dan de baja más, de cómo vende."
-},
-{
-"t": "Comparte con el comercial esos números cada mes. Saber dónde falla le ayuda más que cualquier sesión teórica, y te permite decidir si necesita más práctica de tramitación o más acompañamiento en la venta."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-}
-],
-"close": "Saber cómo formar a comerciales de energía es más fácil cuando la herramienta ayuda: calculadora guiada en 4 pasos, permisos por grupo y cronología de cada contrato. Pruébalo 7 días gratis en ContrataLux.",
-"lk": [
-{
-"u": "/recursos/negocio/formacion-comerciales-energia",
-"l": "formación para comerciales de energía"
-},
-{
-"u": "/modulos/calculadora-ahorro",
-"l": "calculadora de ahorro energético para comerciales"
-},
-{
-"u": "/modulos/equipo-y-permisos",
-"l": "gestión de equipos comerciales de energía"
 }
 ],
 "src": [],
@@ -22646,6 +22288,14 @@
 {
 "q": "¿Mis comerciales notan la diferencia?",
 "a": "Solo en la dirección web y la marca si usas la tuya. El funcionamiento del programa es el mismo."
+},
+{
+"q": "¿Qué es on-premise?",
+"a": "Software instalado en servidores propios de la empresa, en lugar de usarse como servicio en la nube del proveedor."
+},
+{
+"q": "¿Qué es SaaS?",
+"a": "Software como servicio: usas el programa por internet y pagas una suscripción mientras lo usas."
 }
 ],
 "mods": [],
@@ -22723,6 +22373,127 @@
 "li": [],
 "hasLi": false,
 "hasTb": false
+},
+{
+"h": "Comparativa rápida",
+"p": [],
+"li": [],
+"hasLi": false,
+"hasTb": true,
+"cap": "Cloud o servidor propio",
+"th": [
+{
+"t": ""
+},
+{
+"t": "Cloud (SaaS)"
+},
+{
+"t": "Servidor propio (on-premise)"
+}
+],
+"tr": [
+{
+"c": [
+{
+"t": "Pago"
+},
+{
+"t": "Cuota mensual"
+},
+{
+"t": "Licencia de uso y servicios opcionales"
+}
+]
+},
+{
+"c": [
+{
+"t": "Puesta en marcha"
+},
+{
+"t": "Inmediata"
+},
+{
+"t": "Tras la instalación"
+}
+]
+},
+{
+"c": [
+{
+"t": "Mantenimiento"
+},
+{
+"t": "Lo hace el proveedor"
+},
+{
+"t": "Tu equipo o un servicio contratado"
+}
+]
+},
+{
+"c": [
+{
+"t": "Datos"
+},
+{
+"t": "En la infraestructura del proveedor"
+},
+{
+"t": "En la tuya"
+}
+]
+},
+{
+"c": [
+{
+"t": "Personalización"
+},
+{
+"t": "Configuración"
+},
+{
+"t": "Desarrollo a medida"
+}
+]
+},
+{
+"c": [
+{
+"t": "Marca"
+},
+{
+"t": "Marca blanca"
+},
+{
+"t": "Tu marca, tu dominio y tu app"
+}
+]
+}
+]
+},
+{
+"h": "¿Cuándo te conviene la nube?",
+"p": [
+{
+"t": "Si quieres empezar hoy, no tienes equipo técnico y te basta con configurar el programa, la nube es lo más práctico. Los planes mensuales de ContrataLux empiezan en 90 € al mes + IVA y tienen 7 días de prueba gratis."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
+},
+{
+"h": "¿Cuándo te conviene un servidor propio?",
+"p": [
+{
+"t": "Si quieres control absoluto de los datos, una herramienta con tu marca para toda tu red, procesos a medida o no depender de una suscripción, la plataforma propia en tu servidor encaja mejor."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
 }
 ],
 "close": "Si dudas entre programa en la nube o en servidor propio para asesoría energética, empieza por la prueba gratis de 7 días de ContrataLux en la nube y, si necesitas tu propia instalación, pide una demo para valorar la Plataforma propia.",
@@ -22738,6 +22509,18 @@
 {
 "u": "/modulos/marca-blanca",
 "l": "CRM de marca blanca para asesorías energéticas"
+},
+{
+"u": "/precios",
+"l": "Planes mensuales en la nube"
+},
+{
+"u": "/plataforma-propia",
+"l": "Plataforma propia"
+},
+{
+"u": "/plataforma-propia/licencia-sin-cuota-mensual",
+"l": "Licencia sin cuota mensual"
 }
 ],
 "src": [],
@@ -22917,6 +22700,18 @@
 {
 "q": "¿Mis comerciales tendrán que aprender mucho?",
 "a": "La ficha del contrato y el Kanban por fases se entienden en una sesión; lo que cambia es que ya no mandan los datos por WhatsApp para que alguien los pase."
+},
+{
+"q": "¿Pierdo el histórico al dejar el Excel?",
+"a": "No, si lo importas. Conviene migrar también contratos de baja para conservar el histórico de comisiones."
+},
+{
+"q": "¿Puedo seguir exportando a Excel?",
+"a": "Sí, ContrataLux permite exportar a Excel cuando lo necesites para tu gestor o una comercializadora."
+},
+{
+"q": "¿Cuánto cuesta el cambio?",
+"a": "El plan Básico cuesta 90 €/mes + IVA para 1-2 usuarios y el Equipo 195 €/mes + IVA hasta 10; hay prueba gratis de 7 días."
 }
 ],
 "mods": [],
@@ -23000,6 +22795,48 @@
 "li": [],
 "hasLi": false,
 "hasTb": false
+},
+{
+"h": "¿Sirve una plantilla de CRM en Excel para una asesoría energética?",
+"p": [
+{
+"t": "Sirve para empezar. Una plantilla de CRM en Excel con columnas de cliente, CUPS, comercializadora, estado y comisión te ordena los primeros meses. El límite aparece cuando necesitas avisos por fecha, permisos por usuario o historial de cambios."
+},
+{
+"t": "Un CRM en Excel gratis no te avisa de que mañana vence la retrocomisión de un contrato ni impide que dos comerciales metan el mismo CUPS."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
+},
+{
+"h": "¿Cómo preparar el Excel para migrar?",
+"p": [
+{
+"t": "Unifica columnas antes de importar: una fila por contrato, CUPS sin espacios, fechas en el mismo formato y comercializadora escrita siempre igual. Separa los datos del cliente de los del contrato si un cliente tiene varios suministros."
+},
+{
+"t": "En ContrataLux la migración puede hacerla el equipo de ContrataLux, tú mismo a mano o PIX, y tienes acceso desde el momento del alta, así que puedes seguir trabajando mientras se cargan los datos."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
+},
+{
+"h": "Qué ganas el primer mes",
+"p": [
+{
+"t": "Ves los contratos en tabla, en Kanban por fases o en calendario de altas, bajas y fin de retrocomisión. La bandeja de desbloqueos te avisa cuando el mismo CUPS entra por dos comerciales, y cada contrato muestra su comisión bruta, neta y repartida."
+},
+{
+"t": "Además, el registro de sucesos y la cronología auditada de cada contrato te dicen quién cambió qué y cuándo, algo imposible de reconstruir en un archivo compartido."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
 }
 ],
 "close": "Si te preguntas Excel o programa de gestión para asesoría energética, carga tus contratos activos en ContrataLux durante los 7 días gratis y compara cuánto tardas en cuadrar las comisiones. También puedes pedir una demo.",
@@ -23015,6 +22852,18 @@
 {
 "u": "/comparativas/cambiar-de-programa",
 "l": "cambiar de programa de gestión en una asesoría energética"
+},
+{
+"u": "/modulos/gestion-contratos-luz-gas",
+"l": "gestión de contratos de luz y gas"
+},
+{
+"u": "/modulos/avisos-renovaciones",
+"l": "aviso de vencimiento de contratos de luz"
+},
+{
+"u": "/modulos/cuadro-de-mando",
+"l": "cuadro de mando asesoría energética"
 }
 ],
 "src": [],
@@ -27329,6 +27178,18 @@
 {
 "q": "¿Cada cuánto actualizar la formación?",
 "a": "Cuando cambian peajes, cargos o tarifas de tus comercializadoras, y al incorporar productos nuevos."
+},
+{
+"q": "¿Cuánto dura la formación inicial?",
+"a": "Un mes es un plazo razonable para que alguien sin experiencia venda acompañado; la autonomía completa suele tardar más."
+},
+{
+"q": "¿Quién debe acompañar las primeras visitas?",
+"a": "Un comercial con buen ratio de activación y pocas bajas, no necesariamente el que más vende."
+},
+{
+"q": "¿La comercializadora forma a mis comerciales?",
+"a": "Suele formar en sus productos y su plataforma; la técnica de venta y tu proceso interno te corresponden a ti."
 }
 ],
 "mods": [],
@@ -27338,7 +27199,7 @@
 "t": "La formación para comerciales de energía tiene que cubrir cuatro áreas: producto y tarifas, lectura de facturas, venta y normativa. Si falta una, se nota en rechazos, bajas o reclamaciones. Esta guía propone un temario y qué debe saber hacer el comercial al terminar cada bloque."
 },
 {
-"t": "Para el método de incorporación semana a semana, consulta la guía de cómo formar a comerciales de energía."
+"t": "La segunda parte explica cómo formar a comerciales de energía en la práctica: un plan de incorporación por semanas, ejercicios con facturas reales y cómo medir si funciona."
 }
 ],
 "sec": [
@@ -27404,14 +27265,73 @@
 "li": [],
 "hasLi": false,
 "hasTb": false
+},
+{
+"h": "¿Cómo formar a comerciales de energía en su primer mes?",
+"p": [
+{
+"t": "Con un plan en cuatro semanas que alterne teoría breve y práctica. El objetivo de la primera semana no es vender, sino leer una factura sin ayuda; el de la cuarta, cerrar una venta acompañado."
+}
+],
+"li": [
+{
+"t": "Semana 1: lectura de facturas 2.0TD y 3.0TD con casos reales anonimizados."
+},
+{
+"t": "Semana 2: comparativa y estudio de ahorro con la calculadora."
+},
+{
+"t": "Semana 3: role play de objeciones y visitas acompañadas."
+},
+{
+"t": "Semana 4: primeras ventas propias con revisión antes de tramitar."
+}
+],
+"hasLi": true,
+"hasTb": false
+},
+{
+"h": "¿Por qué practicar con facturas reales?",
+"p": [
+{
+"t": "Porque los errores caros nacen en la lectura: potencias mal copiadas, un CUPS incompleto o un titular que no coincide. Practicar con facturas reales anonimizadas, con permiso de los clientes, enseña a detectarlos antes de que la comercializadora rechace el contrato."
+},
+{
+"t": "Prepara un pequeño banco de casos: una vivienda 2.0TD, un comercio con potencia alta, una nave en 3.0TD y una comunidad de propietarios. Pide al comercial que haga el estudio completo de cada uno y corrígelo con él, señalando qué datos habría tenido que comprobar con el cliente."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
+},
+{
+"h": "Revisión antes de tramitar",
+"p": [
+{
+"t": "Durante las primeras semanas, que otra persona revise cada contrato antes de enviarlo. Con permisos por grupo puedes dejar que el comercial nuevo cree contratos pero no los pase de fase hasta que un responsable los valide."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
+},
+{
+"h": "Cómo medir si la formación funciona",
+"p": [
+{
+"t": "Mira su tasa de rechazos y de bajas en los tres primeros meses frente a la media del equipo. Si rechaza más, el problema es de tramitación; si se le dan de baja más, de cómo vende."
+},
+{
+"t": "Comparte con el comercial esos números cada mes. Saber dónde falla le ayuda más que cualquier sesión teórica, y te permite decidir si necesita más práctica de tramitación o más acompañamiento en la venta."
+}
+],
+"li": [],
+"hasLi": false,
+"hasTb": false
 }
 ],
 "close": "Una buena formación para comerciales de energía se consolida usando a diario las mismas herramientas: comparador, calculadora y panel de mercado. Prueba ContrataLux 7 días gratis.",
 "lk": [
-{
-"u": "/recursos/negocio/formar-comerciales-energia",
-"l": "cómo formar a comerciales de energía"
-},
 {
 "u": "/modulos/mercado-energetico",
 "l": "precio de la luz en tiempo real para comerciales de energía"
@@ -27419,6 +27339,14 @@
 {
 "u": "/recursos/tarifas",
 "l": "tarifas de luz y gas para empresas"
+},
+{
+"u": "/modulos/calculadora-ahorro",
+"l": "calculadora de ahorro energético para comerciales"
+},
+{
+"u": "/modulos/equipo-y-permisos",
+"l": "gestión de equipos comerciales de energía"
 }
 ],
 "src": [],
@@ -33090,7 +33018,7 @@
 "l": "Qué incluye la licencia sin cuota mensual"
 },
 {
-"u": "/plataforma-propia/cloud-o-servidor-propio",
+"u": "/comparativas/nube-o-servidor-propio",
 "l": "¿Cloud o servidor propio?"
 },
 {
@@ -33362,7 +33290,7 @@
 "l": "Mantenimiento, seguridad y copias"
 },
 {
-"u": "/plataforma-propia/cloud-o-servidor-propio",
+"u": "/comparativas/nube-o-servidor-propio",
 "l": "Cloud o servidor propio: diferencias"
 },
 {
@@ -33543,7 +33471,7 @@
 "l": "Todo sobre la plataforma propia"
 },
 {
-"u": "/plataforma-propia/cloud-o-servidor-propio",
+"u": "/comparativas/nube-o-servidor-propio",
 "l": "Cloud o servidor propio"
 },
 {
@@ -34260,239 +34188,6 @@
 {
 "u": "/plataforma-propia",
 "l": "Plataforma propia"
-}
-],
-"src": [],
-"upd": "2026-10-14",
-"zl": [],
-"vid": "",
-"vidPoster": "",
-"vidCap": "",
-"img2": "",
-"img2Cap": "",
-"imgCap": ""
-},
-{
-"u": "/plataforma-propia/cloud-o-servidor-propio",
-"k": "cloud o servidor propio para un CRM",
-"h1": "Cloud o servidor propio para un CRM",
-"l": "Cloud o servidor propio",
-"p": "/plataforma-propia",
-"t": "pagina",
-"kick": "Plataforma propia",
-"q": "¿Cloud o servidor propio para un CRM?",
-"f": [],
-"ti": "Cloud o servidor propio: qué conviene a tu asesoría",
-"md": "Cloud o servidor propio (on-premise) para el CRM de tu asesoría energética: diferencias en coste, control de datos, mantenimiento y personalización.",
-"sk": [
-{
-"s": "on-premise vs cloud"
-},
-{
-"s": "qué es on-premise"
-},
-{
-"s": "ventajas del servidor propio"
-},
-{
-"s": "CRM en la nube o instalado"
-},
-{
-"s": "SaaS o licencia"
-}
-],
-"qs": [
-"¿Qué diferencia hay entre cloud y on-premise?",
-"Comparativa rápida",
-"¿Cuándo te conviene la nube?",
-"¿Cuándo te conviene un servidor propio?"
-],
-"o": "Búsquedas relacionadas de Google (on-premise, licencia, a medida, migración)",
-"s": "",
-"img": "",
-"b": [],
-"fq": [
-{
-"q": "¿Es más seguro un servidor propio que la nube?",
-"a": "Depende de cómo se mantenga. Un servidor propio te da control, pero hay que mantenerlo y hacer copias; por eso ofrecemos esos servicios aparte."
-},
-{
-"q": "¿Qué es on-premise?",
-"a": "Software instalado en servidores propios de la empresa, en lugar de usarse como servicio en la nube del proveedor."
-},
-{
-"q": "¿Qué es SaaS?",
-"a": "Software como servicio: usas el programa por internet y pagas una suscripción mientras lo usas."
-}
-],
-"mods": [],
-"ni": false,
-"intro": [
-{
-"t": "La pregunta de si usar un CRM en la nube o en un servidor propio (on-premise) tiene respuesta según tu asesoría: cuánto control necesitas sobre los datos, si tienes equipo técnico y si prefieres pagar una cuota o tener una licencia."
-},
-{
-"t": "ContrataLux ofrece las dos opciones, así que aquí te contamos las diferencias sin vendértelas."
-}
-],
-"sec": [
-{
-"h": "¿Qué diferencia hay entre cloud y on-premise?",
-"p": [
-{
-"t": "En la nube (SaaS), el programa está en servidores del proveedor y tú accedes por navegador pagando una suscripción. En on-premise, el programa está en un servidor tuyo y tienes una licencia de uso."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "Comparativa rápida",
-"p": [],
-"li": [],
-"hasLi": false,
-"hasTb": true,
-"cap": "Cloud o servidor propio",
-"th": [
-{
-"t": ""
-},
-{
-"t": "Cloud (SaaS)"
-},
-{
-"t": "Servidor propio (on-premise)"
-}
-],
-"tr": [
-{
-"c": [
-{
-"t": "Pago"
-},
-{
-"t": "Cuota mensual"
-},
-{
-"t": "Licencia de uso y servicios opcionales"
-}
-]
-},
-{
-"c": [
-{
-"t": "Puesta en marcha"
-},
-{
-"t": "Inmediata"
-},
-{
-"t": "Tras la instalación"
-}
-]
-},
-{
-"c": [
-{
-"t": "Mantenimiento"
-},
-{
-"t": "Lo hace el proveedor"
-},
-{
-"t": "Tu equipo o un servicio contratado"
-}
-]
-},
-{
-"c": [
-{
-"t": "Datos"
-},
-{
-"t": "En la infraestructura del proveedor"
-},
-{
-"t": "En la tuya"
-}
-]
-},
-{
-"c": [
-{
-"t": "Personalización"
-},
-{
-"t": "Configuración"
-},
-{
-"t": "Desarrollo a medida"
-}
-]
-},
-{
-"c": [
-{
-"t": "Marca"
-},
-{
-"t": "Marca blanca"
-},
-{
-"t": "Tu marca, tu dominio y tu app"
-}
-]
-}
-]
-},
-{
-"h": "¿Cuándo te conviene la nube?",
-"p": [
-{
-"t": "Si quieres empezar hoy, no tienes equipo técnico y te basta con configurar el programa, la nube es lo más práctico. Los planes mensuales de ContrataLux empiezan en 90 € al mes + IVA y tienen 7 días de prueba gratis."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "¿Cuándo te conviene un servidor propio?",
-"p": [
-{
-"t": "Si quieres control absoluto de los datos, una herramienta con tu marca para toda tu red, procesos a medida o no depender de una suscripción, la plataforma propia en tu servidor encaja mejor."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-},
-{
-"h": "¿Puedo empezar en la nube y pasar a servidor propio?",
-"p": [
-{
-"t": "Sí. Puedes empezar con un plan mensual y, cuando lo necesites, migramos tus datos a tu plataforma propia."
-}
-],
-"li": [],
-"hasLi": false,
-"hasTb": false
-}
-],
-"close": "Si dudas entre la nube y un servidor propio, pruébalo 7 días gratis en la nube o habla con un asesor sobre la plataforma propia.",
-"lk": [
-{
-"u": "/precios",
-"l": "Planes mensuales en la nube"
-},
-{
-"u": "/plataforma-propia",
-"l": "Plataforma propia"
-},
-{
-"u": "/plataforma-propia/licencia-sin-cuota-mensual",
-"l": "Licencia sin cuota mensual"
 }
 ],
 "src": [],

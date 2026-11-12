@@ -19,6 +19,12 @@ RewriteRule ^ https://contratalux.com%{REQUEST_URI} [R=301,L,NE]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^ https://contratalux.com%{REQUEST_URI} [R=301,L,NE]
 
+# 2b. Guías fusionadas en una sola página (301)
+RewriteRule ^recursos/negocio/formar-comerciales-energia/?$ https://contratalux.com/recursos/negocio/formacion-comerciales-energia [R=301,L]
+RewriteRule ^recursos/negocio/dejar-el-excel/?$ https://contratalux.com/comparativas/excel-o-programa [R=301,L]
+RewriteRule ^plataforma-propia/cloud-o-servidor-propio/?$ https://contratalux.com/comparativas/nube-o-servidor-propio [R=301,L]
+RewriteRule ^recursos/captacion/vender-fibra-ademas-de-luz/?$ https://contratalux.com/recursos/fibra-y-telefonia/vender-luz-y-fibra-juntas [R=301,L]
+
 # 3. Provincias consolidadas en su comunidad autónoma (301)
 RewriteRule ^zonas/andalucia/malaga/?$ https://contratalux.com/zonas/andalucia [R=301,L]
 RewriteRule ^zonas/andalucia/cadiz/?$ https://contratalux.com/zonas/andalucia [R=301,L]

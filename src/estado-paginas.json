@@ -5,8 +5,8 @@
   "pub": "2026-10-14"
  },
  "/precios": {
-  "hash": "cc9dac53993b4773",
-  "upd": "2026-10-15T17:47:38+02:00",
+  "hash": "84ba17c5e7779b2b",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/demo": {
@@ -420,8 +420,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/fibra-y-telefonia/vender-luz-y-fibra-juntas": {
-  "hash": "91451fa3b9525722",
-  "upd": "2026-10-15",
+  "hash": "91693a8f7a9c76e5",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/tarifas/precio-luz-empresas": {
@@ -484,28 +484,18 @@
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
- "/recursos/negocio/dejar-el-excel": {
-  "hash": "4c465157870c7874",
-  "upd": "2026-10-15",
-  "pub": "2026-10-14"
- },
  "/recursos/negocio/organizar-red-colaboradores": {
   "hash": "7dff2d61bc94b4ed",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/kpis-asesoria-energetica": {
-  "hash": "1adefb1f05cd2336",
-  "upd": "2026-10-15",
+  "hash": "9defa4fcbcfcd63c",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/captacion/fidelizar-cartera-renovaciones": {
   "hash": "6e1e95d5171dca30",
-  "upd": "2026-10-15",
-  "pub": "2026-10-14"
- },
- "/recursos/captacion/vender-fibra-ademas-de-luz": {
-  "hash": "465e26b3454af7c2",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
@@ -581,11 +571,6 @@
  },
  "/recursos/captacion/prospeccion-whatsapp-energia": {
   "hash": "50df1d16f3df0d01",
-  "upd": "2026-10-15",
-  "pub": "2026-10-14"
- },
- "/recursos/negocio/formar-comerciales-energia": {
-  "hash": "2226b87ae245314a",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  },
@@ -830,8 +815,8 @@
   "pub": "2026-10-14"
  },
  "/comparativas/nube-o-servidor-propio": {
-  "hash": "ac6b35a2b6ae5d57",
-  "upd": "2026-10-15",
+  "hash": "c49bc4f316c41e75",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/comparativas/comparador-o-programa-completo": {
@@ -840,8 +825,8 @@
   "pub": "2026-10-14"
  },
  "/comparativas/excel-o-programa": {
-  "hash": "031d49f8cf31f8ef",
-  "upd": "2026-10-15",
+  "hash": "c715979c55e7c46f",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/comparativas/crm-generico-o-especifico": {
@@ -1005,8 +990,8 @@
   "pub": "2026-10-14"
  },
  "/recursos/negocio/formacion-comerciales-energia": {
-  "hash": "7eef31586d4eca22",
-  "upd": "2026-10-15",
+  "hash": "c98e3f90ab77ef59",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/recursos/negocio/rotacion-comerciales-energia": {
@@ -1215,18 +1200,18 @@
   "pub": "2026-10-14"
  },
  "/plataforma-propia": {
-  "hash": "b0c66d4625b9d822",
-  "upd": "2026-10-15",
+  "hash": "30a1ec3bd2640fea",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/servidor-propio": {
-  "hash": "71c95cbd65a1290b",
-  "upd": "2026-10-15",
+  "hash": "539c08720b9341d6",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/licencia-sin-cuota-mensual": {
-  "hash": "314227722352f862",
-  "upd": "2026-10-15",
+  "hash": "e781d08639c6ff80",
+  "upd": "2026-11-12T19:18:01+01:00",
   "pub": "2026-10-14"
  },
  "/plataforma-propia/programa-a-medida": {
@@ -1246,11 +1231,6 @@
  },
  "/plataforma-propia/mantenimiento-seguridad-copias": {
   "hash": "33fe475b0bfb17c4",
-  "upd": "2026-10-15",
-  "pub": "2026-10-14"
- },
- "/plataforma-propia/cloud-o-servidor-propio": {
-  "hash": "2a5e62558d64467e",
   "upd": "2026-10-15",
   "pub": "2026-10-14"
  }

@@ -211,7 +211,9 @@ ${p.ni ? '<meta name="robots" content="noindex, follow">\n' : ''}<meta property=
 <meta name="twitter:title" content="${esc(p.ti)}">
 <meta name="twitter:description" content="${esc(p.md)}">
 <meta name="twitter:image" content="${og}">
-<link rel="icon" href="/assets/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/kanit-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -243,7 +245,9 @@ writeFileSync(join(OUT, '404.html'), `<!doctype html>
 ${GTM_HEAD}
 <title>Página no encontrada | ContrataLux</title>
 <meta name="robots" content="noindex">
-<link rel="icon" href="/assets/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css?v=${CSS_V}">
 ${AHREFS}
 </head>

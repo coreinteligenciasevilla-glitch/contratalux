@@ -1,13 +1,13 @@
 # contratalux.com
 
-Web de ContrataLux, el programa de gestión para asesorías energéticas. Es un sitio estático: cada una de las 251 rutas se genera como una página HTML completa (contenido, `<title>`, descripción, canonical, Open Graph y datos estructurados) que se lee sin ejecutar JavaScript. El JavaScript (`/assets/app.js`) solo añade la interactividad: menú, modales, formulario, cookies y las calculadoras gratis de `/herramientas` (definidas en `TOOLS`, dentro de `src/component.js`). Cada página lleva sus propios datos en `<script type="application/json" id="clx-data">`; `app.js` no incluye el contenido de las demás rutas.
+Web de ContrataLux, el programa de gestión para asesorías energéticas. Es un sitio estático: cada una de las 247 rutas se genera como una página HTML completa (contenido, `<title>`, descripción, canonical, Open Graph y datos estructurados) que se lee sin ejecutar JavaScript. El JavaScript (`/assets/app.js`) solo añade la interactividad: menú, modales, formulario, cookies y las calculadoras gratis de `/herramientas` (definidas en `TOOLS`, dentro de `src/component.js`). Cada página lleva sus propios datos en `<script type="application/json" id="clx-data">`; `app.js` no incluye el contenido de las demás rutas.
 
 ## Estructura
 
 ```
 src/
   template.html        plantilla de todas las páginas (sc-if, sc-for y {{huecos}})
-  pages.json           datos de las 251 rutas: título (ti), descripción (md), contenido…
+  pages.json           datos de las 247 rutas: título (ti), descripción (md), contenido…
   component.js         lógica de la página (estado, router, formularios)
   runtime.js           mini runtime que pinta la plantilla (lo usan el build y el navegador)
   base.css             estilos base
